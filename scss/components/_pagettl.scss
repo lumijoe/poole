@@ -1,0 +1,56 @@
+@use "../config/mixins" as *;
+/**************************************************
+pagettl
+***************************************************/
+.c-pagettl{
+  @include mq(pc){
+    display: flex;
+    flex-direction: row-reverse;
+    height: 250px;
+  }
+  img{
+    width: 100%;
+    @include mq(pc){
+      width:calc(100% - 400px);
+      height: 100%;
+      object-fit: cover;
+      object-position: 50% 0%;
+    }
+  }
+  &__ttl{
+    text-align: center;
+    font-size: 2.4rem;
+    font-family: $mincho;
+    letter-spacing: .05em;
+    font-weight: 400;
+    height: 50px;
+    color: #fff;
+    display: grid;
+    place-items: center;
+    @include mq(pc){
+      width: 400px;
+      height: 100%;
+      flex:none;
+      font-size: 3rem;
+    }
+
+    &.bg-pink{
+      background: url(../img/common/bg-pagettl-pink.jpg?02) no-repeat 50% 50% / cover;
+    }
+    &.bg-blue{
+      background: url(../img/common/bg-pagettl-blue.jpg?02) no-repeat 50% 50% / cover;
+    }
+    &.bg-orange{
+      background: url(../img/common/bg-pagettl-orange.jpg?02) no-repeat 50% 50% / cover;
+    }
+     &.bg-green{
+      background: url(../img/common/bg-pagettl-green.jpg?02) no-repeat 50% 50% / cover;
+    }
+    &.bg-red{
+      background: url(../img/common/bg-pagettl-red.jpg?02) no-repeat 50% 50% / cover;
+    }
+    &.bg-purple{
+      background: url(../img/common/bg-pagettl-purple.jpg?02) no-repeat 50% 50% / cover;
+    }
+  }
+}

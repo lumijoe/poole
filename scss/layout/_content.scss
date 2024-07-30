@@ -1,0 +1,75 @@
+@use "../config/mixins" as *;
+
+/**************************************************
+  Content
+***************************************************/
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 95%;
+  @include mq(sp) {
+    width: auto;
+    margin: 0 15px;
+  }
+}
+
+
+/* -----------------------------------------------
+ page__inner
+-------------------------------------------------- */
+
+.page__inner{
+  padding: 70px 0;
+  @include mq(sp){
+    padding: 50px 0;
+  }
+
+  .c-btn{
+    max-width: 378px;
+    justify-content: center;
+    padding-left: 0;
+    margin: 0;
+    &.is-auto{
+      margin-inline: auto;
+    }
+  }
+}
+
+/* -----------------------------------------------
+  breadcrumb
+-------------------------------------------------- */
+.breadcrumb {
+  line-height: 1;
+  font-size: 1.4rem;
+  background-color: $grayf3;
+  padding: 12px 15px;
+  ol {
+    max-width: 1200px;
+    margin-inline: auto;
+    @include flexSet($align:flex-start, $justy:flex-start, $dir:row, $wrap:wrap);
+    li {
+      @include flexSet($align:center, $justy:flex-start, $dir:row, $wrap:wrap);
+      white-space: wrap;
+      padding-left: 0;
+      position: relative;
+      line-height: 1.6;
+      &::before {
+        content: none;
+      }
+      &::after {
+        content:">";
+        margin: 0 1rem;
+        position: static;
+      }
+
+      &:last-child {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        &::after {
+          content: none;
+        }
+      }
+    }
+  }
+}

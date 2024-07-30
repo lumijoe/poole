@@ -1,0 +1,65 @@
+@use "../config/mixins" as *;
+/**************************************************
+catlist
+***************************************************/
+.c-catlist{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap:12px 0;
+  @include mq(pc){
+    gap:20px;
+    justify-content: flex-start;
+  }
+
+  a{
+    width: 48%;
+    height: 46px;
+    display: grid;
+    place-items: center;
+    font-size: 1.4rem;
+    border: 1px solid $grayccc;
+    font-weight: 700;
+    position: relative;
+    @include mq(pc){
+      width: 200px;
+      height: 55px;
+      font-size: 1.6rem;
+      transition: $transition ease;
+
+      &:hover{
+        background-color: $red;
+        color:#fff;
+        border-color: $red;
+        &::before{
+          background: url(../img/common/icon/arrow.png) no-repeat 50% 50% / contain;
+        }
+      }
+    }
+
+    &::before{
+      content:"";
+      width: 7px;
+      height: 12px;
+      background: url(../img/common/icon/arrow-red.png) no-repeat 50% 50% / contain;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 10px;
+      margin: auto;
+      @include mq(pc){
+        width: 9px;
+        height: 15px;
+        left: 20px;
+      }
+    }
+    &.is-current{
+      background-color: $red;
+      color:#fff;
+      border: 1px solid $red;
+      &::before{
+        background: url(../img/common/icon/arrow.png) no-repeat 50% 50% / contain;
+      }
+    }
+  }
+}

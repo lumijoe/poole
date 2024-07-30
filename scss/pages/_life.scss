@@ -1,0 +1,269 @@
+@use "../config/mixins" as *;
+
+/**************************************************
+p-lifeEvent__mes
+***************************************************/
+
+.p-lifeEvent__mes{
+  background: url(../img/life/event/bg-mes.png) no-repeat 50% 50% / cover;
+  padding-bottom: 0px;
+  @include mq(pc){
+    padding-bottom: 220px;
+  }
+
+
+  .content{
+    position: relative;
+  }
+
+  .c-secttl{
+    margin-bottom: 30px;
+    @include mq(pc){
+      margin-bottom: 170px;
+    }
+  }
+
+  p{
+    font-size: 1.6rem;
+    line-height: 2.22;
+    margin-bottom: 24px;
+    @include mq(pc){
+      font-size: 1.8rem;
+    }
+  }
+
+  &__img01{
+    display: none;
+    @include mq(pc){
+      display: block;
+      position: absolute;
+      left: -110px;
+      top: 120px;
+    }
+  }
+  &__img02{
+    display: none;
+    @include mq(pc){
+      display: block;
+      position: absolute;
+      right: -140px;
+      top: 100px;
+    }
+  }
+  &__img03{
+    width: 100%;
+    @include mq(pc){
+      display: none;
+    }
+  }
+}
+
+
+
+/**************************************************
+p-lifeEvent__list
+***************************************************/
+.p-lifeEvent__list{
+    padding: 100px 0 40px;
+      @include mq(pc){
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6%;
+        padding: 160px 0 0;
+      }
+
+  > div{
+    position: relative;
+    margin-bottom: 67px;
+    @include mq(pc){
+      width: 47%;
+      margin-bottom: 120px;
+    }
+  }
+
+  .month{
+    position: absolute;
+    left: 10px;
+    top: -45px;
+    width: 90px;
+    @include mq(pc){
+      width: 152px;
+      top: -76px;
+    }
+  }
+
+  .img{
+    border-radius: 25px;
+    border: 3px solid #fff;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 24px;
+    font-weight: 700;
+    @include mq(pc){
+      font-size: 1.8rem;
+    }
+  }
+
+  li{
+    &::before{
+      content:"●";
+      color:$red;
+      margin-right: 4px;
+    }
+  }
+
+}
+
+
+
+
+/**************************************************
+p-lifeOneday__mes
+***************************************************/
+
+.p-lifeOneday__mes{
+  margin-top: 60px;
+  color:#fff;
+  @include mq(pc){
+    display: flex;
+  }
+
+  > div{
+    background: url(../img/life/oneday/bg-orange.jpg) no-repeat 50% 50% / cover;
+    position: relative;
+    padding: 30px 24px;
+    @include mq(pc){
+      padding: 46px 60px 50px;
+      width: 50%;
+      flex: none;
+    }
+
+    &::before{
+      content:"";
+      width: 146px;
+      height: 159px;
+      background: url(../img/life/oneday/blue_lineB.png) no-repeat 50% 50% / contain;
+      position: absolute;
+      left: -20px;
+      top: -60px;
+
+      @include mq(pc){
+        left: -70px;
+        top: -60px;
+        width: 346px;
+        height: 159px;
+      }
+    }
+
+    > img{
+      display: block;
+      margin-inline: auto;
+      width: 90%;
+    }
+  }
+
+  h2{
+    text-align: center;
+    font-size: 2.4rem;
+    margin-block: 10px 14px;
+    @include mq(pc){
+      font-size: 3.4rem;
+    }
+  }
+  p{
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.7;
+    @include mq(pc){
+      font-size: 1.6rem;
+    }
+  }
+
+   > img{
+    width: 100%;
+    @include mq(pc){
+      width: 50%;
+    }
+  }
+}
+
+
+/**************************************************
+p-lifeOneday__list
+***************************************************/
+.p-lifeOneday__list {
+  padding: 60px 0 40px;
+
+  @include mq(pc) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6%;
+    padding: 40px 0 0;
+  }
+
+  >div {
+    position: relative;
+    margin-bottom: 40px;
+    &:last-child{
+      margin-bottom: 0;
+    }
+
+    @include mq(pc) {
+      width: 47%;
+      margin-bottom: 50px;
+    }
+  }
+
+  figure{
+    position: relative;
+    display: block;
+    margin-bottom: 10px;
+    @include mq(pc){
+      margin-bottom: 0;
+      height: 420px;
+    }
+  }
+
+  figcaption{
+    width: 75px;
+    height: 75px;
+    background: url(../img/life/oneday/bg-time.png) no-repeat 50% 50% / contain;
+    font-size: 2.1rem;
+    display: grid;
+    place-content: center;
+    color:#fff;
+    position: absolute;
+    bottom: 24px;
+    left: 15px;
+    font-weight: 400;
+    @include mq(pc){
+      bottom: 40px;
+      width: 123px;
+      height: 123px;
+      font-size: 3.2rem;
+    }
+  }
+
+  img{
+    width: 100%;
+  }
+
+  h3{
+    color:$red;
+    font-weight: 700;
+    font-size: 2.2rem;
+  }
+
+  p{
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+
+
+
+}

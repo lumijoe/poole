@@ -1,0 +1,44 @@
+@use "../config/mixins" as *;
+/**************************************************
+c-table
+***************************************************/
+
+.c-table{
+  table-layout: auto;
+  width: 100%;
+
+  &.sp-vertical{
+    @include mq(sp){
+      th,td{
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+
+  th,td{
+    padding: 10px 20px;
+    border: 3px solid #fff;
+    text-align: center;
+  }
+  th{
+    background-color: #F58892;
+    color:#fff;
+    font-weight: 700;
+    vertical-align: middle;
+  }
+  td{
+    background-color: #F5F5F5;
+    vertical-align: middle;
+  }
+}
+
+.c-table-parent{
+  overflow: auto;
+  table{
+    width: 800px;
+    @include mq(pc){
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,62 @@
+@use "../config/mixins" as *;
+
+/**************************************************
+p-statement
+***************************************************/
+
+.p-statement{
+  &__ttl {
+    h1{
+        text-align: center;
+        font-family: $mincho;
+        font-size: 3.2rem;
+        color: $red;
+        padding: 40px 0 10px;
+
+        @include mq(pc) {
+        font-size: 3.6rem;
+        padding: 40px 0 20px;
+        }
+      }
+      p{
+        @include mq(pc){
+          text-align: center;
+        }
+      }
+    }
+  &__catlist{
+    font-size: 1.8rem;
+    font-weight: 700;
+    display: flex;
+    flex-wrap: wrap;
+    gap:37px;
+    margin:0 15px 34px;
+    a{
+      text-decoration: underline;
+      @include mq(pc){
+        &:hover{
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  &__list{
+    margin-bottom: 40px;
+    a{
+      width: 100%;
+      text-decoration: underline;
+      @include mq(pc) {
+          &:hover {
+            text-decoration: none;
+          }
+        }
+    }
+    time{
+      display: block;
+      font-size: 1.6rem;
+      font-weight: 700;
+      color:$red;
+    }
+  }
+}

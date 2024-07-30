@@ -1,0 +1,177 @@
+/* -----------------------------------------------
+  Variables
+--------------------------------------------------*/
+
+
+/* color */
+$textColor: #333333;
+$red : #C74954;
+$winered: #A71B29;
+$navy:#104777;
+$pink:#F17192;
+$darkpink: #C65B97;
+$blue:#2BA6E1;
+$darkblue:#4978BC;
+$green:#009B90;
+$purple:#717EBD;
+$orange:#CA6C18;
+$lightorange:#F7966B;
+$gray:#818181;
+$gray999:#999999;
+$grayccc: #ccc;
+$grayf3: #F3F3F3;
+$transition: .3s;
+
+$en: 'Lato',sans-serif;
+$mincho: 'Noto Serif JP', serif;
+$goshic: "游ゴシック体",
+YuGothic,
+"游ゴシック",
+"Yu Gothic",
+"Helvetica Neue",
+"Helvetica",
+"Hiragino Sans",
+"Hiragino Kaku Gothic ProN",
+"Arial",
+"Meiryo",
+sans-serif;
+
+$bd:#CCCCCC;
+$bgorange:#FFEDDC;
+$bgpink: #FFE2F2;
+$bglightpink: #FFECF1;
+$bgyellow:#FDFFE1;
+$bgblue:#DFF4FF;
+$bggreen:#DFF6F0;
+
+
+/* size */
+$headerHeight: 60px;// 固定ヘッダの高さ
+$headerHeight-sp: 100px;
+$maxContent: 1100px;
+
+
+
+/* -----------------------------------------------
+  Mixins
+--------------------------------------------------*/
+
+/* media queries
+  ブレークポイントの使い方
+  @include mq("sp"){ ここに書く } */
+$breakpoint: (
+  sp: 'screen and (max-width: 767px)',
+  tb: 'screen and (min-width: 768px)',
+  pc: 'screen and (min-width: 1024px)',
+  lg: 'screen and (min-width: 1300px)'
+);
+@mixin mq($bp) {
+  @media #{map-get($breakpoint, $bp)} {
+    @content;
+  }
+}
+
+/* ie11 */
+@mixin ie11 {
+  @media all and (-ms-high-contrast: none) {
+    @content;
+  }
+}
+
+/* clearfix*/
+@mixin clearfix(){
+  zoom: 1;
+  &:after{
+    content: '';
+    display: block;
+    clear: both;
+    overflow: auto; //Firefoxでmargin-bottomがmargin-topになるバグを調整
+  }
+}
+
+// mt10～100, pt10～100
+$value: 100;
+@while $value>0 {
+  .mt#{$value} {
+    margin-top: $value * 1px !important;
+    @include mq(sp){
+      margin-top: $value * 1px * 0.8 !important;
+    }
+  }
+  .pt#{$value} {
+    padding-top: $value * 1px !important;
+    @include mq(sp){
+      padding-top: $value * 1px * 0.8 !important;
+    }
+  }
+
+   .mb#{$value} {
+    margin-bottom: $value * 1px !important;
+    @include mq(sp){
+      margin-bottom: $value * 1px * 0.8 !important;
+    }
+  }
+
+  .pb#{$value} {
+    padding-bottom: $value * 1px !important;
+    @include mq(sp){
+      padding-bottom: $value * 1px * 0.8 !important;
+    }
+  }
+  $value:$value - 10;
+}
+
+
+/* form スタイルリセット */
+// 使い方　@include formReset;
+@mixin formReset() {
+  input, button, textarea, select {
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+}
+
+/* flexbox */
+// 使い方　@include flexSet($align:flex-start, $justy:flex-start, $dir:row, $wrap:nowrap);
+@mixin flexSet($align:flex-start, $justy:flex-start, $dir:row, $wrap:nowrap) {
+  display        : flex;
+  align-items    : $align;
+  justify-content: $justy;
+  flex-direction : $dir;
+  flex-wrap      : $wrap;
+}
+
+/* くの字矢印 */
+// 使い方　@include arrow($width, $bold, $color, $deg);
+@mixin arrow($width, $bold, $color, $deg) {
+  border-style: solid;
+  border-width: 0 #{$bold}px #{$bold}px 0;
+  content: "";
+  // display: inline-block;
+  position: absolute;
+  height: #{$width}px;
+  width: #{$width}px;
+  //色
+  @if ( $color == "black" )        { border-color: $textColor; }
+  @else if ( $color == "white" )  { border-color: #fff; }
+  @else if ( $color == "base" )  { border-color: $baseColor; }
+  //角度
+  @if ( $deg == "left" )        { transform: rotate(135deg); }
+  @else if ( $deg == "top" )    { transform: rotate(225deg); }
+  @else if ( $deg == "right" )  { transform: rotate(-45deg); }
+  @else if ( $deg == "bottom" ) { transform: rotate(45deg);  }
+}
+
+/* 字詰め */
+// 両端揃え
+@mixin justify(){
+  line-break: strict;
+  text-align: justify;
+}

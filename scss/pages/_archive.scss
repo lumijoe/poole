@@ -1,0 +1,97 @@
+@use "../config/mixins" as *;
+
+/**************************************************
+p-archive
+***************************************************/
+
+.p-archive{
+  padding: 30px 0;
+  @include mq(pc){
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0;
+  }
+
+  &__left{
+    @include mq(pc){
+      width: 73%;
+      flex:none;
+    }
+  }
+  .c-catlist{
+    margin-bottom: 30px;
+    @include mq(pc){
+      margin-bottom: 50px;
+    }
+  }
+
+  &__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    @include mq(pc){
+      justify-content: flex-start;
+      gap: 2%;;
+    }
+
+    > a{
+      width: 48%;
+      margin-bottom: 27px;
+      @include mq(pc){
+        width: 32%;
+         &:hover {
+            h2,h3 {
+              color: $red;
+              text-decoration: underline;
+            }
+          }
+      }
+    }
+
+    figure{
+      // height: 30vw;
+      margin-bottom: 5px;
+      aspect-ratio: 4 / 3;
+      @include mq(pc){
+        // height: 193px;
+        margin-bottom: 13px;
+      }
+    }
+
+    h2{
+      font-weight: 700;
+      font-size: 1.4rem;
+      @include mq(pc){
+        font-size: 1.8rem;
+      }
+    }
+
+    .top__news__tag-date{
+      margin-bottom: 5px;
+      @include mq(pc){
+        margin-bottom: 10px;
+      }
+    }
+
+    .top__news__tag li{
+      width: 68px;
+      height: 16px;
+      font-size: 1rem;
+      margin-block: 5px;
+      @include mq(pc){
+        width: 106px;
+        height: 26px;
+        font-size: 1.4rem;
+        margin-right: 10px;
+      }
+    }
+
+    time{
+      font-size: 1.2rem;
+      @include mq(pc){
+        font-size: 1.6rem;
+      }
+    }
+
+  }
+}

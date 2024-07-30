@@ -1,0 +1,267 @@
+@use "../config/mixins" as *;
+
+/**************************************************
+p-event
+***************************************************/
+.event-table{
+  margin-bottom: 0 !important;
+  table{
+    width: 100%;
+  }
+  th{
+    text-align: center;
+    @include mq(pc){
+      vertical-align: middle;
+      width: 329px;
+    }
+  }
+  th,td{
+    padding: 17px 20px;
+    display: block;
+    @include mq(pc){
+      display: table-cell;
+    }
+  }
+}
+
+
+.p-event{
+  padding: 40px 0 60px;
+  @include mq(pc){
+    padding: 60px 0 140px;
+  }
+
+  &__day{
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 0px;
+    @include mq(pc){
+      margin-bottom: 10px;
+    }
+
+    strong{
+      font-family: $mincho;
+      font-size: 4.2rem;
+      line-height: 1;
+      transform: translateY(-5px);
+    }
+
+    em{
+      font-size: 2.2rem;
+      font-family: $mincho;
+        &.pink {
+          color: $pink;
+        }
+
+        &.blue {
+          color: $blue;
+        }
+    }
+
+    p{
+      font-size: 1.8rem;
+      font-weight: 700;
+    }
+  }
+
+  &__title{
+    text-align: center;
+    margin-bottom: 24px;
+    @include mq(pc){
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h1{
+      color:$red;
+      font-size: 2.8rem;
+      font-family: $mincho;
+      margin-bottom: 5px;
+      @include mq(pc){
+        font-size: 3.2rem;
+      }
+    }
+
+    ul{
+      display: flex;
+      justify-content: center;
+      @include mq(pc){
+        margin-left: 10px;
+      }
+      li {
+          width: 89px;
+          height: 26px;
+          font-size: 1.4rem;
+          font-weight: 700;
+          margin-right: 5px;
+          color: #fff;
+          display: grid;
+          place-items: center;
+
+          &.open {
+            background-color: $red;
+          }
+
+          &.preparation {
+            background-color: $green;
+          }
+
+          &.close {
+            background-color: $gray;
+          }
+
+          &.joint {
+            background-color: $purple;
+          }
+          &.senior{
+            background-color: $darkpink;
+          }
+          &.junior{
+            background-color: $orange;
+          }
+
+          @include mq(pc) {
+            transition: $transition ease;
+
+            &:hover {
+              opacity: .7;
+            }
+          }
+        }
+    }
+  }
+
+  &__subttl{
+    font-weight: 700;
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  &__body{
+    margin-top: 60px;
+    h2{
+      font-size: 2.6rem;
+      @include mq(pc){
+        font-size: 2.8rem;
+      }
+    }
+    h3{
+      font-size: 2.2rem;
+      margin-bottom: 5px;
+      @include mq(pc){
+        font-size: 2.6rem;
+      }
+    }
+    p{
+      margin-bottom: 40px;
+      @include mq(pc){
+        margin-bottom: 60px;
+      }
+      &:last-child{
+        margin-bottom: 0;
+        @include mq(pc){
+          margin-bottom: 40px;
+        }
+      }
+    }
+  }
+
+  &__list{
+    @include mq(pc){
+      display: flex;
+      flex-wrap: wrap;
+      gap: 3%;
+    }
+
+    a{
+      margin-bottom: 40px;
+      display: block;
+      @include mq(pc){
+        width: 22.75%;
+        &:hover {
+            .top__events__text {
+              text-decoration: underline;
+              color: $red;
+            }
+          }
+      }
+
+    }
+  }
+
+
+
+  &__archive{
+    padding: 40px 0;
+    @include mq(pc){
+      padding: 74px 0;
+    }
+    h1{
+      text-align: center;
+      color:$red;
+      font-family: $mincho;
+      font-size: 3.2rem;
+      line-height: 1.5;
+      @include mq(pc){
+        font-size: 3.6rem;
+        margin-bottom: 5px;
+        br{
+          display: none;
+        }
+      }
+
+      span{
+        display: block;
+        font-size: 0.8em;
+      }
+    }
+
+    .c-catlist{
+      margin: 20px 0 30px;
+      @include mq(pc){
+        justify-content: center;
+        margin: 56px 0 85px;
+      }
+    }
+
+    &__txt{
+      font-size: 2.6rem;
+      text-align: center;
+      font-family: $mincho;
+      line-height: 1.5;
+      @include mq(pc){
+        font-size: 2.8rem;
+      }
+    }
+
+    .top__events__ttl{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      justify-content: center;
+      padding-block: 18px;
+      @include mq(pc){
+        display: block;
+      }
+    }
+    .top__events__title{
+      width: 100%;
+      text-align: center;
+    }
+    .top__events__date{
+      font-size: 4.2rem;
+    }
+    .top__events__tag{
+      margin-bottom: 8px;
+    }
+
+  }
+
+  .l-common{
+    padding: 40px 0;
+  }
+}

@@ -1,0 +1,50 @@
+@use "../config/mixins" as *;
+
+/**************************************************
+l-imgTxt
+***************************************************/
+.l-imgTxt{
+  display: flex;
+  gap:50px;
+  align-items: flex-start;
+  @include mq(sp){
+    display: block;
+    gap:0;
+  }
+  img{
+    flex:none;
+    @include mq(sp){
+        width: auto;
+        display: block;
+        margin-inline: auto;
+        margin-block: 20px;
+    }
+  }
+
+  div{
+    width: 100%;
+  }
+}
+
+
+.l-imgTxt-s {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+
+  @include mq(sp) {
+    display: block;
+    gap: 0;
+  }
+
+  img {
+    flex: none;
+
+    @include mq(sp) {
+      width: auto;
+      display: block;
+      margin-inline: auto;
+      margin-block: 20px;
+    }
+  }
+}

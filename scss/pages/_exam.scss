@@ -1,0 +1,84 @@
+@use "../config/mixins" as *;
+
+/**************************************************
+p-exam__listening
+***************************************************/
+.p-exam__listening{
+  margin-top: 24px;
+  margin-bottom: 60px;
+  @include mq(pc){
+    display: flex;
+    gap:44px;
+  }
+
+  dl{
+    margin-bottom: 24px;
+    &:first-child dt::before{
+      content:"";
+      width: 24px;
+      height: 24px;
+      background: url(../img/common/icon/vol.png) no-repeat 50% 50% / contain;
+      display: inline-block;
+      margin-right: 10px;
+      transform: translateY(4px);
+    }
+    &:last-child dt::before{
+      content:"";
+      width: 24px;
+      height: 24px;
+      background: url(../img/common/icon/download.png) no-repeat 50% 50% / contain;
+      display: inline-block;
+      margin-right: 10px;
+      transform: translateY(4px);
+    }
+
+  }
+  dt{
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    @include mq(pc){
+      margin-bottom: 16px;
+    }
+  }
+
+  ul{
+    @include mq(pc){
+      display: flex;
+      gap:30px;
+    }
+    li{
+      margin-bottom: 10px;
+    }
+    a{
+      text-decoration: underline;
+      font-weight: 700;
+      @include mq(pc){
+        &:hover{
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+}
+
+
+.audiojs{
+  background: #104777;
+  border-radius: 3px;
+  width: 100%;
+  max-width: 460px;
+
+  .play-pause{
+    width: 40px;
+    border-color: #fff;
+  }
+
+  .scrubber{
+    background: #fff;
+    @include mq(sp){
+      width: 204px;
+    }
+  }
+}

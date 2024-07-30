@@ -1,0 +1,68 @@
+@use "../config/mixins" as *;
+/**************************************************
+c-pagenation
+***************************************************/
+.c-pagination{
+  display: flex;
+  justify-content: center;
+  gap:13px;
+  margin-block: 30px;
+
+  > *{
+    width: 27px;
+    height: 27px;
+    display: grid;
+    place-items: center;
+    line-height: 1;
+    font-size: 1.3rem;
+    border: 1px solid $gray;
+    font-weight: 700;
+    @include mq(pc){
+      width: 33px;
+      height: 33px;
+      font-size: 1.6rem;
+    }
+
+    &.pager{
+      @include mq(pc){
+        transition: $transition ease;
+        &:hover{
+          background-color: $red;
+          color:#fff;
+          border-color: $red;
+        }
+      }
+    }
+
+    &.first,&.last{
+      display: none;
+    }
+    &.prev,&.next{
+      background-color: #fff;
+      border: 0px solid $gray;
+      color:#fff;
+      position: relative;
+      @include mq(pc){
+        &:hover{
+          opacity: .8;
+        }
+      }
+      &::after{
+        content:"";
+        background: url(../img/common/icon/arrow-red.png) no-repeat 50% 50% / contain;
+        position: absolute;
+        width: 13px;
+        height: 13px;
+      }
+    }
+    &.prev{
+      transform: rotate(180deg);
+    }
+  }
+
+  > span{
+    background-color: $red;
+    color:#fff;
+    border: 0px solid $gray;
+  }
+}

@@ -1,0 +1,277 @@
+@use "../config/mixins" as *;
+/**************************************************
+l-footer
+***************************************************/
+
+.l-footer{
+  border-top:2px solid $red;
+  margin-top: 30px;
+  @include mq(pc){
+    margin-top: 55px;
+  }
+  &__inner{
+    margin:0 20px;
+    @include mq(pc){
+      max-width: 1200px;
+      width: 95%;
+      margin-inline: auto;
+    }
+  }
+  &__nav{
+    padding-top: 30px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    @include mq(pc){
+      margin-bottom: 75px;
+    }
+
+    dl{
+      width: 49%;
+      margin-bottom: 26px;
+      @include mq(pc){
+        width: 14.2%;
+      }
+
+      &.wide{
+        width: 100%;
+        display: flex;
+        flex-wrap:wrap;
+        @include mq(pc){
+          width: 28.4%;
+          align-items: flex-start;
+        }
+
+        dt{
+          width: 100%;
+
+        }
+        dd{
+          width: 49%;
+        }
+      }
+    }
+
+    dt{
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: $red;
+      padding-block: 4px;
+    }
+
+    dd{
+      font-size: 1.6rem;
+      em{
+        font-weight: 700;
+        padding-block: 4px;
+        display: block;
+      }
+    }
+
+    a{
+      display: block;
+      padding-block:2px;
+      @include mq(pc){
+        transition: $transition ease;
+        &:hover{
+          color:$red;
+        }
+      }
+    }
+  }
+
+  &__othernav{
+    @include mq(pc){
+      display: grid;
+      grid-template-columns: 50% 50%;
+    }
+    &__main{
+      display: flex;
+      flex-wrap:wrap;
+      font-size: 1.6rem;
+      font-weight: 700;
+      gap:0 16px;
+      margin-bottom: 26px;
+      @include mq(pc){
+        grid-row: 1;
+        grid-column: 2/3;
+      }
+
+      a{
+        @include mq(pc){
+          transition:  $transition ease;
+          &:hover{
+            color:$red;
+          }
+        }
+      }
+    }
+
+    &__snsCv{
+      @include mq(pc){
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        justify-content: flex-end;
+        grid-row: 2;
+        grid-column: 2/3;
+      }
+    }
+    &__sns{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 26px;
+      gap:16px;
+
+      a {
+          @include mq(pc) {
+            transition: $transition ease;
+            &:hover {
+              opacity: .8;
+            }
+          }
+        }
+    }
+
+    &__cv{
+      @include mq(pc){
+        display: flex;
+        gap:20px;
+      }
+      a{
+        width: 202px;
+        height: 55px;
+        background-color: $red;
+        color:#fff;
+        font-size: 1.6rem;
+        display: grid;
+        place-items: center;
+        position: relative;
+        margin-bottom: 14px;
+        margin-inline: auto;
+        @include mq(pc) {
+            transition: $transition ease;
+            &:hover {
+              opacity: .8;
+            }
+          }
+
+        &::before{
+           content:"";
+           width: 22px;
+           height: 25px;
+           background: url(../img/common/icon/note.svg) no-repeat 50% 50% / contain;
+           position: absolute;
+           top: 0;
+           bottom: 0;
+           left: 16px;
+           margin: auto;
+        }
+      }
+      li{
+        &:last-child{
+          a{
+            background-color: $navy;
+            &::before{
+              width: 26px;
+              height: 19px;
+              background: url(../img/common/icon/mail.svg) no-repeat 50% 50% / contain;
+            }
+          }
+        }
+      }
+    }
+    &__sub{
+      display: flex;
+      justify-content: center;
+      font-size: 1.4rem;
+      gap:14px;
+      margin-bottom: 25px;
+      @include mq(pc){
+          grid-row: 3;
+          grid-column: 2/3;
+          justify-content: flex-end;
+          margin-top: 24px;
+      }
+      a{
+        @include mq(pc){
+          transition:  $transition ease;
+          &:hover{
+            color:$red;
+          }
+        }
+      }
+    }
+
+    &__logo{
+      display: block;
+      text-align: center;
+      margin-bottom: 23px;
+      @include mq(pc){
+        text-align: left;
+        img{
+          width: 392px;
+          height: 47px;
+        }
+      }
+    }
+
+    address{
+      text-align: center;
+      font-size: 1.6rem;
+      margin-bottom: 13px;
+      @include mq(pc){
+        text-align: left;
+      }
+    }
+
+    &__link{
+      margin-inline: 20px;
+      margin-bottom: 30px;
+      border-bottom: 1px solid #707070;
+      @include mq(pc){
+        margin: 0;
+        display: flex;
+        width: 120%;
+        border-right: 1px solid #707070;
+      }
+      li{
+        border:1px solid #707070;
+        border-bottom: 0px solid #707070;
+        @include mq(pc){
+          width:calc(100% / 3 );
+          border-right: 0px solid #707070;
+        }
+      }
+      a{
+        display: block;
+        text-align: center;
+        padding: 10px;
+        @include mq(pc){
+          font-size: 1.4rem;
+          padding: 0;
+          height: 100%;
+          display: grid;
+          place-items: center;
+          transition: $transition ease;
+          &:hover{
+            opacity: .7;
+          }
+        }
+      }
+    }
+
+    &__copy{
+      background-color: $textColor;
+      color:#fff;
+      text-align: center;
+      font-size: 1.2rem;
+      padding: 10px 18px;
+      @include mq(pc){
+        margin-top: 50px;
+        font-size: 1.4rem;
+      }
+    }
+  }
+}

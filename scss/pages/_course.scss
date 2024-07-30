@@ -1,0 +1,940 @@
+@use "../config/mixins" as *;
+
+/**************************************************
+p-course
+***************************************************/
+.p-course{
+  .bg-content-red{
+    background: url(../img/common/bg-content-red.jpg) no-repeat 50% 50% / cover;
+    position: relative;
+    z-index: 5;
+    padding-block: 60px;
+    @include mq(pc){
+      padding-block:80px;
+    }
+  }
+  .bg-content-blue{
+    background: url(../img/common/bg-content-blue.jpg) no-repeat 50% 50% / cover;
+    position: relative;
+      z-index: 5;
+      padding-block: 60px;
+      @include mq(pc) {
+          padding-block: 80px;
+        }
+  }
+  .bg-content-green{
+    background: url(../img/common/bg-content-green.jpg) no-repeat 50% 100% / cover;
+    position: relative;
+    z-index: 5;
+    padding-block: 60px;
+    @include mq(pc) {
+        padding-block: 80px;
+      }
+  }
+  .bg-content-orange{
+    background: url(../img/common/bg-content-orange.jpg) no-repeat 50% 50% / cover;
+    position: relative;
+      z-index: 5;
+      padding-block: 60px;
+      @include mq(pc) {
+          padding-block: 80px;
+        }
+  }
+  .bg-content-purple{
+    background: url(../img/common/bg-content-purple.jpg) no-repeat 50% 50% / cover;
+    position: relative;
+      z-index: 5;
+      padding-block: 60px;
+      @include mq(pc) {
+          padding-block: 80px;
+        }
+  }
+
+  .c-secSubttl-l{
+    font-weight: 500;
+  }
+
+  &__ttl{
+    @include mq(pc) {
+        display: flex;
+      }
+
+      >* {
+        @include mq(pc) {
+          width: 50%;
+        }
+
+      }
+
+      >div {
+        background: url(../img/common/bg-course-red.jpg) no-repeat 50% 50% / cover;
+        padding: 20px;
+        color: #fff;
+
+        @include mq(pc) {
+          padding: 54px;
+        }
+
+        &.bg-orange {
+          background: url(../img/common/bg-course-orange.jpg) no-repeat 50% 50% / cover;
+        }
+
+        &.bg-blue {
+          background: url(../img/common/bg-course-blue.jpg) no-repeat 50% 50% / cover;
+        }
+
+        &.bg-purple {
+          background: url(../img/common/bg-course-purple.jpg) no-repeat 50% 50% / cover;
+        }
+
+        &.bg-green {
+          background: url(../img/common/bg-course-green.jpg) no-repeat 50% 50% / cover;
+        }
+
+        span {
+          font-weight: 700;
+          font-size: 1.5rem;
+          font-weight: 500;
+
+          @include mq(pc) {
+            font-size: 2.4rem;
+          }
+        }
+
+        h1 {
+          font-family: $mincho;
+          font-size: 3.4rem;
+          font-weight: 400;
+          letter-spacing: .1em;
+          border-bottom: 2px solid #fff;
+          margin-bottom: 16px;
+          padding-bottom: 8px;
+          line-height: 1.4;
+          &.is-small{
+            font-size: 2.8rem;
+            @include mq(pc){
+              font-size: 3.9rem;
+              letter-spacing: 0;
+            }
+          }
+
+          @include mq(pc) {
+            font-size: 5rem;
+            margin-bottom: 24px;
+            padding-bottom: 18px;
+          }
+        }
+
+        p {
+          font-family: $mincho;
+          font-weight: 300;
+          font-size: 1.8rem;
+          line-height: 1.5;
+
+          @include mq(pc) {
+            font-size: 3.5rem;
+          }
+        }
+      }
+
+      img {
+        object-fit: cover;
+        width: 100%;
+
+        @include mq(pc) {
+          width: 50%;
+        }
+      }
+  }
+
+
+  &__point{
+    margin-top: 32px;
+    @include mq(pc){
+      display: flex;
+      gap:45px;
+    }
+
+    &.is-blue{
+      strong{
+        background-color: #F4F4FE;
+        color:$darkblue;
+      }
+    }
+
+    &.is-green{
+      strong{
+        background-color: #F6FCFD;
+        color:$green;
+      }
+    }
+
+    &.is-purple{
+      strong{
+        background-color: #FAF6FC;
+        color:$darkpink;
+      }
+    }
+
+    &.is-orange{
+      strong{
+        background-color: #FCF7F2;
+        color:$orange;
+      }
+    }
+
+
+    strong{
+      background-color: #FEF3F4;
+      border-radius: 20px;
+      display: block;
+      text-align: center;
+      padding-block: 20px;
+      margin-bottom: 16px;
+      color:$red;
+      font-size: 2.6rem;
+      line-height: 1.32;
+      font-weight: 400;
+      display: grid;
+      place-content: center;
+      @include mq(pc){
+        width: calc(100% / 3);
+        font-size: 3rem;
+      }
+
+      small{
+        font-size: 1.4rem;
+        color:$textColor;
+        display: block;
+        margin-top: 5px;
+      }
+    }
+  }
+
+  &__detail{
+    margin-top: 35px;
+    margin-bottom: 75px;
+    @include mq(pc){
+      display: flex;
+      gap:45px;
+    }
+    img{
+      border: 2px solid $red;
+      padding: 15px;
+      width: 100%;
+      margin-top: 10px;
+      @include mq(pc){
+        padding: 24px;
+      }
+    }
+  }
+
+  &__schedule{
+    overflow: auto;
+    margin-top: 30px;
+    padding-bottom: 20px;
+
+      &::-webkit-scrollbar {
+        width: 14px;
+      }
+
+      &::-webkit-scrollbar-track {
+        background-color: #EFEFEF;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background-color: #CCCCCC;
+      }
+    img{
+      max-width: 1200px;
+    }
+  }
+
+  &__curriculum{
+      overflow: auto;
+      margin-top: 10px;
+      padding-bottom: 20px;
+
+      &::-webkit-scrollbar {
+        width: 14px;
+      }
+
+      &::-webkit-scrollbar-track {
+        background-color: #EFEFEF;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background-color: #CCCCCC;
+      }
+
+      img {
+        max-width: 1200px;
+      }
+  }
+
+  &__mes{
+    margin-top: 80px;
+    @include mq(pc){
+      margin-top: 40px;
+    }
+
+    > *{
+      display: grid;
+      margin-top: 40px;
+      @include mq(pc){
+        display: block;
+        padding-right: 200px;
+        position: relative;
+      }
+    }
+
+    em{
+      background-color: $red;
+      color:#fff;
+      font-size: 2rem;
+      padding: 0 8px;
+      font-weight: 400;
+      display: inline-block;
+      margin-bottom: 8px;
+      width: 195px;
+      margin-inline: auto;
+      text-align: center;
+      &.is-blue{
+        background-color: $darkblue;
+      }
+      &.is-green{
+        background-color: $green;
+      }
+      &.is-purple{
+        background-color: $darkpink;
+      }
+      &.is-orange{
+        background-color: $orange;
+      }
+    }
+    h4{
+      color:$red;
+      font-family: $mincho;
+      font-size: 2.2rem;
+      margin-bottom: 8px;
+      line-height: 1.5;
+      @include mq(pc){
+        font-size: 2.6rem;
+      }
+    }
+    figure{
+      display: block;
+      text-align: center;
+      grid-row: 2;
+      margin-bottom: 20px;
+      @include mq(pc){
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 180px;
+      }
+      img{
+        width: 100px;
+        @include mq(pc){
+          width: 180px;
+        }
+      }
+    }
+    figcaption{
+      font-weight: 700;
+      margin-top: 5px;
+      line-height: 1.5;
+      @include mq(pc){
+        font-size: 1.8rem;
+      }
+
+      small{
+        font-size: 1.4rem;
+        display: block;
+        font-weight: 400;
+        width: 100%;
+      }
+    }
+  }
+
+
+
+  &__flow{
+    color:$red;
+    margin-bottom: 40px;
+    @include mq(pc){
+      margin-bottom: 70px;
+    }
+
+    &.is-blue{
+      color:$darkblue;
+      p{
+        border-color: $darkblue;
+        &::after{
+          background-color: $darkblue;
+        }
+      }
+    }
+    &.is-green{
+      color:$green;
+      p{
+        border-color: $green;
+        &::after{
+          background-color: $green;
+        }
+      }
+    }
+
+
+    dl{
+      text-align: center;
+      padding-block: 20px 54px;
+      border-top:1px solid $grayccc;
+      @include mq(pc){
+        display: flex;
+        align-items: center;
+        padding-right: 80px;
+      }
+
+      &:last-child{
+        border-bottom: 1px solid $grayccc;
+        padding-bottom: 30px;
+        p{
+          &::after{
+            display: none;
+          }
+        }
+      }
+
+      &.is-for2{
+        padding-bottom: 80px;
+        p{
+          &::after {
+            width: 194px;
+            height: 54px;
+            background-color: $red;
+            -webkit-mask-image: url('../img/common/course/arrow-for2-sp.png');
+            mask-image: url('../img/common/course/arrow-for2-sp.png');
+            -webkit-mask-size: 194px;
+            mask-size: 194px;
+            bottom: -70px;
+
+            @include mq(pc){
+                width: 420px;
+                height: 54px;
+                background-color: $red;
+                -webkit-mask-image: url('../img/common/course/arrow-for2-pc.png');
+                mask-image: url('../img/common/course/arrow-for2-pc.png');
+                -webkit-mask-size: 420px;
+                mask-size: 420px;
+                bottom: -70px;
+            }
+          }
+        }
+      }
+       &.is-for4{
+        padding-bottom: 80px;
+        p{
+          &::after {
+            width: 300px;
+            height: 54px;
+            background-color: $green;
+            -webkit-mask-image: url('../img/common/course/arrow-for4-sp.png');
+            mask-image: url('../img/common/course/arrow-for4-sp.png');
+            -webkit-mask-size: 300px;
+            mask-size: 300px;
+            bottom: -70px;
+
+            @include mq(pc){
+                width: 700px;
+                height: 54px;
+                background-color: $green;
+                -webkit-mask-image: url('../img/common/course/arrow-for4-pc.png');
+                mask-image: url('../img/common/course/arrow-for4-pc.png');
+                -webkit-mask-size: 700px;
+                mask-size: 700px;
+                bottom: -70px;
+            }
+          }
+        }
+      }
+    }
+    dt{
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+      @include mq(pc){
+        font-size: 2.2rem;
+        width: 250px;
+        flex:none;
+        margin: 0;
+      }
+    }
+    dd{
+      display: flex;
+      gap:12px;
+      &.is-col4{
+        gap:5px;
+        span{
+          font-size: 1.3rem;
+          display: block;
+          line-height: 1.3;
+          @include mq(pc){
+            font-size: 1.6rem;
+          }
+        }
+      }
+      @include mq(pc){
+        gap:40px;
+        width: 100%;
+        &.is-col4{
+          gap:10px;
+        }
+      }
+
+      &.is-wrap{
+        flex-wrap: wrap;
+      }
+    }
+    p{
+      border: 2px solid $red;
+      font-size: 1.5rem;
+      padding: 10px 20px;
+      font-weight: 700;
+      position: relative;
+      width: 100%;
+      line-height: 1.3;
+      padding: 10px 5px;
+      @include mq(pc){
+        font-size: 2.2rem;
+        padding: 10px 20px;
+      }
+
+
+      &::after {
+          content: '';
+          width: 16px;
+          height: 30px;
+          background-color: $red;
+          -webkit-mask-image: url('../img/common/course/arrow.png');
+          mask-image: url('../img/common/course/arrow.png');
+          -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+          -webkit-mask-position: center;
+          mask-position: center;
+          -webkit-mask-size: 16px;
+          mask-size: 16px;
+          position: absolute;
+          margin: auto;
+          display: block;
+          margin-inline: auto;
+          left: 0;
+          right: 0;
+          bottom: -45px;
+          margin: auto;
+        }
+
+        small{
+          font-weight: 400;
+          display: block;
+          color:$textColor;
+          font-size: 1.2rem;
+          margin-top: 5px;
+          @include mq(pc){
+            font-size: 1.6rem;
+          }
+        }
+
+        span{
+          font-size: 1.5rem;
+          @include mq(pc){
+            font-size: 1.8rem;
+          }
+        }
+    }
+
+
+  }
+
+
+
+
+  &__flowSenior{
+    color:$red;
+    margin-bottom: 40px;
+    @include mq(pc){
+      margin-bottom: 70px;
+    }
+
+     &.is-blue{
+      color:$darkblue;
+      strong{
+        background-color: $darkblue;
+      }
+      li{
+        border-color: $darkblue;
+      }
+    }
+    &.is-green{
+      color:$green;
+        strong {
+          background-color: $green;
+        }
+        li{
+          border-color: $green;
+          &::after{
+            background-color: $green;
+          }
+        }
+    }
+    &.is-purple{
+      color:$darkpink;
+        strong {
+          background-color: $darkpink;
+        }
+        li{
+          border-color: $darkpink;
+          &::after{
+            background-color: $darkpink;
+          }
+        }
+    }
+     &.is-orange{
+      color:$orange;
+        strong {
+          background-color: $orange;
+        }
+        li{
+          border-color: $orange;
+          &::after{
+            background-color: $orange;
+          }
+        }
+    }
+
+    dl{
+      text-align: center;
+      padding-block: 20px 54px;
+      border-top:1px solid $grayccc;
+      @include mq(pc){
+        display: flex;
+        align-items: center;
+        padding-right: 80px;
+      }
+
+      &:last-child{
+        border-bottom: 1px solid $grayccc;
+        padding-bottom: 20px;
+
+        li{
+          &::after{
+            display: none;
+          }
+        }
+
+      }
+
+    }
+    dt{
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+      @include mq(pc){
+        font-size: 2.2rem;
+        width: 250px;
+        flex:none;
+        margin: 0;
+      }
+    }
+
+    dd{
+      width: 100%;
+      position: relative;
+      &.is-for2{
+        padding-bottom: 40px;
+        &::after {
+          content:"";
+            width: 194px;
+            height: 54px;
+            background-color: $red;
+            -webkit-mask-image: url('../img/common/course/arrow-for2-sp.png');
+            mask-image: url('../img/common/course/arrow-for2-sp.png');
+            -webkit-mask-size: 194px;
+            mask-size: 194px;
+            position: absolute;
+            position: absolute;
+            margin: auto;
+            display: block;
+            margin-inline: auto;
+            left: 0;
+            right: 0;
+            bottom: -35px;
+
+            @include mq(pc) {
+              width: 460px;
+              height: 60px;
+              background-color: $red;
+              -webkit-mask-image: url('../img/common/course/arrow-for2-pc.png');
+              mask-image: url('../img/common/course/arrow-for2-pc.png');
+              -webkit-mask-size: 460px;
+              mask-size: 460px;
+              bottom: -40px;
+            }
+          }
+      }
+    }
+
+    em{
+      font-size: 2rem;
+      font-weight: 700;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    h3,strong{
+      background-color: $red;
+      color:#fff;
+      font-size: 2rem;
+      display: inline-block;
+      padding: 3px 10px;
+      font-weight: 700;
+    }
+
+    strong{
+      font-size: 2.6rem;
+      line-height: 1.5;
+    }
+
+    p{
+      color:$textColor;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+
+    &__com{
+      text-align: left;
+      color:$textColor;
+      margin-top: 24px;
+      li{
+        text-indent: -1em;
+        margin-left: 1em;
+      }
+    }
+
+    &__select{
+      display: flex;
+      gap:10px;
+      @include mq(pc){
+        gap:40px;
+      }
+      li{
+        border: 2px solid $red;
+        font-size: 1.5rem;
+        padding: 10px 20px;
+        font-weight: 700;
+        position: relative;
+        width: 100%;
+        line-height: 1.3;
+        padding: 10px 5px;
+        @include mq(pc) {
+          font-size: 2.2rem;
+          padding: 10px 20px;
+        }
+
+        &.is-for2{
+          margin-bottom: 40px;
+          &::after {
+              content:"";
+              width: 194px;
+              height: 54px;
+              background-color: $green;
+              -webkit-mask-image: url('../img/common/course/arrow-for2-sp.png');
+              mask-image: url('../img/common/course/arrow-for2-sp.png');
+              -webkit-mask-size: 194px;
+              mask-size: 194px;
+              position: absolute;
+              position: absolute;
+              margin: auto;
+              display: block;
+              margin-inline: auto;
+              left: 0;
+              right: 0;
+              bottom: -70px;
+
+              @include mq(pc) {
+                width: 460px;
+                height: 60px;
+                background-color: $green;
+                -webkit-mask-image: url('../img/common/course/arrow-for2-pc.png');
+                mask-image: url('../img/common/course/arrow-for2-pc.png');
+                -webkit-mask-size: 460px;
+                mask-size: 460px;
+                bottom: -70px;
+              }
+            }
+         }
+
+        &.is-for3{
+          margin-bottom: 40px;
+          &::after {
+              content:"";
+              width: 270px;
+              height: 54px;
+              background-color: $orange;
+              -webkit-mask-image: url('../img/common/course/arrow-for3-sp.png');
+              mask-image: url('../img/common/course/arrow-for3-sp.png');
+              -webkit-mask-size: 270px;
+              mask-size: 270px;
+              position: absolute;
+              position: absolute;
+              margin: auto;
+              display: block;
+              margin-inline: auto;
+              left: 0;
+              right: 0;
+              bottom: -70px;
+
+              @include mq(pc) {
+                width: 460px;
+                height: 60px;
+                background-color: $orange;
+                -webkit-mask-image: url('../img/common/course/arrow-for3-pc.png');
+                mask-image: url('../img/common/course/arrow-for3-pc.png');
+                -webkit-mask-size: 460px;
+                mask-size: 460px;
+                bottom: -70px;
+              }
+            }
+         }
+
+        &::after {
+          content: '';
+          width: 16px;
+          height: 30px;
+          background-color: $red;
+          -webkit-mask-image: url('../img/common/course/arrow.png');
+          mask-image: url('../img/common/course/arrow.png');
+          -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+          -webkit-mask-position: center;
+          mask-position: center;
+          -webkit-mask-size: 16px;
+          mask-size: 16px;
+          position: absolute;
+          margin: auto;
+          display: block;
+          margin-inline: auto;
+          left: 0;
+          right: 0;
+          bottom: -45px;
+        }
+      }
+    }
+
+  }
+
+
+  &__list{
+    display: flex;
+    flex-wrap: wrap;
+    gap:0px 30px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    &.is-green{
+      li{
+        &::before{
+          color:$green;
+        }
+      }
+    }
+    &.is-red{
+      li{
+        &::before{
+          color:$red;
+        }
+      }
+    }
+    &.is-purple{
+      li{
+        &::before{
+          color:$darkpink;
+        }
+      }
+    }
+    &.is-orange{
+      li{
+        &::before{
+          color:$orange;
+        }
+      }
+    }
+    li{
+      position: relative;
+      padding-left: 24px;
+      &::before{
+        content:"●";
+        color:$darkblue;
+        margin-right: 5px;
+        position: absolute;
+        left: 0;
+      }
+    }
+  }
+
+  &__segment{
+    font-family: $mincho;
+    margin-block: 70px 30px;
+    dl{
+
+      @include mq(pc){
+        display: flex;
+        align-items: center;
+        gap: 24px;
+      }
+    }
+    dt{
+      background-color: $red;
+      display: grid;
+      place-content: center;
+      color:#fff;
+      font-size: 2rem;
+      margin-bottom: 10px;
+      @include mq(pc){
+         width: 136px;
+         height: 68px;
+         font-size: 2.6rem;
+         margin-bottom: 0;
+      }
+    }
+    dd{
+      font-size: 2.2rem;
+      line-height: 1.5;
+      color:$red;
+      @include mq(pc){
+        font-size: 2.6rem;
+      }
+    }
+
+  }
+
+  &__career{
+    margin-bottom: 60px;
+    @include mq(pc){
+      display: flex;
+      justify-content: space-between;
+      gap: 45px;
+      margin-bottom: 80px;
+    }
+
+    > div{
+      &:last-child{
+        width: 100%;
+        margin-top: 32px;
+        @include mq(pc){
+          width: 370px;
+          margin-top: 0;
+        }
+      }
+    }
+  }
+}

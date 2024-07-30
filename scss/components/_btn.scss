@@ -1,0 +1,116 @@
+@use "../config/mixins" as *;
+/**************************************************
+btn
+***************************************************/
+
+.c-btn{
+  background-color: $red;
+  color: #fff;
+  display: grid;
+  place-content: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  position: relative;
+  height: 63px;
+  margin-inline: auto;
+  &::before{
+    content:"";
+    width: 9px;
+    height: 15px;
+    background: url(../img/common/icon/arrow.png) no-repeat 50% 50% / contain;
+    position: absolute;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    transition: $transition ease;
+  }
+
+  @include mq(pc){
+    transition: $transition ease;
+    &:hover{
+      opacity: .8;
+      &::before{
+        left: 25px;
+      }
+    }
+  }
+}
+
+
+/**************************************************
+btnList
+***************************************************/
+.c-btnList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap:10px;
+  line-height: 1.3;
+  padding-top: 2px;
+
+  @include mq(pc) {
+    gap: 20px 1.25%;
+    justify-content: center;
+  }
+
+  a {
+    width: 100%;
+    max-width: 100%;
+    height: 48px;
+    display: grid;
+    place-items: center;
+    font-size: 1.5rem;
+    border: 1px solid $grayccc;
+    font-weight: 700;
+    position: relative;
+    margin-inline: auto;
+
+    @include mq(pc) {
+      width: 19%;
+      height: 55px;
+      font-size: 1.5rem;
+      transition: $transition ease;
+      padding-left: 10px;
+      margin: 0;
+
+      &:hover {
+        background-color: $red;
+        color: #fff;
+        border-color: $red;
+
+        &::before {
+          background: url(../img/common/icon/arrow.png) no-repeat 50% 50% / contain;
+        }
+      }
+    }
+
+    &::before {
+      content: "";
+      width: 7px;
+      height: 12px;
+      background: url(../img/common/icon/arrow-red.png) no-repeat 50% 50% / contain;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 10px;
+      margin: auto;
+
+      @include mq(pc) {
+        width: 9px;
+        height: 15px;
+        left: 15px;
+      }
+    }
+
+    &.is-current {
+      background-color: $red;
+      color: #fff;
+      border: 1px solid $red;
+
+      &::before {
+        background: url(../img/common/icon/arrow.png) no-repeat 50% 50% / contain;
+      }
+    }
+  }
+}

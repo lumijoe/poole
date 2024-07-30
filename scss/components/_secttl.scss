@@ -1,0 +1,275 @@
+@use "../config/mixins" as *;
+/**************************************************
+c-secttl
+***************************************************/
+.c-secttl{
+  font-family: $mincho;
+  position: relative;
+  padding-left: 40px;
+  line-height: 1.4;
+  font-size: 2.4rem;
+  padding-bottom: 10px;
+  letter-spacing: .1em;
+  @include mq(pc){
+    font-size: 3.2rem;
+    padding-bottom: 16px;
+  }
+
+  &.is-blue{
+    &::after{
+      background: url(../img/common/border-blue.png) repeat-x 0% 50% / cover;
+    }
+    &::before{
+      background-color: $purple;
+    }
+  }
+
+  &.is-green {
+    &::after {
+      background: url(../img/common/border-green.png) repeat-x 0% 50% / cover;
+    }
+
+    &::before {
+      background-color: $green;
+    }
+  }
+
+  &.is-pink {
+    &::after {
+      background: url(../img/common/border-pink.png) repeat-x 0% 50% / cover;
+    }
+
+    &::before {
+      background-color: $darkpink;
+    }
+  }
+
+  &.is-orange {
+    &::after {
+      background: url(../img/common/border-orange.png) repeat-x 0% 50% / cover;
+    }
+
+    &::before {
+      background-color: $orange;
+    }
+  }
+
+
+
+
+  &::after{
+    content:"";
+    width: 100%;
+    height: 5px;
+    background: url(../img/common/border-red.png) repeat-x 0% 50% / cover;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    @include mq(sp){
+      height: 3px;
+    }
+  }
+
+  &::before {
+      content: '';
+      transition: .3s ease;
+      display: inline-block;
+      width: 30px;
+      height: 38px;
+      background-color: $red;
+      -webkit-mask-image: url('../img/common/icon/cross.png');
+      mask-image: url('../img/common/icon/cross.png');
+      -webkit-mask-repeat: no-repeat;
+      mask-repeat: no-repeat;
+      -webkit-mask-position: center;
+      mask-position: center;
+      -webkit-mask-size: 30px;
+      mask-size: 30px;
+      position: absolute;
+      left: 0;
+      top: 5px;
+      margin: auto;
+      @include mq(sp){
+        width: 23px;
+        height: 30px;
+        -webkit-mask-size: 23px;
+        mask-size: 23px;
+        top: 3px;
+      }
+    }
+}
+
+
+/**************************************************
+c-secttl-bd
+***************************************************/
+
+.c-secttl-bd{
+  font-size: 3.4rem;
+  font-family: $mincho;
+  color:$pink;
+  border-left: 7px solid $pink;
+  padding-left: 20px;
+  padding-bottom: 3px;
+  @include mq(sp){
+    font-size: 3.2rem;
+  }
+
+  &.is-blue{
+    color:$purple;
+    border-color: $purple;
+  }
+  &.is-orange{
+    color:$lightorange;
+    border-color: $lightorange;
+  }
+}
+
+/**************************************************
+c-secttl-box
+***************************************************/
+
+.c-secttl-box{
+  font-size: 2.4rem;
+  border: 2px solid $red;
+  font-family: $mincho;
+  background-color: #fff;
+  padding: 8px 25px;
+  line-height: 1.4;
+  position: relative;
+  @include mq(sp){
+    padding: 8px 16px;
+    font-size: 2.2rem;
+  }
+
+   &.is-blue {
+      border-color: $purple;
+      &::before{
+        background-color: $purple;
+      }
+    }
+
+ &.is-green {
+   border-color: $green;
+
+   &::before {
+     background-color: $green;
+   }
+ }
+
+  &::before{
+    content:"";
+    width: 100%;
+    height: 100%;
+    background-color: $red;
+    position: absolute;
+    left: 5px;
+    bottom: -5px;
+    z-index: -1;
+  }
+}
+
+
+/**************************************************
+c-secttl-red
+***************************************************/
+
+.c-secttl-red{
+  font-size: 2.6rem;
+  font-family: $mincho;
+  padding-bottom: 7px;
+  border-bottom: 3px solid $red;
+  line-height: 1.5;
+  @include mq(sp){
+    font-size: 2.2rem;
+  }
+  &.is-key{
+    &::before{
+      content:"";
+      width: 23px;
+      height: 26px;
+      background: url(../img/for_guardians/lock.png) no-repeat 50% 50% / contain;
+      display: inline-block;
+      margin-right: 10px;
+    }
+  }
+}
+
+
+/**************************************************
+c-secSubttl-s
+***************************************************/
+
+.c-secSubttl{
+  &-s{
+    font-size: 1.8rem;
+    font-weight: 700;
+    @include mq(sp){
+      font-size: 1.6rem;
+    }
+     &.is-red {
+        color: $red;
+      }
+  }
+  &-m{
+    font-size: 2.2rem;
+    font-weight: 700;
+    @include mq(sp){
+      font-size: 1.8rem;
+    }
+     &.is-red {
+        color: $red;
+      }
+  }
+  &-l{
+    font-size: 2.4rem;
+    font-weight: 700;
+    @include mq(sp){
+      font-size: 2rem;
+    }
+     &.is-red {
+        color: $red;
+      }
+  }
+}
+
+/**************************************************
+c-secttl-center
+***************************************************/
+
+.c-secttl-center{
+  text-align: center;
+  font-family: $mincho;
+  font-size: 3rem;
+  position: relative;
+  @include mq(sp){
+    font-size: 2.2rem;
+  }
+  // span{
+  //   background-color: #fff;
+  //   padding: 0 20px;
+  //   &.bg-yellow{
+  //     background: url(../img/common/bg-yellow.jpg) no-repeat 50% 100% / cover;
+  //   }
+  // }
+  &::before,&::after{
+    content:"";
+    width: 38%;
+    height: 2px;
+    position: absolute;
+    left: 0%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: $red;
+    z-index: -1;
+    @include mq(sp){
+      height: 1px;
+      width: 22%;
+    }
+  }
+  &::after{
+    left: auto;
+    right: 0;
+  }
+}

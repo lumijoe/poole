@@ -1,0 +1,33 @@
+@use "../config/mixins" as *;
+
+/**************************************************
+p-guideAbout__list1
+***************************************************/
+.p-guideAbout__list1{
+  max-width: 620px;
+  margin-inline: auto;
+  font-size: 2rem;
+  @include mq(sp){
+    max-width: 80%;
+    font-size: 1.6rem;
+  }
+
+  li{
+    margin-bottom: 8px;
+  }
+}
+
+
+.p-guideAbout__list2 {
+  max-width: 200px;
+  margin-inline: auto;
+  font-size: 2rem;
+  @include mq(sp){
+    font-size: 1.6rem;
+    max-width: 165px;
+  }
+
+  li{
+    margin-bottom: 8px;
+  }
+}

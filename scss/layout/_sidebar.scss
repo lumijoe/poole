@@ -1,0 +1,75 @@
+@use "../config/mixins" as *;
+
+/**************************************************
+l-sidebar
+***************************************************/
+
+.l-sidebar{
+  margin-bottom: 60px;
+  margin-top: 30px;
+  @include mq(pc){
+    width: 20%;
+    margin-top: 0;
+  }
+  &__ttl{
+    font-size: 2.2rem;
+    border-bottom: 2px solid $red;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    @include mq(pc){
+      font-size: 2.4rem;
+      margin-bottom: 20px;
+      padding-bottom: 8px;
+    }
+  }
+
+  a{
+    font-size: 1.8rem;
+    font-weight: 700;
+    position: relative;
+    padding-left: 20px;
+    @include mq(pc){
+      transition: $transition ease;
+      &:hover{
+        color:$red;
+      }
+    }
+    &::before{
+      content:"";
+      width: 9px;
+      height: 15px;
+      background: url(../img/common/icon/arrow-red.png) no-repeat 50% 50% / contain;
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+    }
+  }
+
+  &__statement{
+    margin-bottom: 40px;
+    a{
+      padding-left: 0;
+      font-size: 1.6rem;
+      text-decoration: underline;
+      font-weight: 500;
+      margin-bottom: 10px;
+      display: block;
+        @include mq(pc) {
+          &:hover {
+            text-decoration: none;
+          }
+        }
+
+      &::before{
+        display: none;
+      }
+    }
+    time{
+      display: block;
+      color:$red;
+      font-weight: 700;
+    }
+  }
+}

@@ -1,0 +1,102 @@
+@use "../config/mixins" as *;
+
+.u-flex{
+  display: flex;
+  align-items: flex-start;
+  gap:45px;
+  &.is-alignCenter{
+    align-items: center;
+  }
+
+  &.sp-wrap{
+    @include mq(sp){
+      display: block;
+      img{
+        display: block;
+        margin-inline: auto;
+        margin-bottom: 24px;
+      }
+    }
+  }
+
+  img{
+    flex: none;
+    max-width: 40%;
+    object-fit: cover;
+
+  }
+}
+
+/**************************************************
+カラム
+***************************************************/
+.c-flex-col2 {
+  display: flex;
+  align-items: flex-start;
+  gap: 60px;
+  @include mq(sp){
+    display: block;
+  }
+  >* {
+    width: 50%;
+    @include mq(sp){
+      width: 100%;
+      margin-bottom: 24px;
+    }
+  }
+
+  &.sp-reverse{
+    @include mq(sp){
+      display: flex;
+      gap:0px;
+      flex-direction: column-reverse;
+    }
+  }
+
+
+}
+
+.c-flex-col3 {
+  display: flex;
+  gap: 45px;
+  align-items: flex-start;
+  @include mq(sp){
+    display: block;
+  }
+
+  >* {
+    width: calc(100% / 3);
+    @include mq(sp){
+      width: 100%;
+      margin-bottom: 40px;
+      img{
+        display: block;
+        margin-inline: auto;
+      }
+    }
+  }
+
+
+}
+
+
+.c-flex-col4 {
+  display: flex;
+  align-items: flex-start;
+  gap: 27px;
+  @include mq(sp){
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:0;
+  }
+
+  >* {
+    width: calc(100% / 4);
+    @include mq(sp){
+      width: 48%;
+      margin-bottom: 24px;
+    }
+  }
+
+
+}

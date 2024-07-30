@@ -1,0 +1,113 @@
+@use "../config/mixins" as *;
+/**************************************************
+c-secttl
+***************************************************/
+.u-borderBottom{
+  border-bottom: 1px solid $grayccc;
+}
+
+.u-borderTop {
+  border-top: 1px solid $grayccc;
+}
+
+.u-copy{
+  text-align: center;
+  color:$red;
+  font-family: $mincho;
+  font-size: 2.3rem;
+  font-weight: 400;
+  @include mq(pc){
+    font-size: 3.2rem;
+  }
+}
+
+.u-center{
+  text-align: center;
+}
+
+.u-left{
+  text-align: left !important;
+}
+
+.u-right{
+  text-align: right !important;
+}
+
+.u-red{
+  color:$red !important;
+}
+
+.u-orange{
+  color:$orange !important;
+}
+
+.u-blue{
+  color:$darkblue !important;
+}
+
+.u-green {
+  color: $green !important;
+}
+
+.u-purple {
+  color: $darkpink !important;
+}
+
+.u-bold{
+  font-weight: 700;
+}
+
+.u-fontSize-s {
+  font-size: 1.4rem;
+}
+
+.u-fontSize-m{
+  font-size: 2rem;
+  line-height: 1.5;
+  @include mq(sp){
+    font-size: 1.8rem;
+  }
+}
+
+.u-fontSize-l {
+  font-size: 3rem;
+  line-height: 1.5;
+  @include mq(sp){
+    font-size: 2.2rem;
+  }
+}
+
+.u-label{
+  background-color: $red;
+  color:#fff;
+  display: block;
+  text-align: center;
+  font-size: 1.8rem;
+  &.is-purple{
+    background-color: $darkpink;
+  }
+  &.is-orange{
+    background-color: $orange;
+  }
+}
+
+.u-bgYellow{
+  background: url(../img/common/bg-yellow.jpg) no-repeat 50% 50% / cover;
+  position: relative;
+  z-index: 5;
+}
+
+.u-bgWhite{
+  background-color: #fff;
+  padding: 16px 27px;
+  position: relative;
+    z-index: 5;
+}
+
+
+.u-bgGray {
+  background-color: #F6F6F6;
+  padding: 16px;
+  position: relative;
+  z-index: 5;
+}

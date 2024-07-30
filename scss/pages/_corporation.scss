@@ -1,0 +1,51 @@
+@use "../config/mixins" as *;
+
+/**************************************************
+p-corporation
+***************************************************/
+
+.p-corporation{
+  @include mq(pc){
+     display: flex;
+      justify-content: space-between;
+  }
+
+
+  > div{
+    margin-bottom: 40px;
+    @include mq(pc){
+      width: 32%;
+    }
+  }
+
+  > section{
+    @include mq(pc){
+      width: 64%;
+    }
+  }
+
+  &__inner{
+    @include mq(pc){
+      display: flex;
+    }
+
+    > div{
+      margin-bottom: 40px;
+      &:last-child{
+        margin-bottom: 0;
+      }
+      @include mq(pc){
+        &:first-child{
+          width: 60%;
+          flex: none;
+        }
+      }
+    }
+  }
+
+  .c-btn{
+    font-size: 1.5rem;
+    width: 100%;
+    margin: 0;
+  }
+}
