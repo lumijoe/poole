@@ -5,20 +5,20 @@
     <h2>
       資料請求
       <em>DOCUMENT REQUEST</em>
-      </h2><!-- /.micho -->
+    </h2><!-- /.micho -->
     <a href="<?php echo esc_url(home_url('/request/')); ?>" class="l-conversion__link">
       資料請求はこちら
     </a>
     <div class="l-conversion__img">
-      <img src="<?php echo $imagePath?>common/pamphlet-junior.jpg" alt="プール学院中学校 資料" width="155" height="219">
-      <img src="<?php echo $imagePath?>common/pamphlet-senior.jpg" alt="プール学院高等学院 資料" width="155" height="219">
+      <img src="<?php echo $imagePath ?>common/pamphlet-junior.jpg" alt="プール学院中学校 資料" width="155" height="219">
+      <img src="<?php echo $imagePath ?>common/pamphlet-senior.jpg" alt="プール学院高等学院 資料" width="155" height="219">
     </div><!-- /.l-conversion__img -->
   </div><!-- /.l-conversion__request -->
 
   <div class="l-conversion__contect">
     <h2>
       お問い合わせ<em>CONTACT</em>
-      </h2><!-- /.micho -->
+    </h2><!-- /.micho -->
     <a class="l-conversion__tel" href="tel:06-6741-7005">06-6741-7005</a>
     <a href="<?php echo esc_url(home_url('/contact/')); ?>" class="l-conversion__link">
       メールでのお問い合わせ
@@ -44,7 +44,8 @@
             </li>
 
             <li>
-              <a href="<?php echo esc_url(home_url('/guide/international/')); ?>">特色教育</a>
+              <a href="<?php echo esc_url(home_url('/guide/education/')); ?>">特色教育</a>
+              <!-- <a href="<?php echo esc_url(home_url('/guide/international/')); ?>">特色教育</a> -->
             </li>
             <li>
               <a href="<?php echo esc_url(home_url('/guide/access/')); ?>">交通アクセス</a>
@@ -190,12 +191,12 @@
         <ul class="l-footer__othernav__sns">
           <li>
             <a href="https://www.instagram.com/poolegakuin.js.1879/" target="_blank">
-              <img src="<?php echo $imagePath?>common/icon/insta.png" alt="Instagram" width="40" height="40">
+              <img src="<?php echo $imagePath ?>common/icon/insta.png" alt="Instagram" width="40" height="40">
             </a>
           </li>
           <li>
             <a href="https://www.facebook.com/PooleGakuin.JS.1879/" target="_blank">
-              <img src="<?php echo $imagePath?>common/icon/facebook.png" alt="facebook" width="42" height="42">
+              <img src="<?php echo $imagePath ?>common/icon/facebook.png" alt="facebook" width="42" height="42">
             </a>
           </li>
         </ul><!-- /.l-footer__othernav__sns -->
@@ -221,7 +222,7 @@
       </ul><!-- /.l-footer__othernav__sub -->
 
       <a href="<?php echo esc_url(home_url('/')); ?>" class="l-footer__othernav__logo">
-        <img src="<?php echo $imagePath?>common/logo.png" alt="プール学院中学校・高等学校" width="333" height="40">
+        <img src="<?php echo $imagePath ?>common/logo.png" alt="プール学院中学校・高等学校" width="333" height="40">
       </a><!-- /.l-footer__othernav__logo -->
 
       <address>
@@ -239,8 +240,9 @@
     </div><!-- /.l-footer__othernav -->
   </div><!-- /.l-footer__inner -->
   <p class="l-footer__othernav__copy">
-        Copyright &copy; <?php echo date('Y'); ?> POOLE GAKUIN Junior & Senior High Schools. All rights reserved.
-      </p><!-- /.l-footer__othernav__copy -->
+    &copy; <?php echo date('Y'); ?> POOLE GAKUIN <br>Junior & Senior High Schools. All rights reserved.
+    <!-- Copyright &copy; <?php echo date('Y'); ?> POOLE GAKUIN Junior & Senior High Schools. All rights reserved. -->
+  </p><!-- /.l-footer__othernav__copy -->
 </footer><!-- /.l-footer -->
 
 
@@ -252,6 +254,7 @@
 
 
 <?php wp_footer(); ?>
-<?php get_template_part('tmp/include/footer-js');?>
+<?php get_template_part('tmp/include/footer-js'); ?>
 </body>
+
 </html>
