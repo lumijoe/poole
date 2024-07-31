@@ -31,7 +31,7 @@
 
     <section class="mt70">
       <h2 class="c-secttl-box">指定校推薦一覧</h2>
-      <img class="mt30" src="<?php echo $imagePath ?>career/graduation/img03_suisen.jpg" alt="指定校推薦の対象となるコース在籍者160名に対し、150大学、800名以上の指定校枠が付与されています" width="1200" height="649">
+      <img class="mt30" src="<?php echo $imagePath ?>career/graduation/img03_suisen.jpg" alt="指定校推薦の対象となるコース在籍者160名に対し、150大学以上、800名以上の指定校枠が付与されております" width="1200" height="649">
     </section>
 
     <div class="c-btnList mt100">
