@@ -397,7 +397,7 @@
     <h3 class="c-secttl-box">英語学習</h3>
     <div class="l-imgTxt mt30">
       <div>
-        <h2 class="c-secSubttl-m is-red u-fontSize-m mt30 u-fontSize2840 u-fontWeight300">英語教育はもちろんのこと、<br class="pc"> 国際的な視野で社会に貢献する人を育てる 真の「国際教育」を実践します。</h2>
+        <h2 class="c-secSubttl-m is-red u-fontSize-m mt30 u-fontSize2840 u-fontWeight300">英語教育はもちろんのこと、<br class="pc"> 国際的な視野で社会に貢献する人を育てる<br class="pc">真の「国際教育」を実践します。</h2>
         <p class="mt10 u-fontSize1632">「グローバル教育」という言葉がなかった時代から、先進的な「グローバル教育」を実践してきたプール学院。英語教育はもちろんのこと、愛と奉仕の精神をもって、グローバルな舞台で活躍できるサーバントリーダーの育成を目指します。</p>
       </div>
       <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education03_01.png" alt="" width="552" height="263">
