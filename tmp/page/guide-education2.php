@@ -362,7 +362,7 @@
           <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education02_07.png" alt="" width="370" height="180">
           <h4 class="c-secSubttl-m u-orange mt20 u-fontSize1828red">高校2年 Glocal StudyⅡ</h4>
           <p class="u-fontSize1624">女性、子ども、外国籍の方を取り巻く課題について学び、地域から世界へと視野を広げる。</p>
-          <ul class="c-list">
+          <ul class="c-list pt19">
             <li class="bold">生野区の商店街訪問や施設入居者の方との交流</li>
             <li class="bold">世界が抱える課題（飢餓・難民など）の学び</li>
             <li class="bold">諸課題について英語でのプレゼンを実践</li>
@@ -373,7 +373,7 @@
           <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education02_08.png" alt="" width="370" height="180">
           <h4 class="c-secSubttl-m u-orange mt20 u-fontSize1828red">高校3年 Glocal StudyⅢ</h4>
           <p class="u-fontSize1624">地域や世界の課題を個々の視点で捉え、テーマ別アクションプランを検討し実行を目指す。</p>
-          <ul class="c-list">
+          <ul class="c-list pt19">
             <li class="bold">フードロス解消のための取り組み</li>
             <li class="bold">「ジェンダー」についての考察</li>
             <li class="bold">生徒による独自の課題設定</li>
@@ -383,7 +383,7 @@
         <div>
           <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education02_09.png" alt="" width="370" height="180">
           <h4 class="c-secSubttl-m u-orange mt20 u-fontSize1828red">全国高校生フォーラム、甲南大学リサーチフェスタなどへの参加</h4>
-          <p class="u-fontSize1624">全国の高校で「地域協働プログラム」に取り組んでいる生徒のみなさんとの探究成果発表会に、本校も参加し発表しています。</p>
+          <p class="u-fontSize1624 pt19">全国の高校で「地域協働プログラム」に取り組んでいる生徒のみなさんとの探究成果発表会に、本校も参加し発表しています。</p>
         </div>
       </section><!-- /.u-flex-col2 -->
     </div>
