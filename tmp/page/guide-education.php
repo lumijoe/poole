@@ -976,12 +976,12 @@
                 <nav>
                   <div class="content">
                     <div class="c-btnList mt70">
-                      <a href="https://poole.ed.jp/guide/education/" class="tokusyoku-fv_nav--3">キリスト教教育</a>
-                      <a href="https://poole.ed.jp/guide/education/" class="tokusyoku-fv_nav--3">探究学習</a>
-                      <a href="https://poole.ed.jp/guide/education/" class="tokusyoku-fv_nav--3">英語学習</a>
+                      <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education#education01" class="tokusyoku-fv_nav--3">キリスト教教育</a>
+                      <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education#education02" class="tokusyoku-fv_nav--3">探究学習</a>
+                      <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education#education03" class="tokusyoku-fv_nav--3">英語学習</a>
                     </div>
                     <div class="c-btnList mt8">
-                      <a href="https://poole.ed.jp/guide/education/" class=" tokusyoku-fv_nav--1">3つの特色教育を支えるチャレンジプログラム</a>
+                      <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education#challengeprogram" class=" tokusyoku-fv_nav--1">3つの特色教育を支えるチャレンジプログラム</a>
                     </div>
                   </div>
                 </nav>
@@ -992,7 +992,7 @@
         </section>
 
         <!-- プール学院の教育01 -->
-        <section class="mt70 u-bgYellow pt70 pb70">
+        <section class="mt70 u-bgYellow pt70 pb70" id="education01">
           <div class="content">
             <h2 class="u-copy u-center mt30 mb30">プール学院の教育01</h2>
             <h3 class="c-secttl-box">キリスト教教育</h3>
@@ -1062,7 +1062,7 @@
 
 
         <!-- プール学院の教育02 -->
-        <section class="mt70 pt70 pb70">
+        <section class=" pt70 pb70" id="education02">
           <div class="content">
             <h2 class="u-copy u-center mt30 mb30">プール学院の教育02</h2>
             <h3 class="c-secttl-box">探究学習</h3>
@@ -1177,7 +1177,7 @@
         </section>
 
         <!-- プール学院の教育03 -->
-        <section class="mt70 u-bgYellow pt70 pb70">
+        <section class="mt70 u-bgYellow pt70 pb70" id="education03">
           <div class="content">
             <h2 class="u-copy u-center mt30 mb30">プール学院の教育03</h2>
             <h3 class="c-secttl-box">英語学習</h3>
@@ -1255,7 +1255,7 @@
         </section><!-- /.u-bgYellow -->
 
         <!-- contetnt -->
-        <section class="mt70 pt70 pb70">
+        <section class="mt70 pt70 pb70" id="challengeprogram">
           <div class="content">
             <h1 class="c-secttl is-red">3つの特色教育を支えるチャレンジプログラム</h1>
             <div class="l-imgTxt mt30">
