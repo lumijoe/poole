@@ -609,9 +609,6 @@
     }
   </style>
 
-
-
-
   <link rel='stylesheet' id='contact-form-7-css' href='https://poole.ed.jp/wp/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.9.3' type='text/css' media='all' />
   <link rel='stylesheet' id='cf7msm_styles-css' href='https://poole.ed.jp/wp/wp-content/plugins/contact-form-7-multi-step-module/resources/cf7msm.css?ver=4.3.1' type='text/css' media='all' />
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js?ver=3.6.0" id="jquery-js"></script>
@@ -788,7 +785,6 @@
                     </dd>
                   </dl>
                 </li>
-
               </ul>
             </li>
             <li>
