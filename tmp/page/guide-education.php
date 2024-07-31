@@ -586,6 +586,10 @@
       letter-spacing: .1em;
     }
 
+    .c-secSubttl--pink {
+      color: #F17192;
+    }
+
     .c-secttl::before {
       content: "";
       transition: .3s ease;
@@ -593,8 +597,8 @@
       width: 30px;
       height: 38px;
       background-color: #c74954;
-      -webkit-mask-image: url(../../assets/img/tokusyoku/cross.png);
-      mask-image: url(../../assets/img/tokusyoku/cross.png);
+      -webkit-mask-image: url(https://lkcodetest.sakura.ne.jp/testsite/assets/img/tokusyoku/cross.png);
+      mask-image: url(https://lkcodetest.sakura.ne.jp/testsite/assets/img/tokusyoku/cross.png);
       -webkit-mask-repeat: no-repeat;
       mask-repeat: no-repeat;
       -webkit-mask-position: center;
@@ -605,7 +609,6 @@
       left: 0;
       top: 5px;
       margin: auto;
-
     }
   </style>
 
@@ -998,7 +1001,7 @@
             <h3 class="c-secttl-box">キリスト教教育</h3>
             <div class="l-imgTxt mt30">
               <div>
-                <h2 class="c-secSubttl-m is-red u-fontSize-m mt30">感謝と奉仕の実践ともに祈り、<br> ともに生きる</h2>
+                <h2 class="c-secSubttl-m is-red u-fontSize-m mt30 c-secSubttl--pink">感謝と奉仕の実践ともに祈り、<br> ともに生きる</h2>
                 <p class="mt10">キリスト教の最も重要な教えは「愛」を学び分かち合うことです。<br> 他者も自分も同じように神さまに愛されている存在として、互いの尊厳を大切にする隣人愛を学び、社会や他の人のために何ができるのかを考え、実践することのできる人を目指します。</p>
               </div>
               <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education01_01.png" alt="" width="552" height="263">
@@ -1033,7 +1036,7 @@
             </div>
             <!-- content -->
             <div>
-              <h4 class="c-secSubttl-m is-red u-fontSize-m mt30">人びとの心によりそう「隣り人」となる</h4>
+              <h4 class="c-secSubttl-m is-red u-fontSize-m mt30 c-secSubttl--pink">人びとの心によりそう「隣り人」となる</h4>
               <p class="mt10">さまざまな社会的課題のある世界で、ひとつひとつの課題と丁寧に向き合い、困難を抱えている人や地域の「隣り人」となる人間性を育みます。</p>
               <div class="c-flex-col4 mt30">
                 <div>
@@ -1055,6 +1058,35 @@
                   <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education01_09.png" alt="">
                   <!-- <img src="<?php echo $imagePath ?>life/facility/main04.jpg" alt=""> -->
                   <p class="mt10">つながる街頭募金</p>
+                </div>
+              </div>
+            </div>
+            <!-- content -->
+            <div>
+              <h4 class="c-secSubttl-m is-red u-fontSize-m mt30 c-secSubttl--pink">ボランティア・平和教育</h4>
+              <h5 class="mt10">〜“Servant Leader” 「愛と奉仕」の担い手として〜</h5>
+              <p class="mt10">かけがえのない唯一の存在であり、さまざまな違いを持つ「他者」を大切にし、「他者」に仕え、<br class="pc">「他者」とともに生きるために自らを成長させることを目指します。</p>
+              <div class="c-flex-col4 mt30">
+                <div>
+                  <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education01_10.png" alt="">
+                  <!-- <img src="<?php echo $imagePath ?>life/facility/main01.jpg" alt=""> -->
+                  <p class="mt10">釜ヶ崎フィールドワーク<br>（炊き出しボランティア）</p>
+                </div>
+                <div>
+                  <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education01_11.png" alt="">
+                  <!-- <img src="<?php echo $imagePath ?>life/facility/main02.jpg" alt=""> -->
+                  <p class="mt10">タイSWK（スラウィヤカーン）校
+                    歓迎プログラム</p>
+                </div>
+                <div>
+                  <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education01_12.png" alt="">
+                  <!-- <img src="<?php echo $imagePath ?>life/facility/main03.jpg" alt=""> -->
+                  <p class="mt10">朝の礼拝オルガニストギルド研修会</p>
+                </div>
+                <div>
+                  <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education01_13.png" alt="">
+                  <!-- <img src="<?php echo $imagePath ?>life/facility/main04.jpg" alt=""> -->
+                  <p class="mt10">クリスマス礼拝奉仕</p>
                 </div>
               </div>
             </div>
