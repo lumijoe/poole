@@ -241,7 +241,7 @@
     </div><!-- /.l-footer__othernav -->
   </div><!-- /.l-footer__inner -->
   <p class="l-footer__othernav__copy">
-    &copy; <?php echo date('Y'); ?> POOLE GAKUIN <br>Junior & Senior High Schools. All rights reserved.
+    &copy; <?php echo date('Y'); ?> POOLE GAKUIN Junior & Senior High Schools. All rights reserved.
     <!-- Copyright &copy; <?php echo date('Y'); ?> POOLE GAKUIN Junior & Senior High Schools. All rights reserved. -->
   </p><!-- /.l-footer__othernav__copy -->
 </footer><!-- /.l-footer -->
