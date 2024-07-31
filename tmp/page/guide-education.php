@@ -496,6 +496,10 @@
  スタイル追加
  ーーーーーーーーーーーー -->
   <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
     .p-ed__archive__ttl--orange {
       width: 55px;
       height: 16px;
@@ -1250,7 +1254,7 @@
                 <p class="mt10">プール学院では、教育目標のひとつである「グローバル教育」の取り組みの一環として、海外研修プログラムを実施。それぞれのプログラム内容もさらに充実していきます。</p>
                 <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education03_09.png" alt="" width="300" height="225">
               </div>
-              <a href="https://poole.ed.jp/guide/international/" class="c-btn mt20 c-btn--more" target="_blank" rel="noopener noreferrer" style="max-width: 250px; margin-inline: inherit;">詳しくはこちら</a>
+              <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/international/" class="c-btn mt20 c-btn--more" target="_blank" rel="noopener noreferrer" style="max-width: 250px; margin-inline: inherit;">詳しくはこちら</a>
             </div>
         </section><!-- /.u-bgYellow -->
 
@@ -1324,7 +1328,7 @@
                     <li>カナダ1年留学 など</li>
                   </ul>
                 </div>
-                <a href="https://poole.ed.jp/guide/international/" class="c-btn mt20 c-btn--more" target="_blank" rel="noopener noreferrer" style="max-width: 250px; margin-inline: inherit;">詳しくはこちら</a>
+                <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/international/" class="c-btn mt20 c-btn--more" target="_blank" rel="noopener noreferrer" style="max-width: 250px; margin-inline: inherit;">詳しくはこちら</a>
               </div>
               <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_challenge04.png" alt="" width="370" height="180">
             </div>
@@ -1340,7 +1344,7 @@
             <a href="https://poole.ed.jp/guide/education/">特色教育</a>
           </div><!-- /.c-btnList -->
         </div><!-- /.content -->
-        <a href="https://kojobiz.github.io/poolcodepractice/test2.html"><img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/ico_totop.svg" alt="" class="p-totop"></a>
+        <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education/"><img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/ico_totop.svg" alt="" class="p-totop"></a>
 
         </section><!-- /.page -->
 
