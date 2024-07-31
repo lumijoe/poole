@@ -260,11 +260,10 @@
                 <em>進路・進学<span class="l-header__nav__btn"></span></em>
                 <ul class="l-header__nav__sub">
                   <li>
-                    <a href="<?php echo esc_url(home_url('/career/graduation/')); ?>">進路実績</a>
-                  </li>
-
-                  <li>
                     <a href="<?php echo esc_url(home_url('/career/guidance/')); ?>">進路指導</a>
+                  </li>
+                  <li>
+                    <a href="<?php echo esc_url(home_url('/career/graduation/')); ?>">進路実績</a>
                   </li>
                   <!-- <li>
                   <a href="<?php echo esc_url(home_url('/career/relation/')); ?>">海外大学進学推薦制度・協定大学一覧</a>
