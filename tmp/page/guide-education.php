@@ -206,7 +206,7 @@
         <p class="tokusyoku-fv_text">プール学院では、豊かな人格の形成を目指す「キリスト教教育」、総合力を育む「探究学習」、グローバルマインドを醸成する「英語教育」の３つを柱として、様々な学習の場を設けています。<br> 世界的な視野をもち、社会に目を向け、私たちをとりまく大きな課題を身近なものとし、社会や人のために何ができるのかを考え、実践することのできる人が、プール学院の目指す人間像です。</p>
         <nav>
           <div class="content">
-            <div class="c-btnList mt70">
+            <div class="c-btnList mt70 j-space-between">
               <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education#education01" class="tokusyoku-fv_nav--3">キリスト教教育</a>
               <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education#education02" class="tokusyoku-fv_nav--3">探究学習</a>
               <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education#education03" class="tokusyoku-fv_nav--3">英語学習</a>
