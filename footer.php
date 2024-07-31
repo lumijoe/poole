@@ -42,10 +42,8 @@
             <li>
               <a href="<?php echo esc_url(home_url('/guide/history/')); ?>">歴史・沿革</a>
             </li>
-
             <li>
               <a href="<?php echo esc_url(home_url('/guide/education/')); ?>">特色教育</a>
-              <!-- <a href="<?php echo esc_url(home_url('/guide/international/')); ?>">特色教育</a> -->
             </li>
             <li>
               <a href="<?php echo esc_url(home_url('/guide/access/')); ?>">交通アクセス</a>

@@ -742,7 +742,7 @@
                 </li>
 
                 <li>
-                  <a href="https://poole.ed.jp/guide/international/">特色教育</a>
+                  <a href="https://poole.ed.jp/guide/education/">特色教育</a>
                 </li>
 
               </ul>
@@ -958,7 +958,7 @@
                 "@type": "ListItem",
                 "position": 3,
                 "item": {
-                  "@id": "https://poole.ed.jp/guide/international/",
+                  "@id": "https://poole.ed.jp/guide/education/",
                   "name": "特色教育"
                 }
               }]
@@ -969,19 +969,19 @@
         <section class="page__inner">
           <div class="content">
             <!-- KL タイトル左のicon -->
-            <h1 class="c-secttl is-red"><?php the_title(); ?></h1>
+            <h1 class="c-secttl is-red">特色教育</h1>
             <div class="l-imgTxt mt30">
               <div class="tokusyoku-fv_text-wrapper">
                 <p class="tokusyoku-fv_text">プール学院では、豊かな人格の形成を目指す「キリスト教教育」、総合力を育む「探究学習」、グローバルマインドを醸成する「英語教育」の３つを柱として、様々な学習の場を設けています。<br> 世界的な視野をもち、社会に目を向け、私たちをとりまく大きな課題を身近なものとし、社会や人のために何ができるのかを考え、実践することのできる人が、プール学院の目指す人間像です。</p>
                 <nav>
                   <div class="content">
                     <div class="c-btnList mt70">
-                      <a href="https://poole.ed.jp/guide/international/" class="tokusyoku-fv_nav--3">キリスト教教育</a>
-                      <a href="https://poole.ed.jp/guide/international/" class="tokusyoku-fv_nav--3">探究学習</a>
-                      <a href="https://poole.ed.jp/guide/international/" class="tokusyoku-fv_nav--3">英語学習</a>
+                      <a href="https://poole.ed.jp/guide/education/" class="tokusyoku-fv_nav--3">キリスト教教育</a>
+                      <a href="https://poole.ed.jp/guide/education/" class="tokusyoku-fv_nav--3">探究学習</a>
+                      <a href="https://poole.ed.jp/guide/education/" class="tokusyoku-fv_nav--3">英語学習</a>
                     </div>
                     <div class="c-btnList mt8">
-                      <a href="https://poole.ed.jp/guide/international/" class=" tokusyoku-fv_nav--1">3つの特色教育を支えるチャレンジプログラム</a>
+                      <a href="https://poole.ed.jp/guide/education/" class=" tokusyoku-fv_nav--1">3つの特色教育を支えるチャレンジプログラム</a>
                     </div>
                   </div>
                 </nav>
@@ -1337,7 +1337,7 @@
             <a href="https://poole.ed.jp/guide/greetings/">校長挨拶</a>
             <a href="https://poole.ed.jp/guide/about/">教育理念</a>
             <a href="https://poole.ed.jp/guide/history/">歴史・沿革</a>
-            <a href="https://poole.ed.jp/guide/international/">特色教育</a>
+            <a href="https://poole.ed.jp/guide/education/">特色教育</a>
           </div><!-- /.c-btnList -->
         </div><!-- /.content -->
         <a href="https://kojobiz.github.io/poolcodepractice/test2.html"><img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/ico_totop.svg" alt="" class="p-totop"></a>

@@ -16,7 +16,7 @@
 
 
     <section>
-      <h1 class="c-secttl is-red"><?php the_title();?></h1>
+      <h1 class="c-secttl is-red"><?php the_title(); ?></h1>
 
       <table class="c-table sp-vertical mt40">
         <tbody>
@@ -171,7 +171,7 @@
       <a href="<?php echo esc_url(home_url('/guide/greetings/')); ?>">校長挨拶</a>
       <a href="<?php echo esc_url(home_url('/guide/about/')); ?>">教育理念</a>
       <a href="<?php echo esc_url(home_url('/guide/history/')); ?>">歴史・沿革</a>
-      <a href="<?php echo esc_url(home_url('/guide/international/')); ?>">特色教育</a>
+      <a href="<?php echo esc_url(home_url('/guide/education/')); ?>">特色教育</a>
     </div><!-- /.c-btnList -->
 
 

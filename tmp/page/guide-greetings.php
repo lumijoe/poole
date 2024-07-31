@@ -15,7 +15,7 @@
   <div class="content">
 
     <section>
-      <h1 class="c-secttl is-red"><?php the_title();?></h1>
+      <h1 class="c-secttl is-red"><?php the_title(); ?></h1>
       <div class="u-flex sp-wrap mt40">
         <img src="<?php echo $imagePath ?>guide/greetings/principal.jpg" alt="" width="320" height="480">
         <article>
@@ -35,7 +35,7 @@
       <a href="<?php echo esc_url(home_url('/guide/greetings/')); ?>">校長挨拶</a>
       <a href="<?php echo esc_url(home_url('/guide/about/')); ?>">教育理念</a>
       <a href="<?php echo esc_url(home_url('/guide/history/')); ?>">歴史・沿革</a>
-      <a href="<?php echo esc_url(home_url('/guide/international/')); ?>">特色教育</a>
+      <a href="<?php echo esc_url(home_url('/guide/education/')); ?>">特色教育</a>
     </div><!-- /.c-btnList -->
 
 
