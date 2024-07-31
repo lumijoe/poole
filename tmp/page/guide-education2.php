@@ -482,14 +482,14 @@
   <div class="content">
     <h1 class="c-secttl is-red">3つの特色教育を支えるチャレンジプログラム</h1>
     <div class="l-imgTxt mt30">
-      <p class="mt10 u-fontSize1834">チャレンジプログラムは「キリスト教教育」「探究学習」「英語学習」の3つの特色教育のほか、希望の進路を実現するための学習プログラムです<br>プール学院は、一人ひとりが夢を見つけ、それを育てていける学校でありたい。その思いから、正規のカリキュラム以外に、様々なチャレンジプログラムを用意しています。<br>授業での知識や技能習得はもちろん、大学入試や社会で必要となる、自らが興味を持った事柄について、考え、極め、発信できる力を育てていくことを目標にしています。夢を見つけて、自分がもっと自分らしく成長していく。本校で、そんなチャレンジをしてみませんか。</p>
-      <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_challenge01.png" alt="" width="370" height="180">
+      <p class="u-fontSize1834">チャレンジプログラムは「キリスト教教育」「探究学習」「英語学習」の3つの特色教育のほか、希望の進路を実現するための学習プログラムです<br>プール学院は、一人ひとりが夢を見つけ、それを育てていける学校でありたい。その思いから、正規のカリキュラム以外に、様々なチャレンジプログラムを用意しています。<br>授業での知識や技能習得はもちろん、大学入試や社会で必要となる、自らが興味を持った事柄について、考え、極め、発信できる力を育てていくことを目標にしています。夢を見つけて、自分がもっと自分らしく成長していく。本校で、そんなチャレンジをしてみませんか。</p>
+      <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_challenge01.png" alt="" width="552" height="auto">
     </div>
     <!-- content -->
     <h3 class="c-secttl-box mt30">放課後学習チャレンジ</h3>
     <div class="l-imgTxt mt30">
       <div>
-        <p class="mt10 u-fontSize1632">多種多様な体験プログラムを実施しています。多くの生徒たちが、<br class="pc">これらの体験を通して夢をみつけ、大きく成長しています。</p>
+        <p class="u-fontSize1632">多種多様な体験プログラムを実施しています。多くの生徒たちが、<br class="pc">これらの体験を通して夢をみつけ、大きく成長しています。</p>
         <div style="display: flex; flex-direction: row;">
           <ul class="c-list mt30">
             <li class="bold">部活動への参加</li>
@@ -505,13 +505,13 @@
           </ul>
         </div>
       </div>
-      <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_challenge02.png" alt="" width="370" height="180">
+      <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_challenge02.png" alt="" width="552" height="auto">
     </div>
     <!-- content -->
     <h3 class="c-secttl-box mt30">課外活動体験チャレンジ</h3>
     <div class="l-imgTxt mt30">
       <div>
-        <p class="mt10 u-fontSize1632">多種多様な体験プログラムを実施しています。多くの生徒たちが、<br class="pc">これらの体験を通して夢をみつけ、大きく成長しています。</p>
+        <p class="u-fontSize1632">多種多様な体験プログラムを実施しています。多くの生徒たちが、<br class="pc">これらの体験を通して夢をみつけ、大きく成長しています。</p>
         <div style="display: flex; flex-direction: row;">
           <ul class="c-list mt30">
             <li class="bold">夢ナビライブ参加</li>
@@ -527,13 +527,13 @@
           </ul>
         </div>
       </div>
-      <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_challenge03.png" alt="" width="370" height="180">
+      <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_challenge03.png" alt="" width="552" height="auto">
     </div>
     <!-- content -->
     <h3 class="c-secttl-box mt30">グローバルチャレンジ</h3>
     <div class="l-imgTxt mt30">
       <div>
-        <p class="mt10">教育目標の一つである「グローバル教育」。みんなが参加できるよう、 様々な形のプログラムを用意して実施しています。</p>
+        <p class="u-fontSize1632">教育目標の一つである「グローバル教育」。みんなが参加できるよう、<br class="pc">様々な形のプログラムを用意して実施しています。</p>
         <div style="display: flex; flex-direction: row;">
           <ul class="c-list mt30">
             <li class="bold">海外への修学旅行 （シンガポール・マレーシア）</li>
@@ -549,7 +549,7 @@
         </div>
         <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/international/" class="c-btn mt20 c-btn--more" target="_blank" rel="noopener noreferrer" style="max-width: 250px; margin-inline: inherit;">詳しくはこちら</a>
       </div>
-      <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_challenge04.png" alt="" width="370" height="180">
+      <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_challenge04.png" alt="" width="552" height="auto">
     </div>
 </section>
 
