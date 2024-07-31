@@ -15,7 +15,7 @@
 
   <section>
     <div class="content">
-      <h1 class="c-secttl is-red"><?php the_title();?></h1>
+      <h1 class="c-secttl is-red"><?php the_title(); ?></h1>
       <p class="u-copy u-left mt40">希望と適性に応じた進路を<br class="sp">実現するため<br class="pc">確かな学力・総合力を<br class="sp">育成します</p>
       <p class="mt30">プール学院では生徒一人ひとりの個性と自主性を尊重し、担任・学年団・進路指導部が連携して指導を行っています。</p>
       <h2 class="u-copy u-center mt70">中学校</h2>
@@ -123,8 +123,8 @@
           <p class="u-borderBottom pb20">同志社大学、関西学院大学、関西大学、立命館大学、京都産業大学、近畿大学、甲南大学、龍谷大学、関西外国語大学、同志社女子大学、京都女子大学、武庫川女子大学、神戸女学院大学　など</p>
           <h4 class="c-secSubttl-s is-red mt20">● 首都圏大学</h4>
           <p class="u-borderBottom pb20">国際基督教大学、早稲田大学、明治大学、青山学院大学、中央大学、
-明治学院大学、津田塾大学、東京女子大学、フェリス女学院大学　など
-</p>
+            明治学院大学、津田塾大学、東京女子大学、フェリス女学院大学　など
+          </p>
         </div>
       </div><!-- /.c-flex-col2 -->
     </div><!-- /.content -->
@@ -136,8 +136,8 @@
 
   <div class="content">
     <div class="c-btnList mt100">
-      <a href="<?php echo esc_url(home_url('/career/graduation/')); ?>">進路実績</a>
       <a href="<?php echo esc_url(home_url('/career/guidance/')); ?>">進路指導</a>
+      <a href="<?php echo esc_url(home_url('/career/graduation/')); ?>">進路実績</a>
     </div><!-- /.c-btnList -->
   </div><!-- /.content -->
 

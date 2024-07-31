@@ -15,7 +15,7 @@
   <div class="content">
 
     <section>
-      <h1 class="c-secttl is-red"><?php the_title();?></h1>
+      <h1 class="c-secttl is-red"><?php the_title(); ?></h1>
       <div class="c-flex-col2 mt50">
         <div>
           <h2 class="c-secttl-box">進路結果</h2>
@@ -39,8 +39,8 @@
     </section>
 
     <div class="c-btnList mt100">
-      <a href="<?php echo esc_url(home_url('/career/graduation/')); ?>">進路実績</a>
       <a href="<?php echo esc_url(home_url('/career/guidance/')); ?>">進路指導</a>
+      <a href="<?php echo esc_url(home_url('/career/graduation/')); ?>">進路実績</a>
     </div><!-- /.c-btnList -->
 
 
