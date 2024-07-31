@@ -576,39 +576,34 @@
       letter-spacing: 0.15rem;
     }
 
-    .c-secttl {
+    .c-secttl2 {
       font-family: "Noto Serif JP", serif;
       position: relative;
       padding-left: 40px;
       line-height: 1.4;
       font-size: 2.4rem;
       padding-bottom: 10px;
-      letter-spacing: .1em;
+      letter-spacing: 0.1em;
     }
+
 
     .c-secSubttl--pink {
-      color: #F17192;
+      color: #F17192 !important;
     }
 
-    .c-secttl::before {
-      content: "";
-      transition: .3s ease;
+    .c-secttl2::before {
+      content: '';
+      /*何も入れない*/
       display: inline-block;
+      /*忘れずに！*/
       width: 30px;
-      height: 38px;
-      background-color: #c74954;
-      -webkit-mask-image: url(https://lkcodetest.sakura.ne.jp/testsite/assets/img/tokusyoku/cross.png);
-      mask-image: url(https://lkcodetest.sakura.ne.jp/testsite/assets/img/tokusyoku/cross.png);
-      -webkit-mask-repeat: no-repeat;
-      mask-repeat: no-repeat;
-      -webkit-mask-position: center;
-      mask-position: center;
-      -webkit-mask-size: 30px;
-      mask-size: 30px;
-      position: absolute;
-      left: 0;
-      top: 5px;
-      margin: auto;
+      /*画像の幅*/
+      height: 39px;
+      /*画像の高さ*/
+      background-image: url(../../assets/img/tokusyoku/ico_c.png);
+      background-size: contain;
+      vertical-align: middle;
+
     }
   </style>
 
@@ -973,6 +968,7 @@
           <div class="content">
             <!-- KL タイトル左のicon -->
             <h1 class="c-secttl is-red">特色教育</h1>
+            <h1 class="c-secttl2 is-red">特色教育</h1>
             <div class="l-imgTxt mt30">
               <div class="tokusyoku-fv_text-wrapper">
                 <p class="tokusyoku-fv_text">プール学院では、豊かな人格の形成を目指す「キリスト教教育」、総合力を育む「探究学習」、グローバルマインドを醸成する「英語教育」の３つを柱として、様々な学習の場を設けています。<br> 世界的な視野をもち、社会に目を向け、私たちをとりまく大きな課題を身近なものとし、社会や人のために何ができるのかを考え、実践することのできる人が、プール学院の目指す人間像です。</p>
@@ -998,6 +994,7 @@
         <section class="mt70 u-bgYellow pt70 pb70" id="education01">
           <div class="content">
             <h2 class="u-copy u-center mt30 mb30">プール学院の教育01</h2>
+            <img src="https://lkcodetest.sakura.ne.jp/testsite/assets/img/tokusyoku/cross.png" alt="">
             <h3 class="c-secttl-box">キリスト教教育</h3>
             <div class="l-imgTxt mt30">
               <div>
@@ -1008,7 +1005,7 @@
             </div>
             <!-- content -->
             <div>
-              <h4 class="c-secSubttl-m is-red u-fontSize-m mt30">愛と奉仕の精神</h4>
+              <h4 class="c-secSubttl-m is-red u-fontSize-m mt30 c-secSubttl--pink">愛と奉仕の精神</h4>
               <h5 class="mt10">〜あらゆる出来事を“自分事”として向き合い主体的に行動を起こす人へ〜</h5>
               <p class="mt10">毎朝の礼拝や聖書の授業、宗教行事を通して、生きること、愛すること、社会に貢献することのよろこびを学びます。<br> 「愛と奉仕の精神」を基に、他者と共に生きること、自分たちが支えられていることへの感謝を実感し、 自分たちも他者のために奉仕することの大切さを身につけます。</p>
               <div class="c-flex-col4 mt30">
