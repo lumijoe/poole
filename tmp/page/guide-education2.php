@@ -89,6 +89,11 @@
     color: #C74954 !important;
   }
 
+  .u-fontSize1834 {
+    font-size: 18px !important;
+    line-height: 34px !important;
+  }
+
   .u-fontSize1628 {
     font-size: 16px !important;
     line-height: 28px !important;
@@ -148,6 +153,10 @@
 
   .bold {
     font-weight: bold !important;
+  }
+
+  .j-space-between {
+    justify-content: space-between !important;
   }
 </style>
 <section class="page__inner">
@@ -395,7 +404,7 @@
   <div class="content">
     <h2 class="u-copy u-center mt30 mb30">プール学院の教育03</h2>
     <h3 class="c-secttl-box">英語学習</h3>
-    <div class="l-imgTxt mt30">
+    <div class="l-imgTxt mt30 j-space-between">
       <div>
         <h2 class="c-secSubttl-m is-red u-fontSize-m mt30 u-fontSize2840 u-fontWeight300">英語教育はもちろんのこと、<br class="pc"> 国際的な視野で社会に貢献する人を育てる<br class="pc">真の「国際教育」を実践します。</h2>
         <p class="mt10 u-fontSize1632">「グローバル教育」という言葉がなかった時代から、先進的な「グローバル教育」を実践してきたプール学院。英語教育はもちろんのこと、愛と奉仕の精神をもって、グローバルな舞台で活躍できるサーバントリーダーの育成を目指します。</p>
@@ -405,7 +414,7 @@
     <!-- content -->
     <div>
       <h4 class="c-secSubttl-m is-red u-fontSize-m mt30 c-secSubttl--pink u-fontSize2628">TT（ネイティブ教員×日本人教員による授業）<span class="p-ed__archive__ttl--orange">中学</span></h4>
-      <div class="l-imgTxt mt30">
+      <div class="l-imgTxt mt30 j-space-between">
         <p class="mt10">熟練したネイティブ教員と日本人英語教員による授業。ペアワーク、グループワークなど様々な形式でゲームや歌などを楽しみながら英語に親しんでいきます。</p>
         <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education03_02.png" alt="" width="300" height="225">
       </div>
@@ -413,21 +422,21 @@
     <div>
       <h4 class="c-secSubttl-m is-red u-fontSize-m mt30 c-secSubttl--pink u-fontSize2628">英語合宿<span class="p-ed__archive__ttl--orange">中学</span></h4>
 
-      <div class="l-imgTxt mt30">
+      <div class="l-imgTxt mt30 j-space-between">
         <p class="mt10 u-fontSize1632">パスポートのいらない英国といわれる福島県のBritish Hillsで3日間、英語だけの生活をします。海外研修に行くための日常英会話などとともにあいさつやテーブルマナーなども学びます。</p>
         <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education03_03.png" alt="" width="300" height="225">
       </div>
     </div>
     <div>
       <h4 class="c-secSubttl-m is-red u-fontSize-m mt30 c-secSubttl--pink u-fontSize2628">朝テスト<span class=" p-ed__archive__ttl--orange">中学</span><span class="p-ed__archive__ttl--pink">高校</span></h4>
-      <div class="l-imgTxt mt30">
+      <div class="l-imgTxt mt30 j-space-between">
         <p class="mt10 u-fontSize1632">全コースで週に２回、英語の朝テストを実施しています。高１と高２ではリスニングと速読のテストを、高３では受験につながる長文読解や単語のテストを実施しています。</p>
         <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education03_04.png" alt="" width="300" height="225">
       </div>
     </div>
     <div>
       <h4 class="c-secSubttl-m is-red u-fontSize-m mt30 c-secSubttl--pink u-fontSize2628">E-Act<span class="p-ed__archive__ttl--orange">中学</span><span class="p-ed__archive__ttl--pink">高校</span></h4>
-      <div class="l-imgTxt mt30">
+      <div class="l-imgTxt mt30 j-space-between">
         <p class="mt10 u-fontSize1632">年2回、英語のみで行う学習プログラム。最初はクイズやゲームなど、英語コミュニケーションを楽しむことから始まります。回数を重ねるごとに少しずつ内容もレベルアップしていく中で、活きた英語力が身につきます。高校ではディベートやディスカッション、プレゼンテーションへと進みます。</p>
         <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education03_05.png" alt="" width="300" height="225">
       </div>
@@ -435,7 +444,7 @@
     <div>
       <h4 class="c-secSubttl-m is-red u-fontSize-m mt30 c-secSubttl--pink u-fontSize2628">英検対策講座「PREP」<span class="p-ed__archive__ttl--orange">中学</span><span class="p-ed__archive__ttl--pink">高校</span></h4>
 
-      <div class="l-imgTxt mt30">
+      <div class="l-imgTxt mt30 j-space-between">
         <p class="mt10 u-fontSize1632">大学入試でも必要性の高まる英検の資格。希望者は放課後に実施される校内予備校「ＰＲＥＰ」に参加し、英検取得を確実なものにします。</p>
         <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education03_06.png" alt="" width="300" height="225">
       </div>
@@ -443,7 +452,7 @@
     <div>
       <h4 class="c-secSubttl-m is-red u-fontSize-m mt30 c-secSubttl--pink u-fontSize2628">ICTを活用した英語学習<span class="p-ed__archive__ttl--orange">中学</span><span class="p-ed__archive__ttl--pink">高校</span></h4>
 
-      <div class="l-imgTxt mt30">
+      <div class="l-imgTxt mt30 j-space-between">
         <!-- 文字調整必要 -->
         <p class="mt10 u-fontSize1632">PC室を開放し、スタサプENGLISHやオンライン交流などで英語の力を伸ばします。&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;</p>
         <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education03_07.png" alt="" width="300" height="225">
@@ -452,7 +461,7 @@
     <div>
       <h4 class="c-secSubttl-m is-red u-fontSize-m mt30 c-secSubttl--pink u-fontSize2628">シンガポール修学旅⾏<span class="p-ed__archive__ttl--pink">高校</span></h4>
 
-      <div class="l-imgTxt mt30">
+      <div class="l-imgTxt mt30 j-space-between">
         <p class="mt10 u-fontSize1632">高２の夏に全員でシンガポールを訪問します。シンガポールは多言語・多民族が共生する国際国家で、多彩な文化のコラージュが美しい都市です。<br>現地では、観光のみならず、シンガポール聖公会との連携のもとで教会礼拝や高校生との交流を行います。<br>また国境を越えてマレーシアやインドネシアも訪れ、ムスリムの文化にふれるアクティビティも行います。<br>グローバル化の時代を生きるみなさんにふさわしい刺激的なプログラムです。</p>
         <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education03_08.png" alt="" width="300" height="225">
       </div>
@@ -460,7 +469,7 @@
     <div>
       <h4 class="c-secSubttl-m is-red u-fontSize-m mt30 c-secSubttl--pink u-fontSize2628">グローバルチャレンジ<span class="p-ed__archive__ttl--orange">中学</span><span class="p-ed__archive__ttl--pink">高校</span></h4>
 
-      <div class="l-imgTxt mt30">
+      <div class="l-imgTxt mt30 j-space-between">
         <p class="mt10 u-fontSize1632">プール学院では、教育目標のひとつである「グローバル教育」の取り組みの一環として、海外研修プログラムを実施。<br>それぞれのプログラム内容もさらに充実していきます。</p>
         <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education03_09.png" alt="" width="300" height="225">
       </div>
@@ -473,26 +482,26 @@
   <div class="content">
     <h1 class="c-secttl is-red">3つの特色教育を支えるチャレンジプログラム</h1>
     <div class="l-imgTxt mt30">
-      <p class="mt10">チャレンジプログラムは「キリスト教教育」「探究学習」「英語学習」の3つの特色教育のほか、希望の進路を実現するための学習プログラムです。 プール学院は、一人ひとりが夢を見つけ、それを育てていける学校でありたい。その思いから、正規のカリキュラム以外に、様々なチャレンジプログラムを用意しています。 授業での知識や技能習得はもちろん、大学入試や社会で必要となる、自らが興味を持った事柄について、考え、極め、発信できる力を育てていくことを目標にしています。夢を見つけて、自分がもっと自分らしく成長していく。本校で、そんなチャレンジをしてみませんか。</p>
+      <p class="mt10 u-fontSize1834">チャレンジプログラムは「キリスト教教育」「探究学習」「英語学習」の3つの特色教育のほか、希望の進路を実現するための学習プログラムです<br>プール学院は、一人ひとりが夢を見つけ、それを育てていける学校でありたい。その思いから、正規のカリキュラム以外に、様々なチャレンジプログラムを用意しています。<br>授業での知識や技能習得はもちろん、大学入試や社会で必要となる、自らが興味を持った事柄について、考え、極め、発信できる力を育てていくことを目標にしています。夢を見つけて、自分がもっと自分らしく成長していく。本校で、そんなチャレンジをしてみませんか。</p>
       <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_challenge01.png" alt="" width="370" height="180">
     </div>
     <!-- content -->
     <h3 class="c-secttl-box mt30">放課後学習チャレンジ</h3>
     <div class="l-imgTxt mt30">
       <div>
-        <p class="mt10">多種多様な体験プログラムを実施しています。多くの生徒たちが、これらの体験を通して夢をみつけ、大きく成長しています。</p>
+        <p class="mt10 u-fontSize1632">多種多様な体験プログラムを実施しています。多くの生徒たちが、<br class="pc">これらの体験を通して夢をみつけ、大きく成長しています。</p>
         <div style="display: flex; flex-direction: row;">
           <ul class="c-list mt30">
-            <li>部活動への参加</li>
-            <li>グローカルスタディへの参加</li>
-            <li>ＰＣ室での創作活動、動画授業の受講</li>
-            <li>進路アドバイザーとの面談</li>
+            <li class="bold">部活動への参加</li>
+            <li class="bold">グローカルスタディへの参加</li>
+            <li class="bold">ＰＣ室での創作活動、動画授業の受講</li>
+            <li class="bold">進路アドバイザーとの面談</li>
           </ul>
           <ul class="c-list mt30">
-            <li>放課後自習への参加</li>
-            <li>英検対策講座ＰＲＥＰ受講（有料）</li>
-            <li>大学入試対策講座受講</li>
-            <li>放課後学習センター（ＴＯＭＡＳ）への参加（有料）など</li>
+            <li class="bold">放課後自習への参加</li>
+            <li class="bold">英検対策講座ＰＲＥＰ受講（有料）</li>
+            <li class="bold">大学入試対策講座受講</li>
+            <li class="bold">放課後学習センター（ＴＯＭＡＳ）への参加（有料）など</li>
           </ul>
         </div>
       </div>
@@ -502,19 +511,19 @@
     <h3 class="c-secttl-box mt30">課外活動体験チャレンジ</h3>
     <div class="l-imgTxt mt30">
       <div>
-        <p class="mt10">多種多様な体験プログラムを実施しています。多くの生徒たちが、 これらの体験を通して夢をみつけ、大きく成長しています。</p>
+        <p class="mt10 u-fontSize1632">多種多様な体験プログラムを実施しています。多くの生徒たちが、<br class="pc">これらの体験を通して夢をみつけ、大きく成長しています。</p>
         <div style="display: flex; flex-direction: row;">
           <ul class="c-list mt30">
-            <li>夢ナビライブ参加</li>
-            <li>卒業生に聴く</li>
-            <li>大学模擬授業体験</li>
-            <li>首都圏大学キャンパスツアーへの参加</li>
+            <li class="bold">夢ナビライブ参加</li>
+            <li class="bold">卒業生に聴く</li>
+            <li class="bold">大学模擬授業体験</li>
+            <li class="bold">首都圏大学キャンパスツアーへの参加</li>
           </ul>
           <ul class="c-list mt30">
-            <li>釜ヶ崎炊き出しボランティア参加</li>
-            <li>看護師体験</li>
-            <li>保育士体験</li>
-            <li>医療系学部体験 など</li>
+            <li class="bold">釜ヶ崎炊き出しボランティア参加</li>
+            <li class="bold">看護師体験</li>
+            <li class="bold">保育士体験</li>
+            <li class="bold">医療系学部体験 など</li>
           </ul>
         </div>
       </div>
@@ -527,15 +536,15 @@
         <p class="mt10">教育目標の一つである「グローバル教育」。みんなが参加できるよう、 様々な形のプログラムを用意して実施しています。</p>
         <div style="display: flex; flex-direction: row;">
           <ul class="c-list mt30">
-            <li>海外への修学旅行 （シンガポール・マレーシア）</li>
-            <li>Ｅ-Ａｃｔ校内英語体験プログラム</li>
-            <li>韓国、タイ姉妹校交流（訪問・来校）</li>
+            <li class="bold">海外への修学旅行 （シンガポール・マレーシア）</li>
+            <li class="bold">Ｅ-Ａｃｔ校内英語体験プログラム</li>
+            <li class="bold">韓国、タイ姉妹校交流（訪問・来校）</li>
           </ul>
           <ul class="c-list mt30">
-            <li>オーストラリア語学研修</li>
-            <li>イギリス語学研修</li>
-            <li>ニュージーランド短期語学留学</li>
-            <li>カナダ1年留学 など</li>
+            <li class="bold">オーストラリア語学研修</li>
+            <li class="bold">イギリス語学研修</li>
+            <li class="bold">ニュージーランド短期語学留学</li>
+            <li class="bold">カナダ1年留学 など</li>
           </ul>
         </div>
         <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/international/" class="c-btn mt20 c-btn--more" target="_blank" rel="noopener noreferrer" style="max-width: 250px; margin-inline: inherit;">詳しくはこちら</a>
