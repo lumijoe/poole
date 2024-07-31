@@ -864,11 +864,10 @@
               <em>進路・進学<span class="l-header__nav__btn"></span></em>
               <ul class="l-header__nav__sub">
                 <li>
-                  <a href="https://poole.ed.jp/career/graduation/">進路実績</a>
-                </li>
-
-                <li>
                   <a href="https://poole.ed.jp/career/guidance/">進路指導</a>
+                </li>
+                <li>
+                  <a href="https://poole.ed.jp/career/graduation/">進路実績</a>
                 </li>
                 <!-- <li>
                   <a href="https://poole.ed.jp/career/relation/">海外大学進学推薦制度・協定大学一覧</a>
@@ -1371,31 +1370,30 @@
 
 
 
-      <section class="l-conversion">
+      <!-- <section class="l-conversion">
         <div class="l-conversion__request">
           <h2>
             資料請求
             <em>DOCUMENT REQUEST</em>
-          </h2><!-- /.micho -->
+          </h2>
           <a href="https://poole.ed.jp/request/" class="l-conversion__link">
             資料請求はこちら
           </a>
           <div class="l-conversion__img">
             <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/common/pamphlet-junior.jpg" alt="プール学院中学校 資料" width="155" height="219">
             <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/common/pamphlet-senior.jpg" alt="プール学院高等学院 資料" width="155" height="219">
-          </div><!-- /.l-conversion__img -->
-        </div><!-- /.l-conversion__request -->
-
+          </div>
+        </div>
         <div class="l-conversion__contect">
           <h2>
             お問い合わせ<em>CONTACT</em>
-          </h2><!-- /.micho -->
+          </h2>
           <a class="l-conversion__tel" href="tel:06-6741-7005">06-6741-7005</a>
           <a href="https://poole.ed.jp/contact/" class="l-conversion__link">
             メールでのお問い合わせ
           </a>
-        </div><!-- /.l-conversion__contect -->
-      </section><!-- /.l-conversion -->
+        </div>
+      </section>
 
       <footer class="l-footer">
         <div class="l-footer__inner">
@@ -1477,9 +1475,6 @@
                   <li>
                     <a href="https://poole.ed.jp/senior/sogogeijutsu/">総合芸術コース</a>
                   </li>
-                  <!-- <li>
-              <a href="https://poole.ed.jp/senior/sogogeijutsu/">語学研修・探究（アカデミア・グローカル）</a>
-            </li> -->
                 </ul>
               </dd>
             </dl>
@@ -1538,13 +1533,11 @@
                   <li>
                     <a href="https://poole.ed.jp/career/guidance/">進路指導</a>
                   </li>
-                  <!-- <li>
-              <a href="https://poole.ed.jp/career/relation/">海外大学進学推薦制度・協定大学一覧</a>
-            </li> -->
+                 
                 </ul>
               </dd>
             </dl>
-          </nav><!-- /.l-footer__nav -->
+          </nav>
 
           <div class="l-footer__othernav">
 
@@ -1554,7 +1547,7 @@
               <li><a href="https://poole.ed.jp/for_graduate/">卒業生の方へ</a></li>
               <li><a href="https://poole.ed.jp/disclosure/">情報公開</a></li>
               <li><a href="https://poole.ed.jp/recruit/">採用情報</a></li>
-            </ul><!-- /.l-footer__othernav__main -->
+            </ul>
 
 
             <div class="l-footer__othernav__snsCv">
@@ -1569,7 +1562,7 @@
                     <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/common/icon/facebook.png" alt="facebook" width="42" height="42">
                   </a>
                 </li>
-              </ul><!-- /.l-footer__othernav__sns -->
+              </ul>
 
               <ul class="l-footer__othernav__cv">
                 <li>
@@ -1582,18 +1575,17 @@
                     お問い合わせ
                   </a>
                 </li>
-              </ul><!-- /.l-footer__othernav__cv -->
-            </div><!-- /.l-footer__othernav__snsCv -->
+              </ul>
+            </div>
 
             <ul class="l-footer__othernav__sub">
-              <!-- <li><a href="https://poole.ed.jp/contact/">サイトマップ</a></li> -->
               <li><a href="https://poole.ed.jp/sitepolicy/">サイトポリシー</a></li>
               <li><a href="https://poole.ed.jp/privacy/">プライバシーポリシー</a></li>
-            </ul><!-- /.l-footer__othernav__sub -->
+            </ul>
 
             <a href="https://poole.ed.jp/" class="l-footer__othernav__logo">
               <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/common/logo.png" alt="プール学院中学校・高等学校" width="333" height="40">
-            </a><!-- /.l-footer__othernav__logo -->
+            </a>
 
             <address>
               〒544-0033 大阪市生野区勝山北1-19-31<br>
@@ -1605,14 +1597,14 @@
               <li><a href="/college/" target="_blank">プール学院短期大学<br>卒業生の方へ</a></li>
               <li><a href="https://www.poole-obog.com/" target="_blank">一般社団法人POOLE</a></li>
               <li><a href="https://poole-kdg.com/" target="_blank">学校法人トリストラム学園<br>プール幼稚園</a></li>
-            </ul><!-- /.l-footer__othernav__sub -->
+            </ul>
 
-          </div><!-- /.l-footer__othernav -->
-        </div><!-- /.l-footer__inner -->
+          </div>
+        </div>
         <p class="l-footer__othernav__copy">
           Copyright &copy; 2024 POOLE GAKUIN Junior & Senior High Schools. All rights reserved.
-        </p><!-- /.l-footer__othernav__copy -->
-      </footer><!-- /.l-footer -->
+        </p>
+      </footer> -->
 
 
 
