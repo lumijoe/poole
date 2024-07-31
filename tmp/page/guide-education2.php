@@ -8,6 +8,28 @@
 <?php custom_breadcrumb(); ?>
 <!-- ▲ breadcrumb =============================== -->
 
+
+<style>
+  .tokusyoku-fv_nav--3 {
+    width: calc((100% / 3) - 14px) !important;
+  }
+
+  .tokusyoku-fv_nav--1 {
+    width: calc(100% - 3px) !important;
+  }
+
+  .mt8 {
+    margin-top: 8px;
+  }
+
+  .tokusyoku-fv_text-wrapper {
+    padding-top: 35px;
+  }
+
+  .c-secSubttl--pink {
+    color: #f17192 !important;
+  }
+</style>
 <section class="page__inner">
   <div class="content">
     <!-- KL タイトル左のicon -->
@@ -42,7 +64,7 @@
     <div class="l-imgTxt mt30">
       <div>
         <h2 class="c-secSubttl-m is-red u-fontSize-m mt30 c-secSubttl--pink">感謝と奉仕の実践ともに祈り、<br> ともに生きる</h2>
-        <p class="mt10">キリスト教の最も重要な教えは「愛」を学び分かち合うことです。<br> 他者も自分も同じように神さまに愛されている存在として、互いの尊厳を大切にする隣人愛を学び、社会や他の人のために何ができるのかを考え、実践することのできる人を目指します。</p>
+        <p class="mt10">キリスト教の最も重要な教えは「愛」を学び分かち合うことです。<br> 他者も自分も同じように神さまに愛されている存在として、互いの尊厳を大切にする隣人愛を学び、社会や他の人のために何ができるのかを考え、<br class="pc">実践することのできる人を目指します。</p>
       </div>
       <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education01_01.png" alt="" width="552" height="263">
     </div>
