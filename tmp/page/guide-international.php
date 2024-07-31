@@ -8,7 +8,8 @@
 <?php custom_breadcrumb(); ?>
 <!-- ▲ breadcrumb =============================== -->
 
-<section class="page__inner">
+<section style="padding-top: 70px;">
+  <!-- <section class="page__inner"> -->
   <div class="content">
     <h1 class="c-secttl is-red">グローバルチャレンジプログラム</h1>
     <!-- <p class="u-copy mt60">英語教育はもちろんのこと、<br>国際的な視野で社会に<br class="sp">貢献する人を育てる<br>真の「国際教育」を実践します。</p>
@@ -28,7 +29,8 @@
   </div>
 </section> -->
 
-<section class="mt90">
+<section>
+  <!-- <section class="mt90"> -->
   <div class="content">
     <section class="mt40">
       <h3 class="u-copy u-fontSize-l">&emsp;ステージ1&emsp;<br class="sp">英語で話すトレーニング</h3>
