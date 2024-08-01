@@ -1,4 +1,12 @@
 <?php require('lib/const.php'); ?>
+<style>
+  .p-totop {
+  position: fixed;
+  bottom: 20px; 
+  right: 10px;
+  z-index: 500;
+  }
+</style>
 
 <section class="l-conversion">
   <div class="l-conversion__request">
@@ -238,6 +246,9 @@
 
     </div><!-- /.l-footer__othernav -->
   </div><!-- /.l-footer__inner -->
+  <a href="./">
+    <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/ico_totop.svg" alt="" class="p-totop">
+  </a>
   <p class="l-footer__othernav__copy">
     &copy; <?php echo date('Y'); ?> POOLE GAKUIN Junior & Senior High Schools. All rights reserved.
     <!-- Copyright &copy; <?php echo date('Y'); ?> POOLE GAKUIN Junior & Senior High Schools. All rights reserved. -->
