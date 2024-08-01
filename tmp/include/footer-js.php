@@ -1,6 +1,6 @@
 <!-- //aタグいれこ -->
 
-<script>
+<!-- <script>
   $(document).ready(function() {
     var $backToTop = $('#back-to-top');
     $backToTop.on('click', function(e) {
@@ -11,7 +11,29 @@
             });
         });
   });
-</script>
+</script> -->
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      var $backToTop = $('#back-to-top');
+
+      $backToTop.on('click', function(e) {
+        e.preventDefault();
+        $('html, body').animate({ scrollTop: 0 }, {
+            duration: 600,
+            easing: 'easeOutQuad' // jQuery UIのイージング関数
+        });
+      });
+
+      //通常のクリック時
+      $('a[href^="#"]').click(function() {
+        var href= $(this).attr("href");
+        var hash = href == "#" || href == "" ? 'html' : href;
+        scrollToAnker(hash);
+        return false;
+      });
+    });
+  </script>
 
 
 <script>
