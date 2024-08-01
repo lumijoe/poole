@@ -264,8 +264,6 @@
 <!-- /#wrapper -->
 </div>
 
-
-
 <?php wp_footer(); ?>
 <?php get_template_part('tmp/include/footer-js'); ?>
 </body>

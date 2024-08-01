@@ -1,4 +1,19 @@
 <!-- //aタグいれこ -->
+
+<script>
+  $(document).ready(function() {
+    var $backToTop = $('#back-to-top');
+    $backToTop.on('click', function(e) {
+            e.preventDefault();
+            $('html, body').animate({ scrollTop: 0 }, {
+                duration: 600,
+                easing: 'easeOutQuad' // jQuery UIのイージング関数
+            });
+        });
+  });
+</script>
+
+
 <script>
 $('.js-link').on('click', function(e) {
   e.stopPropagation();
