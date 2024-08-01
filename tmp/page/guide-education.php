@@ -245,7 +245,7 @@
   .c-btnList--sp a {
     width: 100%;
     max-width: 100%;
-    height: 48px;
+    height: auto;
     display: grid;
     place-items: center;
     font-size: 1.5rem;
@@ -253,12 +253,13 @@
     font-weight: 700;
     position: relative;
     margin-inline: auto;
+    padding-bottom:8px;
   }
-  .c-btnList--sp a:hover {
+  /* .c-btnList--sp a:hover {
     background-color: #c74954;
     color: #fff;
     border-color: #c74954;
-  }
+  } */
   .c-btnList--sp.is-current {
     background-color: #c74954;
     color: #fff;
