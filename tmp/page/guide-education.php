@@ -410,7 +410,7 @@
               <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education#education02" class="tokusyoku-fv_nav--3">探究学習<img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/common/icon/arrow-red.png" alt="" class="sp-arrow"></a>
               <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education#education03" class="tokusyoku-fv_nav--3">英語学習<img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/common/icon/arrow-red.png" alt="" class="sp-arrow"></a>
             </div>
-            <div class="c-btnList mt15">
+            <div class="c-btnList--sp mt15">
               <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education#challengeprogram" class=" tokusyoku-fv_nav--1">3つの特色教育を支えるチャレンジプログラム<img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/common/icon/arrow-red.png" alt="" class="sp-arrow"></a>
             </div>
           </div>
