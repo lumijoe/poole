@@ -11,29 +11,34 @@
 
 <style>
   .tokusyoku-fv_nav--3 {
-    width: calc((100% / 3) - 14px) !important;
-    font-size:clamp(10px, 4vw, 14px)!important;
-    margin-inline:inherit!important;
+    width: calc((100% / 3) - 10px) !important;
+    font-size: clamp(14px, 4vw, 14px) !important;
+    margin-inline: inherit !important;
   }
+
   .tokusyoku-fv_nav--2 {
-    width: calc((100% / 3) - 14px) !important;
-    font-size:clamp(10px, 4vw, 14px)!important;
-    margin-inline:inherit!important;
-    padding-left:5%;
-    padding-right:1%;
+    width: calc(100% / 3) !important;
+    font-size: clamp(14px, 4vw, 14px) !important;
+    margin-inline: inherit !important;
+    padding-left: 5%;
+    padding-right: 1%;
 
   }
+
   .tokusyoku-fv_nav--3::before {
     transform: rotate(90deg);
   }
+
   .tokusyoku-fv_nav--2::before {
     transform: rotate(90deg);
   }
+
   .tokusyoku-fv_nav--1 {
-    width: 100%!important;
-    font-size:clamp(10px, 4vw, 14px)!important;
-    margin-inline:inherit!important;
+    width: 100% !important;
+    font-size: clamp(10px, 4vw, 14px) !important;
+    margin-inline: inherit !important;
   }
+
   .tokusyoku-fv_nav--1::before {
     transform: rotate(90deg);
   }
@@ -94,19 +99,22 @@
     line-height: 28px !important;
     font-weight: bold !important;
   }
+
   .u-fontSize1628bold {
     font-size: 16px !important;
     line-height: 28px !important;
     font-weight: bold !important;
   }
+
   .u-detailtext {
     font-size: 14px !important;
     line-height: 1.5em !important;
     font-weight: bold !important;
   }
+
   .u-detailtext--sgh {
-    font-size:clamp(8px, 2vw, 14px)!important;
-    line-height: 1.3rem!important;
+    font-size: clamp(8px, 2vw, 14px) !important;
+    line-height: 1.3rem !important;
     font-weight: bold;
   }
 
@@ -205,6 +213,7 @@
   .ml20 {
     margin-left: 18px !important;
   }
+
   .label-ml20 {
     margin-left: 18px !important;
   }
@@ -234,14 +243,16 @@
     padding-right: 0.5em !important;
     vertical-align: text-top !important;
   }
+
   .c-btnList--sp {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap:10px;
+    gap: 10px;
     line-height: 1.3;
     padding-top: 2px;
   }
+
   .c-btnList--sp a {
     width: 100%;
     max-width: 100%;
@@ -253,8 +264,9 @@
     font-weight: 700;
     position: relative;
     margin-inline: auto;
-    padding-bottom:8px;
+    padding-bottom: 8px;
   }
+
   /* .c-btnList--sp a:hover {
     background-color: #c74954;
     color: #fff;
@@ -265,119 +277,179 @@
     color: #fff;
     border: 1px solid #c74954;
   }
+
   .c-btn--more {
-    background-color: #c74954!important;
-    color: #fff!important;
-    display: grid!important;
-    place-content: center!important;
-    font-size: 1.6rem!important;
-    font-weight: 700!important;
-    position: relative!important;
-    height: 63px!important;
-    margin-inline: inherit!important;
+    background-color: #c74954 !important;
+    color: #fff !important;
+    display: grid !important;
+    place-content: center !important;
+    font-size: 1.6rem !important;
+    font-weight: 700 !important;
+    position: relative !important;
+    height: 63px !important;
+    margin-inline: inherit !important;
   }
+
   .m0auto {
-    margin: 0 auto!important;
+    margin: 0 auto !important;
 
   }
+
   .label-sp {
     text-wrap: nowrap;
   }
+
   .pc-none {
     display: none;
   }
+
+  .sp-mt32 {
+    margin-top: 32px !important;
+  }
+
   @media screen and (min-width: 1024px) {
-    .c-btnList a { 
+    .c-btnList a {
       font-size: 1.2rem;
     }
+
     .c-btnList {
-      gap:10px 1.25%;
+      gap: 10px 1.25%;
     }
   }
+
   @media screen and (max-width: 767px) {
     .c-btn--more {
-      margin-inline: auto!important;
+      margin-inline: auto !important;
     }
+
+
+
     .tokusyoku-fv_nav--1 {
-      font-size:clamp(12px, 3vw, 14px)!important;
+      font-size: clamp(12px, 3vw, 14px) !important;
     }
+
     .tokusyoku-fv_nav--2 {
-      font-size:clamp(12px, 3vw, 14px)!important;
+      font-size: clamp(12px, 3vw, 14px) !important;
     }
+
     .tokusyoku-fv_nav--3 {
-      font-size:clamp(12px, 3vw, 14px)!important;
+      font-size: clamp(12px, 3vw, 14px) !important;
     }
+
     .label-sp {
-    text-wrap: nowrap!important;
+      text-wrap: nowrap !important;
     }
+
     .pc-none {
-      display: block!important;
+      display: block !important;
     }
+
     .label-ml20 {
-      margin-left: 0px!important;
+      margin-left: 0px !important;
+    }
+
+    .sp-mblockend0start40 {
+      margin-block-end: 0px !important;
+      margin-block-start: 40px !important;
     }
   }
+
   @media screen and (max-width: 958px) {
     .fv-flex {
-      display:flex;
-      flex-direction:column;
-      align-items:center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 0px !important;
     }
+
+    .page__inner {
+      padding-bottom: 0px;
+    }
+
+    .sp-mt40 {
+      margin-top: 40px !important;
+    }
+
     .tokusyoku-fv_nav--2 {
-      padding-left: 3%!important;
+      padding-left: 3% !important;
     }
   }
+
   @media screen and (max-width: 634px) {
     .tokusyoku-fv_nav--3 {
-      padding-left: 3%!important;
+      padding-left: 3% !important;
     }
   }
+
   @media screen and (max-width: 520px) {
     .from521none {
       display: none;
     }
+
     .tokusyoku-fv_nav--2 {
-      padding-top:12px;
-      padding-left:1%!important;
-      padding-right:1%!important;
+      padding-top: 12px;
+      padding-left: 1% !important;
+      padding-right: 1% !important;
+      background-color: #C74954;
+      border: solid 1px #C74954 !important;
+      color: #fff;
+      letter-spacing: 0.25rem !important;
     }
+
     .tokusyoku-fv_nav--3 {
-      padding-top:12px;
-      padding-left:1%!important;
-      padding-right:1%!important;
+      padding-top: 12px;
+      padding-left: 1% !important;
+      padding-right: 1% !important;
+      background-color: #C74954;
+      border: solid 1px #C74954 !important;
+      color: #fff;
+      letter-spacing: 0.3rem !important;
     }
+
     .tokusyoku-fv_nav--1 {
-      padding-top:12px;
-      padding-left:1%!important;
-      padding-right:1%!important;
+      padding-top: 12px;
+      padding-left: 1% !important;
+      padding-right: 1% !important;
+      background-color: #C74954;
+      border: solid 1px #C74954 !important;
+      color: #fff;
+      letter-spacing: 0.3rem !important;
     }
+
     .sp-arrow {
-      margin-block: 0px!important;
-      width:7px!important;
-      transform:rotate(90deg);
+      margin-block: 0px !important;
+      width: 7px !important;
+      transform: rotate(90deg);
       /* padding-bottom:6px; */
-      margin-top:5px!important;
-      padding-left:0px!important;
+      margin-top: 5px !important;
+      padding-left: 0px !important;
     }
+
     .tokusyoku-fv_nav--1 a::before {
-      display:none!important;
+      display: none !important;
     }
+
     .tokusyoku-fv_nav--2 a::before {
-      display:none!important;
+      display: none !important;
     }
+
     .tokusyoku-fv_nav--3 a::before {
-      display:none!important;
+      display: none !important;
     }
+
     .tokusyoku-fv_nav--1 a {
-      height:auto;
+      height: auto;
     }
+
     .tokusyoku-fv_nav--2 a {
-      height:auto;
+      height: auto;
     }
+
     .tokusyoku-fv_nav--3 a {
-      height:auto;
+      height: auto;
     }
   }
+
   @media screen and (min-width: 521px) {
     .till520none {
       display: none;
@@ -388,12 +460,12 @@
   <div class="content">
     <!-- KL タイトル左のicon -->
     <h1 class="c-secttl is-red">特色教育</h1>
-    <div class="l-imgTxt mt30 fv-flex">
-      <div class="tokusyoku-fv_text-wrapper">
-        <p class="tokusyoku-fv_text">プール学院では、豊かな人格の形成を目指す「キリスト教教育」、総合力を育む「探究学習」、グローバルマインドを醸成する「英語教育」の３つを柱として、様々な学習の場を設けています。<br> 世界的な視野をもち、社会に目を向け、私たちをとりまく大きな課題を身近なものとし、社会や人のために何ができるのかを考え、実践することのできる人が、プール学院の目指す人間像です。</p>
+    <div class="l-imgTxt mt40 fv-flex">
+      <div class="sp-mt32">
+        <p>プール学院では、豊かな人格の形成を目指す「キリスト教教育」、総合力を育む「探究学習」、グローバルマインドを醸成する「英語教育」の３つを柱として、様々な学習の場を設けています。<br> 世界的な視野をもち、社会に目を向け、私たちをとりまく大きな課題を身近なものとし、社会や人のために何ができるのかを考え、実践することのできる人が、プール学院の目指す人間像です。</p>
         <nav class="from521none">
           <div class="content m0auto">
-            <div class="c-btnList mt70 j-space-between">
+            <div class="c-btnList mt70 j-space-between sp-mt40">
               <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education#education01" class="tokusyoku-fv_nav--2">キリスト教教育</a>
               <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education#education02" class="tokusyoku-fv_nav--3">探究学習</a>
               <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education#education03" class="tokusyoku-fv_nav--3">英語学習</a>
@@ -405,18 +477,18 @@
         </nav>
         <nav class="till520none">
           <div class="content m0auto">
-            <div class="c-btnList--sp mt70 j-space-between">
-              <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education#education01" class="tokusyoku-fv_nav--2">キリスト教教育 <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/common/icon/arrow-red.png" alt="" class="sp-arrow"></a>
-              <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education#education02" class="tokusyoku-fv_nav--3">探究学習<img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/common/icon/arrow-red.png" alt="" class="sp-arrow"></a>
-              <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education#education03" class="tokusyoku-fv_nav--3">英語学習<img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/common/icon/arrow-red.png" alt="" class="sp-arrow"></a>
+            <div class="c-btnList--sp mt70 j-space-between sp-mt40">
+              <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education#education01" class="tokusyoku-fv_nav--2">キリスト教教育 <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/common/icon/arrow.png" alt="" class="sp-arrow"></a>
+              <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education#education02" class="tokusyoku-fv_nav--3">探究学習<img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/common/icon/arrow.png" alt="" class="sp-arrow"></a>
+              <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education#education03" class="tokusyoku-fv_nav--3">英語学習<img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/common/icon/arrow.png" alt="" class="sp-arrow"></a>
             </div>
             <div class="c-btnList--sp mt15">
-              <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education#challengeprogram" class=" tokusyoku-fv_nav--1">3つの特色教育を支えるチャレンジプログラム<img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/common/icon/arrow-red.png" alt="" class="sp-arrow"></a>
+              <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education#challengeprogram" class=" tokusyoku-fv_nav--1">3つの特色教育を支えるチャレンジプログラム<img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/common/icon/arrow.png" alt="" class="sp-arrow"></a>
             </div>
           </div>
         </nav>
       </div>
-      <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_fv.png" alt="" width="420" height="263">
+      <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_fv.png" alt="" width="420" height="263" class="sp-mblockend0start40">
     </div><!-- /.content -->
   </div>
 </section>
@@ -424,12 +496,12 @@
 <!-- プール学院の教育01 -->
 <section class="mt70 u-bgYellow pt70 pb70" id="education01">
   <div class="content">
-    <h2 class="u-copy u-center mt30 mb30">プール学院の教育01</h2>
+    <h2 class="u-copy u-center mb30 sp-mb0">プール学院の教育01</h2>
     <img src="https://lkcodetest.sakura.ne.jp/testsite/assets/img/tokusyoku/cross.png" alt="">
     <h3 class="c-secttl-box">キリスト教教育</h3>
     <div class="l-imgTxt mt30">
       <div>
-        <h2 class="c-secSubttl-m is-red u-fontSize-m mt30 u-fontSize2840 u-fontWeight300">感謝と奉仕の実践ともに祈り、<br> ともに生きる</h2>
+        <h2 class="c-secSubttl-m is-red u-fontSize-m mt30 u-fontSize2840 u-fontWeight300">感謝と奉仕の実践ともに祈り、<br class="pc">ともに生きる</h2>
         <p class="mt10 u-fontSize1632">キリスト教の最も重要な教えは「愛」を学び分かち合うことです。<br> 他者も自分も同じように神さまに愛されている存在として、互いの尊厳を大切にする隣人愛を学び、社会や他の人のために何ができるのかを考え、<br class="pc">実践することのできる人を目指します。</p>
       </div>
       <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education01_01.png" alt="" width="552" height="263">
@@ -524,7 +596,7 @@
 <!-- プール学院の教育02 -->
 <section class=" pt70 pb70" id="education02">
   <div class="content">
-    <h2 class="u-copy u-center mt30 mb30">プール学院の教育02</h2>
+    <h2 class="u-copy u-center mb30">プール学院の教育02</h2>
     <h3 class="c-secttl-box">探究学習</h3>
     <div class="l-imgTxt mt30">
       <div>
@@ -638,7 +710,7 @@
 <!-- プール学院の教育03 -->
 <section class="mt70 u-bgYellow pt70 pb70" id="education03">
   <div class="content">
-    <h2 class="u-copy u-center mt30 mb30">プール学院の教育03</h2>
+    <h2 class="u-copy u-center mb30">プール学院の教育03</h2>
     <h3 class="c-secttl-box">英語学習</h3>
     <div class="l-imgTxt mt30 j-space-between">
       <div>

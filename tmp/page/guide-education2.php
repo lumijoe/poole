@@ -12,28 +12,33 @@
 <style>
   .tokusyoku-fv_nav--3 {
     width: calc((100% / 3) - 14px) !important;
-    font-size:clamp(10px, 4vw, 14px)!important;
-    margin-inline:inherit!important;
+    font-size: clamp(10px, 4vw, 14px) !important;
+    margin-inline: inherit !important;
   }
+
   .tokusyoku-fv_nav--2 {
     width: calc((100% / 3) - 14px) !important;
-    font-size:clamp(10px, 4vw, 14px)!important;
-    margin-inline:inherit!important;
-    padding-left:5%;
-    padding-right:1%;
+    font-size: clamp(10px, 4vw, 14px) !important;
+    margin-inline: inherit !important;
+    padding-left: 5%;
+    padding-right: 1%;
 
   }
+
   .tokusyoku-fv_nav--3::before {
     transform: rotate(90deg);
   }
+
   .tokusyoku-fv_nav--2::before {
     transform: rotate(90deg);
   }
+
   .tokusyoku-fv_nav--1 {
-    width: 100%!important;
-    font-size:clamp(10px, 4vw, 14px)!important;
-    margin-inline:inherit!important;
+    width: 100% !important;
+    font-size: clamp(10px, 4vw, 14px) !important;
+    margin-inline: inherit !important;
   }
+
   .tokusyoku-fv_nav--1::before {
     transform: rotate(90deg);
   }
@@ -94,19 +99,22 @@
     line-height: 28px !important;
     font-weight: bold !important;
   }
+
   .u-fontSize1628bold {
     font-size: 16px !important;
     line-height: 28px !important;
     font-weight: bold !important;
   }
+
   .u-detailtext {
     font-size: 14px !important;
     line-height: 1.5em !important;
     font-weight: bold !important;
   }
+
   .u-detailtext--sgh {
-    font-size:clamp(8px, 2vw, 14px)!important;
-    line-height: 1.3rem!important;
+    font-size: clamp(8px, 2vw, 14px) !important;
+    line-height: 1.3rem !important;
     font-weight: bold;
   }
 
@@ -205,6 +213,7 @@
   .ml20 {
     margin-left: 18px !important;
   }
+
   .label-ml20 {
     margin-left: 18px !important;
   }
@@ -234,71 +243,96 @@
     padding-right: 0.5em !important;
     vertical-align: text-top !important;
   }
+
   .c-btn--more {
-    background-color: #c74954!important;
-    color: #fff!important;
-    display: grid!important;
-    place-content: center!important;
-    font-size: 1.6rem!important;
-    font-weight: 700!important;
-    position: relative!important;
-    height: 63px!important;
-    margin-inline: inherit!important;
+    background-color: #c74954 !important;
+    color: #fff !important;
+    display: grid !important;
+    place-content: center !important;
+    font-size: 1.6rem !important;
+    font-weight: 700 !important;
+    position: relative !important;
+    height: 63px !important;
+    margin-inline: inherit !important;
   }
+
   .m0auto {
-    margin: 0 auto!important;
+    margin: 0 auto !important;
 
   }
+
   .label-sp {
     text-wrap: nowrap;
   }
+
   .pc-none {
     display: none;
   }
+
+  /* 0801:23:59 */
+  .fv-pc {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+  }
+
   @media screen and (min-width: 1024px) {
-    .c-btnList a { 
+    .c-btnList a {
       font-size: 1.2rem;
     }
+
     .c-btnList {
-      gap:10px 1.25%;
+      gap: 10px 1.25%;
     }
   }
+
   @media screen and (max-width: 767px) {
     .c-btn--more {
-      margin-inline: auto!important;
+      margin-inline: auto !important;
     }
+
     .tokusyoku-fv_nav--1 {
-      font-size:clamp(12px, 3vw, 14px)!important;
+      font-size: clamp(12px, 3vw, 14px) !important;
     }
+
     .tokusyoku-fv_nav--2 {
-      font-size:clamp(12px, 3vw, 14px)!important;
+      font-size: clamp(12px, 3vw, 14px) !important;
     }
+
     .tokusyoku-fv_nav--3 {
-      font-size:clamp(12px, 3vw, 14px)!important;
+      font-size: clamp(12px, 3vw, 14px) !important;
     }
+
     .label-sp {
-    text-wrap: nowrap!important;
+      text-wrap: nowrap !important;
     }
+
     .pc-none {
-      display: block!important;
+      display: block !important;
     }
+
     .label-ml20 {
-      margin-left: 0px!important;
+      margin-left: 0px !important;
     }
+
+
   }
+
   @media screen and (max-width: 958px) {
     .fv-flex {
-      display:flex;
-      flex-direction:column;
-      align-items:center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
+
     .tokusyoku-fv_nav--2 {
-      padding-left: 3%!important;
+      padding-left: 3% !important;
     }
   }
+
   @media screen and (max-width: 634px) {
     .tokusyoku-fv_nav--3 {
-      padding-left: 3%!important;
+      padding-left: 3% !important;
     }
   }
 </style>
@@ -306,24 +340,32 @@
   <div class="content">
     <!-- KL タイトル左のicon -->
     <h1 class="c-secttl is-red">特色教育</h1>
-    <div class="l-imgTxt mt30 fv-flex">
-      <div class="tokusyoku-fv_text-wrapper">
-        <p class="tokusyoku-fv_text">プール学院では、豊かな人格の形成を目指す「キリスト教教育」、総合力を育む「探究学習」、グローバルマインドを醸成する「英語教育」の３つを柱として、様々な学習の場を設けています。<br> 世界的な視野をもち、社会に目を向け、私たちをとりまく大きな課題を身近なものとし、社会や人のために何ができるのかを考え、実践することのできる人が、プール学院の目指す人間像です。</p>
-        <nav>
-          <div class="content m0auto">
-            <div class="c-btnList mt70 j-space-between">
-              <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education#education01" class="tokusyoku-fv_nav--2">キリスト教教育<img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/common/icon/arrow-red.png" alt=""></a>
-              <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education#education02" class="tokusyoku-fv_nav--3">探究学習</a>
-              <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education#education03" class="tokusyoku-fv_nav--3">英語学習</a>
-            </div>
-            <div class="c-btnList mt15">
-              <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education#challengeprogram" class=" tokusyoku-fv_nav--1">3つの特色教育を支えるチャレンジプログラム</a>
-            </div>
-          </div>
-        </nav>
+
+    <div class="mt40">
+      <div class="fv-pc">
+        <div>
+          <p class="u-copy u-left">世界的な視野で考え<br>実践するための<br><span style="font-style:italic; font-weight:bold;">3</span>つの教育とプログラム</span></p>
+
+          <p class="mt30"><span style="color:#c74954; font-style:italic; font-size:20px;  font-family: Noto Serif JP;">1.</span> 豊かな人格の形成を目指す<span style="font-weight:bold;">「キリスト教教育」</span><br><span style="color:#c74954; font-style:italic; font-size:20px;  font-family: Noto Serif JP">2.</span> 総合力を育む<span class="bold">「探究学習」</span><br><span style="color:#c74954; font-style:italic; font-size:20px;  font-family: Noto Serif JP">3.</span> グローバルマインドを醸成する<span class="bold">「英語教育」</span><br><br>プール学院ならではの特色教育を柱とし、様々な学習の場を設けています。<br>世界的な視野をもち、社会に目を向け、私たちをとりまく大きな課題を身近なものとし、社会や人のために何ができるのかを考え、実践することのできる人が、プール学院の目指す人間像です。
+          </p>
+        </div>
+        <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_fv.png" alt="" width="420" height="263">
       </div>
-      <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_fv.png" alt="" width="420" height="263">
-    </div><!-- /.content -->
+      <nav>
+        <div class="content m0auto">
+          <div class="c-btnList mt70 j-space-between">
+            <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education#education01" class="tokusyoku-fv_nav--2">キリスト教教育<img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/common/icon/arrow-red.png" alt=""></a>
+            <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education#education02" class="tokusyoku-fv_nav--3">探究学習</a>
+            <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education#education03" class="tokusyoku-fv_nav--3">英語学習</a>
+          </div>
+          <div class="c-btnList mt15">
+            <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education#challengeprogram" class=" tokusyoku-fv_nav--1">3つの特色教育を支えるチャレンジプログラム</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+  </div><!-- /.content -->
   </div>
 </section>
 
