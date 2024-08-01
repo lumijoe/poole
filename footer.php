@@ -3,8 +3,11 @@
   .p-totop {
   position: fixed;
   bottom: 20px; 
-  right: 10px;
+  right: 1rem;
   z-index: 500;
+  border: 0.2rem solid #fff;
+  box-sizing: content-box;
+  border-radius: 60px;
   }
 </style>
 
