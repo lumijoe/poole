@@ -127,7 +127,7 @@
       <a href="<?php echo esc_url(home_url('/life/event/')); ?>">年間イベント</a>
       <a href="<?php echo esc_url(home_url('/life/club/')); ?>">クラブ活動</a>
       <a href="<?php echo esc_url(home_url('/life/oneday/')); ?>">一日の生活</a>
-      <a href="<?php echo esc_url(home_url('/life/lifestyle/')); ?>">制服紹介 ・生活指導</a>
+      <a href="<?php echo esc_url(home_url('/life/lifestyle/')); ?>">制服紹介・生活指導</a>
       <a href="<?php echo esc_url(home_url('/life/facility/')); ?>">校舎・施設</a>
     </div><!-- /.c-btnList -->
   </div><!-- /.content -->

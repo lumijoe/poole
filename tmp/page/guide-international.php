@@ -1,3 +1,10 @@
+<style>
+  @media screen and (min-width: 1024px) {
+    .c-btnList a { 
+      font-size: 1.2rem;
+    }
+  }
+</style>
 <div class="c-pagettl">
   <img src="<?php echo $imagePath ?>guide/greetings/mv.jpg" alt="">
   <p class="bg-pink c-pagettl__ttl">
@@ -15,9 +22,9 @@
     <!-- <p class="u-copy mt60">英語教育はもちろんのこと、<br>国際的な視野で社会に<br class="sp">貢献する人を育てる<br>真の「国際教育」を実践します。</p> -->
 
 
-    <section class="mt60">
-      <h2 class="c-secttl-box">グローバルチャレンジプログラム</h2>
-      <p class="mt30">今、時代は自分が学び考えたことを世界の人々に向けて表現し、多様な価値観を受容するコミュニケーション力を求めています。<br>
+    <section class="mt30">
+      <!-- <h2 class="c-secttl-box">グローバルチャレンジプログラム</h2> -->
+      <p>今、時代は自分が学び考えたことを世界の人々に向けて表現し、多様な価値観を受容するコミュニケーション力を求めています。<br>
         本校では、愛と奉仕の精神を大切にする伝統のうえに立ち、グローバル化の時代に即応するための革新的なプログラムを始めています。言語や文化の壁を自然に越えてゆく力を、無理なく身につけるプログラムです。</p>
     </section>
   </div>
@@ -131,6 +138,7 @@
     <a href="<?php echo esc_url(home_url('/guide/about/')); ?>">教育理念</a>
     <a href="<?php echo esc_url(home_url('/guide/history/')); ?>">歴史・沿革</a>
     <a href="<?php echo esc_url(home_url('/guide/education/')); ?>">特色教育</a>
+    <a href="<?php echo esc_url(home_url('/guide/international/')); ?>">グローバルチャレンジプログラム</a>
   </div><!-- /.c-btnList -->
 </div><!-- /.content -->
 

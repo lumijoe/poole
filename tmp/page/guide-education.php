@@ -74,6 +74,11 @@
     line-height: 28px !important;
     font-weight: bold !important;
   }
+  .u-detailtext {
+    font-size: 14px !important;
+    line-height: 28px !important;
+    font-weight: bold !important;
+  }
 
   .u-fontSize1828pink {
     font-size: 18px !important;
@@ -196,6 +201,11 @@
     padding-right: 0.5em !important;
     vertical-align: text-top !important;
   }
+  @media screen and (min-width: 1024px) {
+    .c-btnList a { 
+      font-size: 1.2rem;
+    }
+  }
 </style>
 <section class="page__inner">
   <div class="content">
@@ -244,22 +254,22 @@
         <div>
           <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education01_02.png" alt="">
           <!-- <img src="<?php echo $imagePath ?>life/facility/main01.jpg" alt=""> -->
-          <p class="mt10 u-fontSize1828bold">毎朝の礼拝</p>
+          <p class="mt10 u-detailtext">毎朝の礼拝</p>
         </div>
         <div>
           <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education01_03.png" alt="">
           <!-- <img src="<?php echo $imagePath ?>life/facility/main02.jpg" alt=""> -->
-          <p class="mt10 u-fontSize1828bold">聖書の授業</p>
+          <p class="mt10 u-detailtext">聖書の授業</p>
         </div>
         <div>
           <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education01_04.png" alt="">
           <!-- <img src="<?php echo $imagePath ?>life/facility/main03.jpg" alt=""> -->
-          <p class="mt10 u-fontSize1828bold">教会礼拝</p>
+          <p class="mt10 u-detailtext">教会礼拝</p>
         </div>
         <div>
           <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education01_05.png" alt="">
           <!-- <img src="<?php echo $imagePath ?>life/facility/main04.jpg" alt=""> -->
-          <p class="mt10 u-fontSize1828bold">クリスマス礼拝</p>
+          <p class="mt10 u-detailtext">クリスマス礼拝</p>
         </div>
       </div>
     </div>
@@ -271,22 +281,22 @@
         <div>
           <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education01_06.png" alt="">
           <!-- <img src="<?php echo $imagePath ?>life/facility/main01.jpg" alt=""> -->
-          <p class="mt10 u-fontSize1828bold">思春期講座</p>
+          <p class="mt10 u-detailtext">思春期講座</p>
         </div>
         <div>
           <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education01_07.png" alt="">
           <!-- <img src="<?php echo $imagePath ?>life/facility/main02.jpg" alt=""> -->
-          <p class="mt10 u-fontSize1828bold">ピース大阪にて平和学習</p>
+          <p class="mt10 u-detailtext">ピース大阪にて平和学習</p>
         </div>
         <div>
           <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education01_08.png" alt="">
           <!-- <img src="<?php echo $imagePath ?>life/facility/main03.jpg" alt=""> -->
-          <p class="mt10 u-fontSize1828bold">生野区コリアタウン<br>フィールドワーク</p>
+          <p class="mt10 u-detailtext">生野区コリアタウン<br>フィールドワーク</p>
         </div>
         <div>
           <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education01_09.png" alt="">
           <!-- <img src="<?php echo $imagePath ?>life/facility/main04.jpg" alt=""> -->
-          <p class="mt10 u-fontSize1828bold">つながる街頭募金</p>
+          <p class="mt10 u-detailtext">つながる街頭募金</p>
         </div>
       </div>
     </div>
@@ -299,23 +309,23 @@
         <div>
           <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education01_10.png" alt="">
           <!-- <img src="<?php echo $imagePath ?>life/facility/main01.jpg" alt=""> -->
-          <p class="mt10 u-fontSize1828bold">釜ヶ崎フィールドワーク<br>（炊き出しボランティア）</p>
+          <p class="mt10 u-detailtext">釜ヶ崎フィールドワーク<br>（炊き出しボランティア）</p>
         </div>
         <div>
           <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education01_11.png" alt="">
           <!-- <img src="<?php echo $imagePath ?>life/facility/main02.jpg" alt=""> -->
-          <p class="mt10 u-fontSize1828bold">タイSWK（スラウィヤカーン）校<br>
+          <p class="mt10 u-detailtext">タイSWK（スラウィヤカーン）校<br>
             歓迎プログラム</p>
         </div>
         <div>
           <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education01_12.png" alt="">
           <!-- <img src="<?php echo $imagePath ?>life/facility/main03.jpg" alt=""> -->
-          <p class="mt10 u-fontSize1828bold">朝の礼拝オルガニストギルド研修会</p>
+          <p class="mt10 u-detailtext">朝の礼拝オルガニストギルド研修会</p>
         </div>
         <div>
           <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education01_13.png" alt="">
           <!-- <img src="<?php echo $imagePath ?>life/facility/main04.jpg" alt=""> -->
-          <p class="mt10 u-fontSize1828bold">クリスマス礼拝奉仕</p>
+          <p class="mt10 v">クリスマス礼拝奉仕</p>
         </div>
       </div>
     </div>
@@ -385,9 +395,9 @@
       <!-- <h4 class="c-secSubttl-m is-red u-fontSize-m mt30">before:: 総合的な学習（論文指導）<span class="orange">中学</span></h4> -->
       <div class="p-ed__archive__textlogo-wrapper">
         <h5 class="mt10 u-fontSize1628">高校では全員が学ぶ総合的な探究の授業「アカデミア」を礎として、さらに、希望する人は実際にある社会の問題の解決に向け、実践的に取り組む授業「グローカル」で学びを深めます。</h5>
-        <div style="width:50%;">
+        <div>
           <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/logo_sgh@2x.png" alt="" width="465" height="auto" class="p-logo-sgh">
-          <p class="u-fontSize1730bold" style="font-size:1.4rem;">「SGH（スーパーグローバルハイスクール）ネットワーク」参加校</p>
+          <p class="u-detailtext">「SGH（スーパーグローバルハイスクール）ネットワーク」参加校</p>
         </div>
       </div>
 
@@ -398,10 +408,10 @@
           <h4 class="c-secSubttl-m u-orange mt20 u-fontSize1828red">高校1年 Glocal StudyⅠ</h4>
           <p class="u-fontSize1624">フィールドワークやゲストスピーカーの講演を通じて地域の課題を知る。</p>
           <ul class="c-list pt19">
-            <li class="bold">多文化共生社会の実態を知る</li>
-            <li class="bold">生野区在住の外国籍の方との交流</li>
-            <li class="bold">「やさしい日本語」でつながるプロジェクト</li>
-            <li class="bold">プレゼンテーションの実践</li>
+            <li class="u-detailtext">多文化共生社会の実態を知る</li>
+            <li class="u-detailtext">生野区在住の外国籍の方との交流</li>
+            <li class="u-detailtext">「やさしい日本語」でつながるプロジェクト</li>
+            <li class="u-detailtext">プレゼンテーションの実践</li>
           </ul>
           <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education02_sdgs01.svg" alt="" width="370" height="auto" class="pt19">
         </div>
@@ -410,9 +420,9 @@
           <h4 class="c-secSubttl-m u-orange mt20 u-fontSize1828red">高校2年 Glocal StudyⅡ</h4>
           <p class="u-fontSize1624">女性、子ども、外国籍の方を取り巻く課題について学び、地域から世界へと視野を広げる。</p>
           <ul class="c-list pt19">
-            <li class="bold">生野区の商店街訪問や施設入居者の方との交流</li>
-            <li class="bold">世界が抱える課題（飢餓・難民など）の学び</li>
-            <li class="bold">諸課題について英語でのプレゼンを実践</li>
+            <li class="u-detailtext">生野区の商店街訪問や施設入居者の方との交流</li>
+            <li class="u-detailtext">世界が抱える課題（飢餓・難民など）の学び</li>
+            <li class="u-detailtext">諸課題について英語でのプレゼンを実践</li>
           </ul>
           <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education02_sdgs02.svg" alt="" width="370" height="auto" class="pt19">
         </div>
@@ -421,9 +431,9 @@
           <h4 class="c-secSubttl-m u-orange mt20 u-fontSize1828red">高校3年 Glocal StudyⅢ</h4>
           <p class="u-fontSize1624">地域や世界の課題を個々の視点で捉え、テーマ別アクションプランを検討し実行を目指す。</p>
           <ul class="c-list pt19">
-            <li class="bold">フードロス解消のための取り組み</li>
-            <li class="bold">「ジェンダー」についての考察</li>
-            <li class="bold">生徒による独自の課題設定</li>
+            <li class="u-detailtext">フードロス解消のための取り組み</li>
+            <li class="u-detailtext">「ジェンダー」についての考察</li>
+            <li class="u-detailtext">生徒による独自の課題設定</li>
           </ul>
           <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education02_sdgs03.svg" alt="" width="370" height="auto" class="pt19">
         </div>
@@ -530,16 +540,16 @@
         <p class="u-fontSize1632">多種多様な体験プログラムを実施しています。多くの生徒たちが、<br class="pc">これらの体験を通して夢をみつけ、大きく成長しています。</p>
         <div style="display: flex; flex-direction: row;">
           <ul class="c-list mt30">
-            <li class="bold">部活動への参加</li>
-            <li class="bold">グローカルスタディへの参加</li>
-            <li class="bold">ＰＣ室での創作活動、動画授業の受講</li>
-            <li class="bold">進路アドバイザーとの面談</li>
+            <li class="u-detailtext">部活動への参加</li>
+            <li class="u-detailtext">グローカルスタディへの参加</li>
+            <li class="u-detailtext">ＰＣ室での創作活動、動画授業の受講</li>
+            <li class="u-detailtext">進路アドバイザーとの面談</li>
           </ul>
           <ul class="c-list mt30 pl20">
-            <li class="bold">放課後自習への参加</li>
-            <li class="bold">英検対策講座ＰＲＥＰ受講（有料）</li>
-            <li class="bold">大学入試対策講座受講</li>
-            <li class="bold">放課後学習センター（ＴＯＭＡＳ）<br>への参加（有料）など</li>
+            <li class="u-detailtext">放課後自習への参加</li>
+            <li class="u-detailtext">英検対策講座ＰＲＥＰ受講（有料）</li>
+            <li class="u-detailtext">大学入試対策講座受講</li>
+            <li class="u-detailtext">放課後学習センター（ＴＯＭＡＳ）<br>への参加（有料）など</li>
           </ul>
         </div>
       </div>
@@ -552,16 +562,16 @@
         <p class="u-fontSize1632">多種多様な体験プログラムを実施しています。多くの生徒たちが、<br class="pc">これらの体験を通して夢をみつけ、大きく成長しています。</p>
         <div style="display: flex; flex-direction: row;">
           <ul class="c-list mt30">
-            <li class="bold">夢ナビライブ参加</li>
-            <li class="bold">卒業生に聴く</li>
-            <li class="bold">大学模擬授業体験</li>
-            <li class="bold">首都圏大学キャンパスツアーへの参加</li>
+            <li class="u-detailtext">夢ナビライブ参加</li>
+            <li class="u-detailtext">卒業生に聴く</li>
+            <li class="u-detailtext">大学模擬授業体験</li>
+            <li class="u-detailtext">首都圏大学キャンパスツアーへの参加</li>
           </ul>
           <ul class="c-list mt30 pl20">
-            <li class="bold">釜ヶ崎炊き出しボランティア参加</li>
-            <li class="bold">看護師体験</li>
-            <li class="bold">保育士体験</li>
-            <li class="bold">医療系学部体験 など</li>
+            <li class="u-detailtext">釜ヶ崎炊き出しボランティア参加</li>
+            <li class="u-detailtext">看護師体験</li>
+            <li class="u-detailtext">保育士体験</li>
+            <li class="u-detailtext">医療系学部体験 など</li>
           </ul>
         </div>
       </div>
@@ -574,15 +584,15 @@
         <p class="u-fontSize1632">教育目標の一つである「グローバル教育」。みんなが参加できるよう、<br class="pc">様々な形のプログラムを用意して実施しています。</p>
         <div style="display: flex; flex-direction: row;">
           <ul class="c-list mt30">
-            <li class="bold">海外への修学旅行 （シンガポール・マレーシア）</li>
-            <li class="bold">Ｅ-Ａｃｔ校内英語体験プログラム</li>
-            <li class="bold">韓国、タイ姉妹校交流（訪問・来校）</li>
+            <li class="u-detailtext">海外への修学旅行 （シンガポール・マレーシア）</li>
+            <li class="u-detailtext">Ｅ-Ａｃｔ校内英語体験プログラム</li>
+            <li class="u-detailtext">韓国、タイ姉妹校交流（訪問・来校）</li>
           </ul>
           <ul class="c-list mt30 pl20">
-            <li class="bold">オーストラリア語学研修</li>
-            <li class="bold">イギリス語学研修</li>
-            <li class="bold">ニュージーランド短期語学留学</li>
-            <li class="bold">カナダ1年留学 など</li>
+            <li class="u-detailtext">オーストラリア語学研修</li>
+            <li class="u-detailtext">イギリス語学研修</li>
+            <li class="u-detailtext">ニュージーランド短期語学留学</li>
+            <li class="u-detailtext">カナダ1年留学 など</li>
           </ul>
         </div>
         <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/international/" class="c-btn mt20 c-btn--more" target="_blank" rel="noopener noreferrer" style="max-width: 250px; margin-inline: inherit;">詳しくはこちら</a>
@@ -597,6 +607,7 @@
     <a href="<?php echo esc_url(home_url('/guide/about/')); ?>">教育理念</a>
     <a href="<?php echo esc_url(home_url('/guide/history/')); ?>">歴史・沿革</a>
     <a href="<?php echo esc_url(home_url('/guide/education/')); ?>">特色教育</a>
+    <a href="<?php echo esc_url(home_url('/guide/international/')); ?>">グローバルチャレンジプログラム</a>
   </div><!-- /.c-btnList -->
 </div><!-- /.content -->
 
