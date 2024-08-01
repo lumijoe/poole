@@ -76,7 +76,7 @@
   }
   .u-detailtext {
     font-size: 14px !important;
-    line-height: 28px !important;
+    line-height: 1.5em !important;
     font-weight: bold !important;
   }
 
@@ -206,6 +206,11 @@
       font-size: 1.2rem;
     }
   }
+  /* @media screen and (max-width: 767px) {
+    .c-btn--more {
+      margin-inline: auto;
+    }
+  } */
 </style>
 <section class="page__inner">
   <div class="content">
@@ -325,7 +330,7 @@
         <div>
           <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education01_13.png" alt="">
           <!-- <img src="<?php echo $imagePath ?>life/facility/main04.jpg" alt=""> -->
-          <p class="mt10 v">クリスマス礼拝奉仕</p>
+          <p class="mt10 u-detailtext">クリスマス礼拝奉仕</p>
         </div>
       </div>
     </div>
@@ -521,7 +526,7 @@
         <p class="u-fontSize1632">プール学院では、教育目標のひとつである「グローバル教育」の取り組みの一環として、海外研修プログラムを実施。<br>それぞれのプログラム内容もさらに充実していきます。</p>
         <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education03_09.png" alt="" width="300" height="225">
       </div>
-      <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/international/" class="c-btn mt20 c-btn--more" target="_blank" rel="noopener noreferrer" style="max-width: 250px; margin-inline: inherit;">詳しくはこちら</a>
+      <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/international/" class="c-btn mt20 c-btn--more" target="_blank" rel="noopener noreferrer" style="max-width: 250px;">詳しくはこちら</a>
     </div>
 </section><!-- /.u-bgYellow -->
 
@@ -595,7 +600,7 @@
             <li class="u-detailtext">カナダ1年留学 など</li>
           </ul>
         </div>
-        <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/international/" class="c-btn mt20 c-btn--more" target="_blank" rel="noopener noreferrer" style="max-width: 250px; margin-inline: inherit;">詳しくはこちら</a>
+        <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/international/" class="c-btn mt20 c-btn--more" target="_blank" rel="noopener noreferrer" style="max-width: 250px;">詳しくはこちら</a>
       </div>
       <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_challenge04.png" alt="" width="552" height="auto">
     </div>
