@@ -15,11 +15,27 @@
     font-size:clamp(10px, 4vw, 14px)!important;
     margin-inline:inherit!important;
   }
+  .tokusyoku-fv_nav--2 {
+    width: calc((100% / 3) - 14px) !important;
+    font-size:clamp(10px, 4vw, 14px)!important;
+    margin-inline:inherit!important;
+    padding-left:5%;
+    padding-right:1%;
 
+  }
+  .tokusyoku-fv_nav--3::before {
+    transform: rotate(90deg);
+  }
+  .tokusyoku-fv_nav--2::before {
+    transform: rotate(90deg);
+  }
   .tokusyoku-fv_nav--1 {
     width: 100%!important;
     font-size:clamp(10px, 4vw, 14px)!important;
     margin-inline:inherit!important;
+  }
+  .tokusyoku-fv_nav--1::before {
+    transform: rotate(90deg);
   }
 
   .mt15 {
@@ -243,13 +259,18 @@
     .c-btnList a { 
       font-size: 1.2rem;
     }
-    
+    .c-btnList {
+      gap:10px 1.25%;
+    }
   }
   @media screen and (max-width: 767px) {
     .c-btn--more {
       margin-inline: auto!important;
     }
     .tokusyoku-fv_nav--1 {
+      font-size:clamp(12px, 3vw, 14px)!important;
+    }
+    .tokusyoku-fv_nav--2 {
       font-size:clamp(12px, 3vw, 14px)!important;
     }
     .tokusyoku-fv_nav--3 {
@@ -265,18 +286,33 @@
       margin-left: 0px!important;
     }
   }
+  @media screen and (max-width: 958px) {
+    .fv-flex {
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+    }
+    .tokusyoku-fv_nav--2 {
+      padding-left: 3%!important;
+    }
+  }
+  @media screen and (max-width: 634px) {
+    .tokusyoku-fv_nav--3 {
+      padding-left: 3%!important;
+    }
+  }
 </style>
 <section class="page__inner">
   <div class="content">
     <!-- KL タイトル左のicon -->
     <h1 class="c-secttl is-red">特色教育</h1>
-    <div class="l-imgTxt mt30">
+    <div class="l-imgTxt mt30 fv-flex">
       <div class="tokusyoku-fv_text-wrapper">
         <p class="tokusyoku-fv_text">プール学院では、豊かな人格の形成を目指す「キリスト教教育」、総合力を育む「探究学習」、グローバルマインドを醸成する「英語教育」の３つを柱として、様々な学習の場を設けています。<br> 世界的な視野をもち、社会に目を向け、私たちをとりまく大きな課題を身近なものとし、社会や人のために何ができるのかを考え、実践することのできる人が、プール学院の目指す人間像です。</p>
         <nav>
           <div class="content m0auto">
             <div class="c-btnList mt70 j-space-between">
-              <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education#education01" class="tokusyoku-fv_nav--3">キリスト教教育</a>
+              <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education#education01" class="tokusyoku-fv_nav--2">キリスト教教育<img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/common/icon/arrow-red.png" alt=""></a>
               <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education#education02" class="tokusyoku-fv_nav--3">探究学習</a>
               <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education#education03" class="tokusyoku-fv_nav--3">英語学習</a>
             </div>
