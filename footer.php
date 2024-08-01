@@ -1,13 +1,13 @@
 <?php require('lib/const.php'); ?>
 <style>
   .p-totop {
-  position: fixed;
-  bottom: 20px; 
-  right: 1rem;
-  z-index: 500;
-  border: 0.2rem solid #fff;
-  box-sizing: content-box;
-  border-radius: 60px;
+    position: fixed;
+    bottom: 20px;
+    right: 1rem;
+    z-index: 500;
+    border: 0.2rem solid #fff;
+    box-sizing: content-box;
+    border-radius: 60px;
   }
 </style>
 
@@ -249,7 +249,7 @@
 
     </div><!-- /.l-footer__othernav -->
   </div><!-- /.l-footer__inner -->
-  <a href="./">
+  <a href="#">
     <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/ico_totop.svg" alt="" class="p-totop">
   </a>
   <p class="l-footer__othernav__copy">
