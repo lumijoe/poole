@@ -57,6 +57,14 @@
     position: relative;
     padding-left: 16px;
     padding-bottom: 28px;
+    font-family: 'Noto Serif JP', serif;
+    line-height: 28px !important;
+    font-size: clamp(26px, 2vw, 16px) !important;
+  }
+
+  /* 細Light300、標準Regular400、中Medium500、太字Bold700 */
+  .semiBold {
+    font-weight: 600 !important;
   }
 
   .c-secSubttl--pink::before {
@@ -233,7 +241,7 @@
   .p-ed__archive__ttl--orange {
     background-color: #dc6530 !important;
     color: #fff !important;
-    font-size: 1.4rem !important;
+    font-size: clamp(18px, 2vw, 14px);
     padding-top: 0.4em !important;
     padding-bottom: 0.4em !important;
     padding-left: 0.5em !important;
@@ -244,7 +252,7 @@
   .p-ed__archive__ttl--pink {
     background-color: #c55c98 !important;
     color: #fff !important;
-    font-size: 1.4rem !important;
+    font-size: clamp(18px, 2vw, 14px);
     padding-top: 0.4em !important;
     padding-bottom: 0.4em !important;
     padding-left: 0.5em !important;
@@ -513,15 +521,15 @@
     <h3 class="c-secttl-box">キリスト教教育</h3>
     <div class="l-imgTxt mt30">
       <div>
-        <h2 class="c-secSubttl-m is-red u-fontSize-m mt30 u-fontSize2840 u-fontWeight300">感謝と奉仕の実践ともに祈り、<br class="pc">ともに生きる</h2>
+        <h2 class="c-secSubttl-m is-red u-fontSize-m mt30 u-fontSize2840 u-fontWeight300 u-noto">感謝と奉仕の実践ともに祈り、<br class="pc">ともに生きる</h2>
         <p class="mt10 u-fontSize1632">キリスト教の最も重要な教えは「愛」を学び分かち合うことです。<br> 他者も自分も同じように神さまに愛されている存在として、互いの尊厳を大切にする隣人愛を学び、社会や他の人のために何ができるのかを考え、<br class="pc">実践することのできる人を目指します。</p>
       </div>
       <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education01_01_2c.png" alt="" width="552" height="263">
     </div>
     <!-- content -->
     <div>
-      <h4 class="c-secSubttl-m is-red u-fontSize-m mt30 c-secSubttl--pink u-fontSize2628">愛と奉仕の精神</h4>
-      <h5 class="u-fontSize1628bold">〜あらゆる出来事を“自分事”として向き合い主体的に行動を起こす人へ〜</h5>
+      <h4 class="c-secSubttl-m is-red u-fontSize-m mt30 c-secSubttl--pink u-fontSize2628 u-noto">愛と奉仕の精神</h4>
+      <h5 class="u-fontSize1628bold u-noto">〜あらゆる出来事を“自分事”として向き合い主体的に行動を起こす人へ〜</h5>
       <p class="mt10 u-fontSize1628">毎朝の礼拝や聖書の授業、宗教行事を通して、生きること、愛すること、社会に貢献することのよろこびを学びます。<br> 「愛と奉仕の精神」を基に、他者と共に生きること、自分たちが支えられていることへの感謝を実感し、<br class="pc"> 自分たちも他者のために奉仕することの大切さを身につけます。</p>
       <div class="c-flex-col4 mt30">
         <div>
@@ -548,7 +556,7 @@
     </div>
     <!-- content -->
     <div>
-      <h4 class="c-secSubttl-m is-red u-fontSize-m mt59 c-secSubttl--pink u-fontSize2628">人びとの心によりそう「隣り人」となる</h4>
+      <h4 class="c-secSubttl-m is-red u-fontSize-m mt59 c-secSubttl--pink u-fontSize2628 u-noto">人びとの心によりそう「隣り人」となる</h4>
       <p class="u-fontSize1628">さまざまな社会的課題のある世界で、ひとつひとつの課題と丁寧に向き合い、困難を抱えている人や地域の「隣り人」となる人間性を育みます。</p>
       <div class="c-flex-col4 mt30">
         <div>
@@ -575,8 +583,8 @@
     </div>
     <!-- content -->
     <div>
-      <h4 class="c-secSubttl-m is-red u-fontSize-m mt59 c-secSubttl--pink u-fontSize2628">ボランティア・平和教育</h4>
-      <h5 class="u-fontSize1828bold">〜“Servant Leader” 「愛と奉仕」の担い手として〜</h5>
+      <h4 class="c-secSubttl-m is-red u-fontSize-m mt59 c-secSubttl--pink u-fontSize2628 u-noto">ボランティア・平和教育</h4>
+      <h5 class="u-fontSize1828bold u-noto">〜“Servant Leader” 「愛と奉仕」の担い手として〜</h5>
       <p class="mt10 u-fontSize1628">かけがえのない唯一の存在であり、さまざまな違いを持つ「他者」を大切にし、「他者」に仕え、<br class="pc">「他者」とともに生きるために自らを成長させることを目指します。</p>
       <div class="c-flex-col4 mt30">
         <div>
@@ -609,10 +617,10 @@
 <section class=" pt70" id="education02">
   <div class="content">
     <h2 class="u-copy u-center mb30 pt70">プール学院の教育02</h2>
-    <h3 class="c-secttl-box">探究学習</h3>
+    <h3 class="c-secttl-box ">探究学習</h3>
     <div class="l-imgTxt mt30">
       <div>
-        <h2 class="c-secSubttl-m is-red u-fontSize-m mt30 u-fontSize2840 u-fontWeight300">総合力をはぐくむ</h2>
+        <h2 class="c-secSubttl-m is-red u-fontSize-m mt30 u-fontSize2840 u-fontWeight300 u-noto">総合力をはぐくむ</h2>
         <p class="mt10 u-fontSize1632">プール学院では社会に出てからも必要とされる総合力の基礎をはぐくむことを目標に、探究学習に積極的に取り組んでいます。 中学では、3年間で自らの興味・関心を基にテーマを掲げ、それについての「論文」を作成します。 高校では社会にある諸問題について調べ、その解決に向け「考え」、「実践する」ことを学びます。 こうした学びを通し、「社会に貢献できる人間」を目指します。</p>
       </div>
       <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education02_01_2c.png" alt="" width="552" height="263">
@@ -620,13 +628,13 @@
     <!-- content -->
     <div>
       <!-- cssの追加 -->
-      <h4 class="c-secSubttl-m is-red u-fontSize-m mt30 c-secSubttl--pink u-fontSize2628">総合的な学習（論文指導）<br class="pc-none"><span class="label-sp"><span class="p-ed__archive__ttl--orange label-ml20 p-text-nowrap ">中学</span></span></h4>
+      <h4 class="c-secSubttl-m is-red u-fontSize-m mt30 c-secSubttl--pink u-fontSize2628 u-noto">総合的な学習（論文指導）<br class="pc-none"><span class="label-sp"><span class="p-ed__archive__ttl--orange label-ml20 p-text-nowrap ">中学</span></span></h4>
       <!-- <h4 class="c-secSubttl-m is-red u-fontSize-m mt30">before:: 総合的な学習（論文指導）<span class="orange">中学</span></h4> -->
       <h5 class="mt10 u-fontSize1628">「問い」を見つけ「探究」し「発信」する総合力をはぐくむアクティブラーニングの実践</h5>
 
       <section class="c-flex-col3 mt20 mb77">
         <div>
-          <em class="u-label is-pink mt10 u-fontSize18"><span class="u-fontSize14">［中学1年］</span>知識を獲得する</em><!-- /.c-label -->
+          <em class="u-label is-pink mt10 u-fontSize18"><span class="u-fontSize14">［中学1年］</span><span class="u-noto">知識を獲得する</span></em><!-- /.c-label -->
           <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education02_02_2c.png" alt="" width="370" height="180" class="pb15">
           <h4 class="c-secSubttl-m u-orange u-fontSize1828pink">図書館（LRC）の使い方</h4>
           <p class="u-fontSize1624 pb15">図書の分類法など図書館を使いこなす力を育みます。</p>
@@ -636,7 +644,7 @@
           <p class="u-fontSize1624">探究領域の決定を楽しみながら行います。</p>
         </div>
         <div>
-          <em class="u-label is-pink mt10 u-fontSize18"><span class="u-fontSize14">［中学2年］</span>問いをもつ</em><!-- /.c-label -->
+          <em class="u-label is-pink mt10 u-fontSize18"><span class="u-fontSize14">［中学2年］</span><span class="u-noto">問いをもつ</span></em><!-- /.c-label -->
           <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education02_03_2c.png" alt="" width="370" height="180" class="pb15">
           <h4 class="c-secSubttl-m u-orange u-fontSize1828pink">論文作成ガイダンス</h4>
           <p class="u-fontSize1624 pb15">論文の書き方やテーマ設定の仕方、情報の集め方などを学びます。</p>
@@ -646,7 +654,7 @@
           <p class="u-fontSize1624">論文のテーマを決定し、概要を組み立てていきます。</p>
         </div>
         <div>
-          <em class="u-label is-pink mt10 u-fontSize18"><span class="u-fontSize14">［中学3年］</span>探究する</em><!-- /.c-label -->
+          <em class="u-label is-pink mt10 u-fontSize18"><span class="u-fontSize14">［中学3年］</span><span class="u-noto">探究する</span></em><!-- /.c-label -->
           <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education02_04_2c.png" alt="" width="370" height="180" class="pb15">
           <h4 class="c-secSubttl-m u-orange u-fontSize1828pink">論文作成</h4>
           <p class="u-fontSize1624 pb15">本格的な論文の書き方を学び、作成スタートします。</p>
@@ -654,7 +662,7 @@
           <p class="u-fontSize1624">下書きとして提出された卒業論文を審査。きめの細かい修正指導を行います。</p>
         </div>
         <div>
-          <em class="u-label is-pink mt10 u-fontSize18">発表する</em><!-- /.c-label -->
+          <em class="u-label is-pink mt10 u-fontSize18"><span class="u-noto">発表する</span></em><!-- /.c-label -->
           <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education02_05.png" alt="" width="370" height="180" class="pb15">
           <h4 class="c-secSubttl-m u-orange u-fontSize1828pink">発表</h4>
           <p class="u-fontSize1624">論文内容について「口頭試問」を受け、「ポスタープレゼン」を実施。コンクール入賞者は中学校全生徒に向けて発表します。</p>
@@ -664,7 +672,7 @@
     <!-- content -->
     <div>
       <!-- cssの追加 -->
-      <h4 class="c-secSubttl-m is-red u-fontSize-m mt30 c-secSubttl--pink u-fontSize2628">グローカルスタディ<br class="pc-none"><span class="label-sp"><span class="p-ed__archive__ttl--pink label-ml20 p-text-nowrap">高校</span>（高 l ～高 lll希望者）</span></h4>
+      <h4 class="c-secSubttl-m is-red u-fontSize-m mt30 c-secSubttl--pink u-fontSize2628 u-noto">グローカルスタディ<br class="pc-none"><span class="label-sp"><span class="p-ed__archive__ttl--pink label-ml20 p-text-nowrap">高校</span><span class="u-noto">（高 l ～高 lll希望者）</span></span></h4>
       <div class="p-ed__archive__textlogo-wrapper">
         <h5 class="mt10 u-fontSize1628">高校では全員が学ぶ総合的な探究の授業「アカデミア」を礎として、さらに、希望する人は実際にある社会の問題の解決に向け、実践的に取り組む授業「グローカル」で学びを深めます。</h5>
         <div>
@@ -726,21 +734,21 @@
     <h3 class="c-secttl-box">英語学習</h3>
     <div class="l-imgTxt mt30 j-space-between">
       <div>
-        <h2 class="c-secSubttl-m is-red u-fontSize-m mt30 u-fontSize2840 u-fontWeight300">英語教育はもちろんのこと、<br class="pc"> 国際的な視野で社会に貢献する人を育てる<br class="pc">真の「国際教育」を実践します。</h2>
+        <h2 class="c-secSubttl-m is-red u-fontSize-m mt30 u-fontSize2840 u-fontWeight300 u-noto">英語教育はもちろんのこと、<br class="pc"> 国際的な視野で社会に貢献する人を育てる<br class="pc">真の「国際教育」を実践します。</h2>
         <p class="mt10 u-fontSize1632">「グローバル教育」という言葉がなかった時代から、先進的な「グローバル教育」を実践してきたプール学院。英語教育はもちろんのこと、愛と奉仕の精神をもって、グローバルな舞台で活躍できるサーバントリーダーの育成を目指します。</p>
       </div>
       <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education03_01_2c.png" alt="" width="552" height="263">
     </div>
     <!-- content -->
     <div>
-      <h4 class="c-secSubttl-m is-red u-fontSize-m mt70 c-secSubttl--pink u-fontSize2628">TT（ネイティブ教員×日本人教員による授業）<br class="pc-none"><span class="label-sp"><span class="p-ed__archive__ttl--orange label-ml20 p-text-nowrap">中学</span></span></h4>
+      <h4 class="c-secSubttl-m is-red u-fontSize-m mt70 c-secSubttl--pink u-fontSize2628 u-noto">TT（ネイティブ教員×日本人教員による授業）<br class="pc-none"><span class="label-sp"><span class="p-ed__archive__ttl--orange label-ml20 p-text-nowrap">中学</span></span></h4>
       <div class="l-imgTxt j-space-between">
         <p class="u-fontSize1632">熟練したネイティブ教員と日本人英語教員による授業。ペアワーク、グループワークなど様々な形式でゲームや歌などを楽しみながら英語に親しんでいきます。</p>
         <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education03_02_2c.png" alt="" width="300" height="225">
       </div>
     </div>
     <div>
-      <h4 class="c-secSubttl-m is-red u-fontSize-m mt47 c-secSubttl--pink u-fontSize2628">英語合宿<br class="pc-none"><span class="label-sp"><span class="p-ed__archive__ttl--orange label-ml20 p-text-nowrap">中学</span></span></h4>
+      <h4 class="c-secSubttl-m is-red u-fontSize-m mt47 c-secSubttl--pink u-fontSize2628 u-noto">英語合宿<br class="pc-none"><span class="label-sp"><span class="p-ed__archive__ttl--orange label-ml20 p-text-nowrap">中学</span></span></h4>
 
       <div class="l-imgTxt j-space-between">
         <p class="u-fontSize1632">パスポートのいらない英国といわれる福島県のBritish Hillsで3日間、英語だけの生活をします。海外研修に行くための日常英会話などとともにあいさつやテーブルマナーなども学びます。</p>
@@ -748,21 +756,21 @@
       </div>
     </div>
     <div>
-      <h4 class="c-secSubttl-m is-red u-fontSize-m mt47 c-secSubttl--pink u-fontSize2628">朝テスト<br class="pc-none"><span class="label-sp"><span class=" p-ed__archive__ttl--orange label-ml20 p-text-nowrap">中学</span><span class="p-ed__archive__ttl--pink ml10 p-text-nowrap">高校</span></span></h4>
+      <h4 class="c-secSubttl-m is-red u-fontSize-m mt47 c-secSubttl--pink u-fontSize2628 u-noto">朝テスト<br class="pc-none"><span class="label-sp"><span class=" p-ed__archive__ttl--orange label-ml20 p-text-nowrap">中学</span><span class="p-ed__archive__ttl--pink ml10 p-text-nowrap">高校</span></span></h4>
       <div class="l-imgTxt j-space-between">
         <p class="u-fontSize1632">全コースで週に２回、英語の朝テストを実施しています。高１と高２ではリスニングと速読のテストを、高３では受験につながる長文読解や単語のテストを実施しています。</p>
         <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education03_04_2c.png" alt="" width="300" height="225">
       </div>
     </div>
     <div>
-      <h4 class="c-secSubttl-m is-red u-fontSize-m mt47 c-secSubttl--pink u-fontSize2628">E-Act<br class="pc-none"><span class="label-sp"><span class="p-ed__archive__ttl--orange label-ml20 p-text-nowrap">中学</span><span class="p-ed__archive__ttl--pink ml10 p-text-nowrap">高校</span></span></h4>
+      <h4 class="c-secSubttl-m is-red u-fontSize-m mt47 c-secSubttl--pink u-fontSize2628 u-noto">E-Act<br class="pc-none"><span class="label-sp"><span class="p-ed__archive__ttl--orange label-ml20 p-text-nowrap">中学</span><span class="p-ed__archive__ttl--pink ml10 p-text-nowrap">高校</span></span></h4>
       <div class="l-imgTxt j-space-between">
         <p class=" u-fontSize1632">年2回、英語のみで行う学習プログラム。最初はクイズやゲームなど、英語コミュニケーションを楽しむことから始まります。回数を重ねるごとに少しずつ内容もレベルアップしていく中で、活きた英語力が身につきます。高校ではディベートやディスカッション、プレゼンテーションへと進みます。</p>
         <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education03_05_2c.png" alt="" width="300" height="225">
       </div>
     </div>
     <div>
-      <h4 class="c-secSubttl-m is-red u-fontSize-m mt47 c-secSubttl--pink u-fontSize2628">英検対策講座「PREP」<br class="pc-none"><span class="label-sp"><span class="p-ed__archive__ttl--orange label-ml20 p-text-nowrap">中学</span><span class="p-ed__archive__ttl--pink ml10 p-text-nowrap">高校</span></span></h4>
+      <h4 class="c-secSubttl-m is-red u-fontSize-m mt47 c-secSubttl--pink u-fontSize2628 u-noto">英検対策講座「PREP」<br class="pc-none"><span class="label-sp"><span class="p-ed__archive__ttl--orange label-ml20 p-text-nowrap">中学</span><span class="p-ed__archive__ttl--pink ml10 p-text-nowrap">高校</span></span></h4>
 
       <div class="l-imgTxt j-space-between">
         <p class="u-fontSize1632">大学入試でも必要性の高まる英検の資格。希望者は放課後に実施される校内予備校「ＰＲＥＰ」に参加し、英検取得を確実なものにします。</p>
@@ -770,7 +778,7 @@
       </div>
     </div>
     <div>
-      <h4 class="c-secSubttl-m is-red u-fontSize-m mt47 c-secSubttl--pink u-fontSize2628">ICTを活用した英語学習<br class="pc-none"><span class="label-sp"><span class="p-ed__archive__ttl--orange label-ml20 p-text-nowrap">中学</span><span class="p-ed__archive__ttl--pink ml10 p-text-nowrap">高校</span></span></h4>
+      <h4 class="c-secSubttl-m is-red u-fontSize-m mt47 c-secSubttl--pink u-fontSize2628 u-noto">ICTを活用した英語学習<br class="pc-none"><span class="label-sp"><span class="p-ed__archive__ttl--orange label-ml20 p-text-nowrap">中学</span><span class="p-ed__archive__ttl--pink ml10 p-text-nowrap">高校</span></span></h4>
 
       <div class="l-imgTxt j-space-between">
         <!-- 文字調整必要 -->
@@ -779,7 +787,7 @@
       </div>
     </div>
     <div>
-      <h4 class="c-secSubttl-m is-red u-fontSize-m mt47 c-secSubttl--pink u-fontSize2628">シンガポール修学旅⾏<br class="pc-none"><span class="label-sp"><span class="p-ed__archive__ttl--pink label-ml20 p-text-nowrap">高校</span></span></h4>
+      <h4 class="c-secSubttl-m is-red u-fontSize-m mt47 c-secSubttl--pink u-fontSize2628 u-noto">シンガポール修学旅⾏<br class="pc-none"><span class="label-sp"><span class="p-ed__archive__ttl--pink label-ml20 p-text-nowrap">高校</span></span></h4>
 
       <div class="l-imgTxt j-space-between">
         <p class="u-fontSize1632">高２の夏に全員でシンガポールを訪問します。シンガポールは多言語・多民族が共生する国際国家で、多彩な文化のコラージュが美しい都市です。<br>現地では、観光のみならず、シンガポール聖公会との連携のもとで教会礼拝や高校生との交流を行います。<br>また国境を越えてマレーシアやインドネシアも訪れ、ムスリムの文化にふれるアクティビティも行います。<br>グローバル化の時代を生きるみなさんにふさわしい刺激的なプログラムです。</p>
@@ -787,7 +795,7 @@
       </div>
     </div>
     <div>
-      <h4 class="c-secSubttl-m is-red u-fontSize-m mt47 c-secSubttl--pink u-fontSize2628">グローバルチャレンジ<br class="pc-none"><span class="label-sp"><span class="p-ed__archive__ttl--orange label-ml20 p-text-nowrap">中学</span><span class="p-ed__archive__ttl--pink ml10 p-text-nowrap">高校</span></span></h4>
+      <h4 class="c-secSubttl-m is-red u-fontSize-m mt47 c-secSubttl--pink u-fontSize2628 u-noto">グローバルチャレンジ<br class="pc-none"><span class="label-sp"><span class="p-ed__archive__ttl--orange label-ml20 p-text-nowrap">中学</span><span class="p-ed__archive__ttl--pink ml10 p-text-nowrap">高校</span></span></h4>
 
       <div class="l-imgTxt j-space-between">
         <p class="u-fontSize1632">プール学院では、教育目標のひとつである「グローバル教育」の取り組みの一環として、海外研修プログラムを実施。<br>それぞれのプログラム内容もさらに充実していきます。</p>
@@ -802,7 +810,7 @@
   <div class="content pt70">
     <h1 class="c-secttl is-red">3つの特色教育を支えるチャレンジプログラム</h1>
     <div class="l-imgTxt mt30">
-      <p class="u-fontSize1834">チャレンジプログラムは「キリスト教教育」「探究学習」「英語学習」の3つの特色教育のほか、希望の進路を実現するための学習プログラムです<br>プール学院は、一人ひとりが夢を見つけ、それを育てていける学校でありたい。その思いから、正規のカリキュラム以外に、様々なチャレンジプログラムを用意しています。<br>授業での知識や技能習得はもちろん、大学入試や社会で必要となる、自らが興味を持った事柄について、考え、極め、発信できる力を育てていくことを目標にしています。夢を見つけて、自分がもっと自分らしく成長していく。本校で、そんなチャレンジをしてみませんか。</p>
+      <p>チャレンジプログラムは「キリスト教教育」「探究学習」「英語学習」の3つの特色教育のほか、希望の進路を実現するための学習プログラムです<br>プール学院は、一人ひとりが夢を見つけ、それを育てていける学校でありたい。その思いから、正規のカリキュラム以外に、様々なチャレンジプログラムを用意しています。<br>授業での知識や技能習得はもちろん、大学入試や社会で必要となる、自らが興味を持った事柄について、考え、極め、発信できる力を育てていくことを目標にしています。夢を見つけて、自分がもっと自分らしく成長していく。本校で、そんなチャレンジをしてみませんか。</p>
       <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_challenge01_2c.png" alt="" width="552" height="auto">
     </div>
     <!-- content -->
