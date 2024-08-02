@@ -56,7 +56,7 @@
     font-weight: 300;
     position: relative;
     padding-left: 16px;
-    padding-bottom: 28px;
+    margin-bottom: 28px;
     font-family: 'Noto Serif JP', serif;
     line-height: 28px !important;
     font-size: clamp(26px, 2vw, 16px) !important;
@@ -72,7 +72,7 @@
     background-color: #f17192;
     display: inline-block;
     width: 5px;
-    height: 32px;
+    height: 100%;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -242,8 +242,8 @@
     background-color: #dc6530 !important;
     color: #fff !important;
     font-size: clamp(18px, 2vw, 14px);
-    padding-top: 0.4em !important;
-    padding-bottom: 0.4em !important;
+    padding-top: 0.15em !important;
+    padding-bottom: 0.3em !important;
     padding-left: 0.5em !important;
     padding-right: 0.5em !important;
     vertical-align: text-top !important;
@@ -253,8 +253,8 @@
     background-color: #c55c98 !important;
     color: #fff !important;
     font-size: clamp(18px, 2vw, 14px);
-    padding-top: 0.4em !important;
-    padding-bottom: 0.4em !important;
+    padding-top: 0.15em !important;
+    padding-bottom: 0.3em !important;
     padding-left: 0.5em !important;
     padding-right: 0.5em !important;
     vertical-align: text-top !important;
@@ -741,27 +741,36 @@
     </div>
     <!-- content -->
     <div>
-      <h4 class="c-secSubttl-m is-red u-fontSize-m mt70 c-secSubttl--pink u-fontSize2628 u-noto">TT（ネイティブ教員×日本人教員による授業）<br class="pc-none"><span class="label-sp"><span class="p-ed__archive__ttl--orange label-ml20 p-text-nowrap">中学</span></span></h4>
-      <div class="l-imgTxt j-space-between">
-        <p class="u-fontSize1632">熟練したネイティブ教員と日本人英語教員による授業。ペアワーク、グループワークなど様々な形式でゲームや歌などを楽しみながら英語に親しんでいきます。</p>
+      <div class="l-imgTxt j-space-between mt47">
+        <div>
+          <h4 class="c-secSubttl-m is-red u-fontSize-m mt70 c-secSubttl--pink u-fontSize2628 u-noto">TT（ネイティブ教員×日本人教員による授業）<br class="pc-none"><span class="label-sp"><span class="p-ed__archive__ttl--orange label-ml20 p-text-nowrap">中学</span></span></h4>
+          <p class="u-fontSize1632">熟練したネイティブ教員と日本人英語教員による授業。ペアワーク、グループワークなど様々な形式でゲームや歌などを楽しみながら英語に親しんでいきます。</p>
+        </div>
         <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education03_02_2c.png" alt="" width="300" height="225">
       </div>
     </div>
-    <div>
-      <h4 class="c-secSubttl-m is-red u-fontSize-m mt47 c-secSubttl--pink u-fontSize2628 u-noto">英語合宿<br class="pc-none"><span class="label-sp"><span class="p-ed__archive__ttl--orange label-ml20 p-text-nowrap">中学</span></span></h4>
 
-      <div class="l-imgTxt j-space-between">
-        <p class="u-fontSize1632">パスポートのいらない英国といわれる福島県のBritish Hillsで3日間、英語だけの生活をします。海外研修に行くための日常英会話などとともにあいさつやテーブルマナーなども学びます。</p>
+    <div>
+      <div class="l-imgTxt j-space-between mt47">
+        <div>
+          <h4 class="c-secSubttl-m is-red u-fontSize-m c-secSubttl--pink u-fontSize2628 u-noto">英語合宿<br class="pc-none"><span class="label-sp"><span class="p-ed__archive__ttl--orange label-ml20 p-text-nowrap">中学</span></span></h4>
+          <p class="u-fontSize1632">パスポートのいらない英国といわれる福島県のBritish Hillsで3日間、英語だけの生活をします。海外研修に行くための日常英会話などとともにあいさつやテーブルマナーなども学びます。</p>
+        </div>
         <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education03_03_2c.png" alt="" width="300" height="225">
       </div>
     </div>
+
     <div>
-      <h4 class="c-secSubttl-m is-red u-fontSize-m mt47 c-secSubttl--pink u-fontSize2628 u-noto">朝テスト<br class="pc-none"><span class="label-sp"><span class=" p-ed__archive__ttl--orange label-ml20 p-text-nowrap">中学</span><span class="p-ed__archive__ttl--pink ml10 p-text-nowrap">高校</span></span></h4>
-      <div class="l-imgTxt j-space-between">
-        <p class="u-fontSize1632">全コースで週に２回、英語の朝テストを実施しています。高１と高２ではリスニングと速読のテストを、高３では受験につながる長文読解や単語のテストを実施しています。</p>
+      <div class="l-imgTxt j-space-between mt47">
+        <div>
+          <h4 class="c-secSubttl-m is-red u-fontSize-m c-secSubttl--pink u-fontSize2628">朝テスト<br class="pc-none"><span class="label-sp"><span class=" p-ed__archive__ttl--orange label-ml20 p-text-nowrap">中学</span><span class="p-ed__archive__ttl--pink ml10 p-text-nowrap">高校</span></span></h4>
+
+          <p class="u-fontSize1632">全コースで週に２回、英語の朝テストを実施しています。高１と高２ではリスニングと速読のテストを、高３では受験につながる長文読解や単語のテストを実施しています。</p>
+        </div>
         <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education03_04_2c.png" alt="" width="300" height="225">
       </div>
     </div>
+
     <div>
       <h4 class="c-secSubttl-m is-red u-fontSize-m mt47 c-secSubttl--pink u-fontSize2628 u-noto">E-Act<br class="pc-none"><span class="label-sp"><span class="p-ed__archive__ttl--orange label-ml20 p-text-nowrap">中学</span><span class="p-ed__archive__ttl--pink ml10 p-text-nowrap">高校</span></span></h4>
       <div class="l-imgTxt j-space-between">
@@ -769,40 +778,48 @@
         <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education03_05_2c.png" alt="" width="300" height="225">
       </div>
     </div>
-    <div>
-      <h4 class="c-secSubttl-m is-red u-fontSize-m mt47 c-secSubttl--pink u-fontSize2628 u-noto">英検対策講座「PREP」<br class="pc-none"><span class="label-sp"><span class="p-ed__archive__ttl--orange label-ml20 p-text-nowrap">中学</span><span class="p-ed__archive__ttl--pink ml10 p-text-nowrap">高校</span></span></h4>
 
-      <div class="l-imgTxt j-space-between">
-        <p class="u-fontSize1632">大学入試でも必要性の高まる英検の資格。希望者は放課後に実施される校内予備校「ＰＲＥＰ」に参加し、英検取得を確実なものにします。</p>
+    <div>
+      <div class="l-imgTxt j-space-between mt47">
+        <div>
+          <h4 class="c-secSubttl-m is-red u-fontSize-m mt47 c-secSubttl--pink u-fontSize2628 u-noto">英検対策講座「PREP」<br class="pc-none"><span class="label-sp"><span class="p-ed__archive__ttl--orange label-ml20 p-text-nowrap">中学</span><span class="p-ed__archive__ttl--pink ml10 p-text-nowrap">高校</span></span></h4>
+          <p class="u-fontSize1632">大学入試でも必要性の高まる英検の資格。希望者は放課後に実施される校内予備校「ＰＲＥＰ」に参加し、英検取得を確実なものにします。</p>
+        </div>
         <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education03_06_2c.png" alt="" width="300" height="225">
       </div>
     </div>
-    <div>
-      <h4 class="c-secSubttl-m is-red u-fontSize-m mt47 c-secSubttl--pink u-fontSize2628 u-noto">ICTを活用した英語学習<br class="pc-none"><span class="label-sp"><span class="p-ed__archive__ttl--orange label-ml20 p-text-nowrap">中学</span><span class="p-ed__archive__ttl--pink ml10 p-text-nowrap">高校</span></span></h4>
 
-      <div class="l-imgTxt j-space-between">
-        <!-- 文字調整必要 -->
-        <p class="u-fontSize1632">PC室を開放し、スタサプENGLISHやオンライン交流などで英語の力を伸ばします。</p>
+    <div>
+      <div class="l-imgTxt j-space-between mt47">
+        <div>
+          <h4 class="c-secSubttl-m is-red u-fontSize-m mt47 c-secSubttl--pink u-fontSize2628 u-noto">ICTを活用した英語学習<br class="pc-none"><span class="label-sp"><span class="p-ed__archive__ttl--orange label-ml20 p-text-nowrap">中学</span><span class="p-ed__archive__ttl--pink ml10 p-text-nowrap">高校</span></span></h4>
+          <p class="u-fontSize1632">PC室を開放し、スタサプENGLISHやオンライン交流などで英語の力を伸ばします。</p>
+        </div>
         <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education03_072c.png" alt="" width="300" height="225">
       </div>
     </div>
-    <div>
-      <h4 class="c-secSubttl-m is-red u-fontSize-m mt47 c-secSubttl--pink u-fontSize2628 u-noto">シンガポール修学旅⾏<br class="pc-none"><span class="label-sp"><span class="p-ed__archive__ttl--pink label-ml20 p-text-nowrap">高校</span></span></h4>
 
-      <div class="l-imgTxt j-space-between">
-        <p class="u-fontSize1632">高２の夏に全員でシンガポールを訪問します。シンガポールは多言語・多民族が共生する国際国家で、多彩な文化のコラージュが美しい都市です。<br>現地では、観光のみならず、シンガポール聖公会との連携のもとで教会礼拝や高校生との交流を行います。<br>また国境を越えてマレーシアやインドネシアも訪れ、ムスリムの文化にふれるアクティビティも行います。<br>グローバル化の時代を生きるみなさんにふさわしい刺激的なプログラムです。</p>
+    <div>
+      <div class="l-imgTxt j-space-between mt47">
+        <div>
+          <h4 class="c-secSubttl-m is-red u-fontSize-m mt47 c-secSubttl--pink u-fontSize2628 u-noto">シンガポール修学旅⾏<br class="pc-none"><span class="label-sp"><span class="p-ed__archive__ttl--pink label-ml20 p-text-nowrap">高校</span></span></h4>
+          <p class="u-fontSize1632">高２の夏に全員でシンガポールを訪問します。シンガポールは多言語・多民族が共生する国際国家で、多彩な文化のコラージュが美しい都市です。<br>現地では、観光のみならず、シンガポール聖公会との連携のもとで教会礼拝や高校生との交流を行います。<br>また国境を越えてマレーシアやインドネシアも訪れ、ムスリムの文化にふれるアクティビティも行います。<br>グローバル化の時代を生きるみなさんにふさわしい刺激的なプログラムです。</p>
+        </div>
         <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education03_08_2c.png" alt="" width="300" height="225">
       </div>
     </div>
-    <div>
-      <h4 class="c-secSubttl-m is-red u-fontSize-m mt47 c-secSubttl--pink u-fontSize2628 u-noto">グローバルチャレンジ<br class="pc-none"><span class="label-sp"><span class="p-ed__archive__ttl--orange label-ml20 p-text-nowrap">中学</span><span class="p-ed__archive__ttl--pink ml10 p-text-nowrap">高校</span></span></h4>
 
-      <div class="l-imgTxt j-space-between">
-        <p class="u-fontSize1632">プール学院では、教育目標のひとつである「グローバル教育」の取り組みの一環として、海外研修プログラムを実施。<br>それぞれのプログラム内容もさらに充実していきます。</p>
+    <div>
+      <div class="l-imgTxt j-space-between mt47">
+        <div>
+          <h4 class="c-secSubttl-m is-red u-fontSize-m mt47 c-secSubttl--pink u-fontSize2628 u-noto">グローバルチャレンジ<br class="pc-none"><span class="label-sp"><span class="p-ed__archive__ttl--orange label-ml20 p-text-nowrap">中学</span><span class="p-ed__archive__ttl--pink ml10 p-text-nowrap">高校</span></span></h4>
+          <p class="u-fontSize1632">プール学院では、教育目標のひとつである「グローバル教育」の取り組みの一環として、海外研修プログラムを実施。<br>それぞれのプログラム内容もさらに充実していきます。</p>
+        </div>
         <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education03_09_2c.png" alt="" width="300" height="225">
       </div>
-      <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/international/" class="c-btn mt40 c-btn--more" target="_blank" rel="noopener noreferrer" style="max-width: 250px;">詳しくはこちら</a>
     </div>
+    <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/international/" class="c-btn mt40 c-btn--more" target="_blank" rel="noopener noreferrer" style="max-width: 250px;">詳しくはこちら</a>
+  </div>
 </section><!-- /.u-bgYellow -->
 
 <!-- contetnt -->
