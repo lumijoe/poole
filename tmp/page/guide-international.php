@@ -1,6 +1,6 @@
 <style>
   @media screen and (min-width: 1024px) {
-    .c-btnList a { 
+    .c-btnList a {
       font-size: 1.2rem;
     }
   }
@@ -134,13 +134,19 @@
 
 <div class="content">
   <div class="c-btnList mt100 mb100">
-    <a href="<?php echo esc_url(home_url('/guide/greetings/')); ?>">校長挨拶</a>
+    <a href="https://poole.ed.jp/guide/greetings/">校長挨拶</a>
+    <a href="https://poole.ed.jp/guide/about/">教育理念</a>
+    <a href="https://poole.ed.jp/guide/history/">歴史・沿革</a>
+    <a href="https://poole.ed.jp/guide/education/">特色教育</a>
+    <a href="https://poole.ed.jp/guide/international/">グローバルチャレンジプログラム</a>
+    <!-- <a href="<?php echo esc_url(home_url('/guide/greetings/')); ?>">校長挨拶</a>
     <a href="<?php echo esc_url(home_url('/guide/about/')); ?>">教育理念</a>
     <a href="<?php echo esc_url(home_url('/guide/history/')); ?>">歴史・沿革</a>
     <a href="<?php echo esc_url(home_url('/guide/education/')); ?>">特色教育</a>
-    <a href="<?php echo esc_url(home_url('/guide/international/')); ?>">グローバルチャレンジプログラム</a>
+    <a href="<?php echo esc_url(home_url('/guide/international/')); ?>">グローバルチャレンジプログラム</a> -->
   </div><!-- /.c-btnList -->
 </div><!-- /.content -->
+
 
 
 </section><!-- /.page -->

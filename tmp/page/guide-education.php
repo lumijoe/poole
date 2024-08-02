@@ -341,6 +341,10 @@
     max-width: 50%;
   }
 
+  .pt15 {
+    padding-top: 0px;
+  }
+
   @media screen and (min-width: 1024px) {
     .c-btnList a {
       font-size: 1.2rem;
@@ -402,6 +406,10 @@
 
     .img50 {
       max-width: 100% !important;
+    }
+
+    .pt15 {
+      padding-top: 15px;
     }
   }
 
@@ -540,24 +548,24 @@
         <nav class="from521none">
           <div class="content m0auto">
             <div class="c-btnList mt70 j-space-between sp-mt40">
-              <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education#education01" class="tokusyoku-fv_nav--2">キリスト教教育</a>
-              <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education#education02" class="tokusyoku-fv_nav--3">探究学習</a>
-              <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education#education03" class="tokusyoku-fv_nav--3">英語学習</a>
+              <a href="https://poole.ed.jp/guide/education/#education01" class="tokusyoku-fv_nav--2">キリスト教教育</a>
+              <a href="https://poole.ed.jp/guide/education/#education02" class="tokusyoku-fv_nav--3">探究学習</a>
+              <a href="https://poole.ed.jp/guide/education/#education03" class="tokusyoku-fv_nav--3">英語学習</a>
             </div>
             <div class="c-btnList mt15">
-              <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education#challengeprogram" class=" tokusyoku-fv_nav--1">3つの特色教育を支えるチャレンジプログラム</a>
+              <a href="https://poole.ed.jp/guide/education/#challengeprogram" class=" tokusyoku-fv_nav--1">3つの特色教育を支えるチャレンジプログラム</a>
             </div>
           </div>
         </nav>
         <nav class="till520none">
           <div class="content m0auto">
             <div class="c-btnList--sp mt70 j-space-between sp-mt40">
-              <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education#education01" class="tokusyoku-fv_nav--2">キリスト教教育 <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/common/icon/arrow.png" alt="" class="sp-arrow"></a>
-              <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education#education02" class="tokusyoku-fv_nav--3">探究学習<img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/common/icon/arrow.png" alt="" class="sp-arrow"></a>
-              <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education#education03" class="tokusyoku-fv_nav--3">英語学習<img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/common/icon/arrow.png" alt="" class="sp-arrow"></a>
+              <a href="https://poole.ed.jp/guide/education/#education01" class="tokusyoku-fv_nav--2">キリスト教教育 <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/common/icon/arrow.png" alt="" class="sp-arrow"></a>
+              <a href="https://poole.ed.jp/guide/education/#education02" class="tokusyoku-fv_nav--3">探究学習<img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/common/icon/arrow.png" alt="" class="sp-arrow"></a>
+              <a href="https://poole.ed.jp/guide/education/#education03" class="tokusyoku-fv_nav--3">英語学習<img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/common/icon/arrow.png" alt="" class="sp-arrow"></a>
             </div>
             <div class="c-btnList--sp mt15">
-              <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/education#challengeprogram" class=" tokusyoku-fv_nav--1">3つの特色教育を支えるチャレンジプログラム<img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/common/icon/arrow.png" alt="" class="sp-arrow"></a>
+              <a href="https://poole.ed.jp/guide/education#challengeprogram" class=" tokusyoku-fv_nav--1">3つの特色教育を支えるチャレンジプログラム<img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/common/icon/arrow.png" alt="" class="sp-arrow"></a>
             </div>
           </div>
         </nav>
@@ -574,7 +582,7 @@
   <span id="education01" class="spanAbsoluteScroll"></span>
   <div class="content">
     <h2 class="u-copy u-center sp-mb0">プール学院の教育01</h2>
-    <img src="https://lkcodetest.sakura.ne.jp/testsite/assets/img/tokusyoku/cross.png" alt="">
+    <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/cross.png" alt="">
     <h3 class="c-secttl-box">キリスト教教育</h3>
     <div class="l-imgTxt mt30">
       <div>
@@ -753,7 +761,7 @@
           </ul>
           <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education02_sdgs01.svg" alt="" width="370" height="auto" class="pt19">
         </div>
-        <div>
+        <div class="pt15">
           <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education02_07_2c.png" alt="" width="370" height="180">
           <h4 class="c-secSubttl-m u-orange mt20 u-fontSize1828red">高校2年 Glocal StudyⅡ</h4>
           <p class="u-fontSize1624">女性、子ども、外国籍の方を取り巻く課題について学び、地域から世界へと視野を広げる。</p>
@@ -764,7 +772,7 @@
           </ul>
           <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education02_sdgs02.svg" alt="" width="370" height="auto" class="pt19">
         </div>
-        <div>
+        <div class="pt15">
           <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education02_08_2c.png" alt="" width="370" height="180">
           <h4 class="c-secSubttl-m u-orange mt20 u-fontSize1828red">高校3年 Glocal StudyⅢ</h4>
           <p class="u-fontSize1624">地域や世界の課題を個々の視点で捉え、テーマ別アクションプランを検討し実行を目指す。</p>
@@ -775,7 +783,7 @@
           </ul>
           <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education02_sdgs03.svg" alt="" width="370" height="auto" class="pt19">
         </div>
-        <div>
+        <div class="pt15">
           <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education02_09_2c.png" alt="" width="370" height="180">
           <h4 class="c-secSubttl-m u-orange mt20 u-fontSize1828red">全国高校生フォーラム、甲南大学リサーチフェスタなどへの参加</h4>
           <p class="u-fontSize1624 pt19">全国の高校で「地域協働プログラム」に取り組んでいる生徒のみなさんとの探究成果発表会に、本校も参加し発表しています。</p>
@@ -844,7 +852,7 @@
       <div class="l-imgTxt j-space-between mt47">
         <div>
           <h4 class="c-secSubttl-m is-red u-fontSize-m c-secSubttl--pink u-fontSize2628 u-noto">英検対策講座「PREP」<br class="pc-none"><span class="label-sp"><span class="p-ed__archive__ttl--orange label-ml20 p-text-nowrap">中学</span><span class="p-ed__archive__ttl--pink ml10 p-text-nowrap">高校</span></span></h4>
-          <p class="u-fontSize1632">大学入試でも必要性の高まる英検の資格。希望者は放課後に実施される校内予備校「ＰＲＥＰ」に参加し、英検取得を確実なものにします。</p>
+          <p class="u-fontSize1632">大学入試でも必要性の高まる英検の資格。希望者は放課後に実施される校内予備校「PREP」に参加し、英検取得を確実なものにします。</p>
         </div>
         <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education03_06_2c.png" alt="" width="300" height="225">
       </div>
@@ -879,7 +887,7 @@
         <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_education03_09_2c.png" alt="" width="300" height="225">
       </div>
     </div>
-    <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/international/" class="c-btn mt40 c-btn--more" target="_blank" rel="noopener noreferrer" style="max-width: 250px;">詳しくはこちら</a>
+    <a href="https://poole.ed.jp/guide/international/" class="c-btn mt40 c-btn--more" target="_blank" rel="noopener noreferrer" style="max-width: 250px;">詳しくはこちら</a>
   </div>
 </section><!-- /.u-bgYellow -->
 
@@ -901,14 +909,14 @@
           <ul class="c-list mt30">
             <li class="u-detailtext">部活動への参加</li>
             <li class="u-detailtext">グローカルスタディへの参加</li>
-            <li class="u-detailtext">ＰＣ室での創作活動、動画授業の受講</li>
+            <li class="u-detailtext">PC室での創作活動、動画授業の受講</li>
             <li class="u-detailtext">進路アドバイザーとの面談</li>
           </ul>
           <ul class="c-list mt30 pl20">
             <li class="u-detailtext">放課後自習への参加</li>
-            <li class="u-detailtext">英検対策講座ＰＲＥＰ受講（有料）</li>
+            <li class="u-detailtext">英検対策講座PREP受講（有料）</li>
             <li class="u-detailtext">大学入試対策講座受講</li>
-            <li class="u-detailtext">放課後学習センター（ＴＯＭＡＳ）<br>への参加（有料）など</li>
+            <li class="u-detailtext">放課後学習センター（TOMAS）<br>への参加（有料）など</li>
           </ul>
         </div>
       </div>
@@ -944,7 +952,7 @@
         <div style="display: flex; flex-direction: row;">
           <ul class="c-list mt30">
             <li class="u-detailtext">海外への修学旅行 （シンガポール・マレーシア）</li>
-            <li class="u-detailtext">Ｅ-Ａｃｔ校内英語体験プログラム</li>
+            <li class="u-detailtext">E-Act校内英語体験プログラム</li>
             <li class="u-detailtext">韓国、タイ姉妹校交流（訪問・来校）</li>
           </ul>
           <ul class="c-list mt30 pl20">
@@ -954,7 +962,7 @@
             <li class="u-detailtext">カナダ1年留学 など</li>
           </ul>
         </div>
-        <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/international/" class="c-btn c-btn--more" target="_blank" rel="noopener noreferrer" style="max-width: 250px;">詳しくはこちら</a>
+        <a href="https://poole.ed.jp/guide/international/" class="c-btn c-btn--more" target="_blank" rel="noopener noreferrer" style="max-width: 250px;">詳しくはこちら</a>
       </div>
       <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_challenge04.png" alt="" width="552" height="auto" class="sp-mblockend0start40" class="img50">
     </div>
@@ -962,11 +970,16 @@
 
 <div class="content">
   <div class="c-btnList mt100 mb100">
-    <a href="<?php echo esc_url(home_url('/guide/greetings/')); ?>">校長挨拶</a>
+    <a href="https://poole.ed.jp/guide/greetings/">校長挨拶</a>
+    <a href="https://poole.ed.jp/guide/about/">教育理念</a>
+    <a href="https://poole.ed.jp/guide/history/">歴史・沿革</a>
+    <a href="https://poole.ed.jp/guide/education/">特色教育</a>
+    <a href="https://poole.ed.jp/guide/international/">グローバルチャレンジプログラム</a>
+    <!-- <a href="<?php echo esc_url(home_url('/guide/greetings/')); ?>">校長挨拶</a>
     <a href="<?php echo esc_url(home_url('/guide/about/')); ?>">教育理念</a>
     <a href="<?php echo esc_url(home_url('/guide/history/')); ?>">歴史・沿革</a>
     <a href="<?php echo esc_url(home_url('/guide/education/')); ?>">特色教育</a>
-    <a href="<?php echo esc_url(home_url('/guide/international/')); ?>">グローバルチャレンジプログラム</a>
+    <a href="<?php echo esc_url(home_url('/guide/international/')); ?>">グローバルチャレンジプログラム</a> -->
   </div><!-- /.c-btnList -->
 </div><!-- /.content -->
 
