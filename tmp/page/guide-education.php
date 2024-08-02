@@ -337,6 +337,10 @@
     align-items: center;
   }
 
+  .img50 {
+    max-width: 50%;
+  }
+
   @media screen and (min-width: 1024px) {
     .c-btnList a {
       font-size: 1.2rem;
@@ -389,6 +393,15 @@
     .sp-mblockend0start40 {
       margin-block-end: 0px !important;
       margin-block-start: 40px !important;
+    }
+
+    .img85060 {
+      max-width: 100% !important;
+
+    }
+
+    .img50 {
+      max-width: 100% !important;
     }
   }
 
@@ -573,7 +586,7 @@
     <!-- content -->
     <div>
       <h4 class="c-secSubttl-m is-red u-fontSize-m mt30 c-secSubttl--pink u-fontSize2628 u-noto">愛と奉仕の精神</h4>
-      <h5 class="u-fontSize1628bold u-noto">〜あらゆる出来事を“自分事”として向き合い主体的に行動を起こす人へ〜</h5>
+      <h5 class="u-fontSize1628bold">〜あらゆる出来事を“自分事”として向き合い主体的に行動を起こす人へ〜</h5>
       <p class="mt10 u-fontSize1628">毎朝の礼拝や聖書の授業、宗教行事を通して、生きること、愛すること、社会に貢献することのよろこびを学びます。<br> 「愛と奉仕の精神」を基に、他者と共に生きること、自分たちが支えられていることへの感謝を実感し、<br class="pc"> 自分たちも他者のために奉仕することの大切さを身につけます。</p>
       <div class="c-flex-col4 mt30">
         <div>
@@ -628,7 +641,7 @@
     <!-- content -->
     <div>
       <h4 class="c-secSubttl-m is-red u-fontSize-m mt59 c-secSubttl--pink u-fontSize2628 u-noto">ボランティア・平和教育</h4>
-      <h5 class="u-fontSize1828bold u-noto">〜“Servant Leader” 「愛と奉仕」の担い手として〜</h5>
+      <h5 class="u-fontSize1828bold">〜“Servant Leader” 「愛と奉仕」の担い手として〜</h5>
       <p class="mt10 u-fontSize1628">かけがえのない唯一の存在であり、さまざまな違いを持つ「他者」を大切にし、「他者」に仕え、<br class="pc">「他者」とともに生きるために自らを成長させることを目指します。</p>
       <div class="c-flex-col4 mt30">
         <div>
@@ -877,7 +890,7 @@
     <h1 class="c-secttl is-red">3つの特色教育を支えるチャレンジプログラム</h1>
     <div class="l-imgTxt mt30">
       <p>チャレンジプログラムは「キリスト教教育」「探究学習」「英語学習」の3つの特色教育のほか、希望の進路を実現するための学習プログラムです<br>プール学院は、一人ひとりが夢を見つけ、それを育てていける学校でありたい。その思いから、正規のカリキュラム以外に、様々なチャレンジプログラムを用意しています。<br>授業での知識や技能習得はもちろん、大学入試や社会で必要となる、自らが興味を持った事柄について、考え、極め、発信できる力を育てていくことを目標にしています。夢を見つけて、自分がもっと自分らしく成長していく。本校で、そんなチャレンジをしてみませんか。</p>
-      <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_challenge01_2c.png" alt="" width="552" height="auto" style="max-width:50%;">
+      <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_challenge01_2c.png" alt="" width="552" height="auto" class="img50">
     </div>
     <!-- content -->
     <h3 class="c-secttl-box mt30">放課後学習チャレンジ</h3>
@@ -899,7 +912,7 @@
           </ul>
         </div>
       </div>
-      <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_challenge02_2c.png" alt="" width="552" height="auto" style="max-width:50%;">
+      <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_challenge02_2c.png" alt="" width="552" height="auto" class="img50">
     </div>
     <!-- content -->
     <h3 class="c-secttl-box mt30">課外活動体験チャレンジ</h3>
@@ -921,7 +934,7 @@
           </ul>
         </div>
       </div>
-      <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_challenge03.png" alt="" width="552" height="auto" style="max-width:50%;">
+      <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_challenge03.png" alt="" width="552" height="auto" class="img50">
     </div>
     <!-- content -->
     <h3 class="c-secttl-box mt30">グローバルチャレンジ</h3>
@@ -943,7 +956,7 @@
         </div>
         <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/international/" class="c-btn c-btn--more" target="_blank" rel="noopener noreferrer" style="max-width: 250px;">詳しくはこちら</a>
       </div>
-      <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_challenge04.png" alt="" width="552" height="auto" class="sp-mblockend0start40" style="max-width:50%;">
+      <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_challenge04.png" alt="" width="552" height="auto" class="sp-mblockend0start40" class="img50">
     </div>
 </section>
 
