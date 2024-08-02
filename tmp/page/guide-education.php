@@ -283,11 +283,6 @@
     padding-bottom: 8px;
   }
 
-  /* .c-btnList--sp a:hover {
-    background-color: #c74954;
-    color: #fff;
-    border-color: #c74954;
-  } */
   .c-btnList--sp.is-current {
     background-color: #c74954;
     color: #fff;
@@ -321,6 +316,17 @@
 
   .sp-mt32 {
     margin-top: 32px !important;
+  }
+
+  .sectionRelativeScroll {
+    position: relative;
+  }
+
+  .spanAbsoluteScroll {
+    position: absolute;
+    top: -50px;
+    width: 100px;
+    height: 50px;
   }
 
   @media screen and (min-width: 1024px) {
@@ -514,9 +520,12 @@
 </section>
 
 <!-- プール学院の教育01 -->
-<section class="mt70 u-bgYellow pt70 pb70" id="education01">
+<section class="mt70 u-bgYellow pt70 pb70 sectionRelativeScroll">
+  <!-- <section class="mt70 u-bgYellow pt70 pb70" id="education01"> -->
+  <!-- scrollspan -->
+  <span id="education01" class="spanAbsoluteScroll"></span>
   <div class="content">
-    <h2 class="u-copy u-center mb30 sp-mb0 mt70">プール学院の教育01</h2>
+    <h2 class="u-copy u-center sp-mb0">プール学院の教育01</h2>
     <img src="https://lkcodetest.sakura.ne.jp/testsite/assets/img/tokusyoku/cross.png" alt="">
     <h3 class="c-secttl-box">キリスト教教育</h3>
     <div class="l-imgTxt mt30">
@@ -614,9 +623,10 @@
 
 
 <!-- プール学院の教育02 -->
-<section class=" pt70" id="education02">
+<section class=" pt70 sectionRelativeScroll">
+  <span id="education02" class="spanAbsoluteScroll"></span>
   <div class="content">
-    <h2 class="u-copy u-center mb30 pt70">プール学院の教育02</h2>
+    <h2 class="u-copy u-center mb30">プール学院の教育02</h2>
     <h3 class="c-secttl-box ">探究学習</h3>
     <div class="l-imgTxt mt30">
       <div>
@@ -728,9 +738,10 @@
 </section>
 
 <!-- プール学院の教育03 -->
-<section class="mt70 u-bgYellow pt70 pb70" id="education03">
+<section class="mt70 u-bgYellow pt70 pb70 sectionRelativeScroll">
+  <span id="education03" class="spanAbsoluteScroll"></span>
   <div class="content">
-    <h2 class="u-copy u-center mb30 pt70">プール学院の教育03</h2>
+    <h2 class="u-copy u-center mb30">プール学院の教育03</h2>
     <h3 class="c-secttl-box">英語学習</h3>
     <div class="l-imgTxt mt30 j-space-between">
       <div>
@@ -823,8 +834,9 @@
 </section><!-- /.u-bgYellow -->
 
 <!-- contetnt -->
-<section class="pt70" id="challengeprogram">
-  <div class="content pt70">
+<section class="pt70 sectionRelativeScroll">
+  <span id="challengeprogram" class="spanAbsoluteScroll"></span>
+  <div class="content">
     <h1 class="c-secttl is-red">3つの特色教育を支えるチャレンジプログラム</h1>
     <div class="l-imgTxt mt30">
       <p>チャレンジプログラムは「キリスト教教育」「探究学習」「英語学習」の3つの特色教育のほか、希望の進路を実現するための学習プログラムです<br>プール学院は、一人ひとりが夢を見つけ、それを育てていける学校でありたい。その思いから、正規のカリキュラム以外に、様々なチャレンジプログラムを用意しています。<br>授業での知識や技能習得はもちろん、大学入試や社会で必要となる、自らが興味を持った事柄について、考え、極め、発信できる力を育てていくことを目標にしています。夢を見つけて、自分がもっと自分らしく成長していく。本校で、そんなチャレンジをしてみませんか。</p>
@@ -894,7 +906,7 @@
         </div>
         <a href="https://lkcodetest.sakura.ne.jp/testsite/guide/international/" class="c-btn c-btn--more" target="_blank" rel="noopener noreferrer" style="max-width: 250px;">詳しくはこちら</a>
       </div>
-      <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_challenge04_2c.png" alt="" width="552" height="auto" class="sp-mblockend0start40">
+      <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_challenge04.png" alt="" width="552" height="auto" class="sp-mblockend0start40">
     </div>
 </section>
 
