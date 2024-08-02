@@ -57,7 +57,7 @@
               <a href="<?php echo esc_url(home_url('/guide/education/')); ?>">特色教育</a>
             </li>
             <li>
-              <a href="<?php echo esc_url(home_url('/guide/international/')); ?>">グローバルチャレンジプログラム</a>
+              <a href="<?php echo esc_url(home_url('/guide/international/')); ?>">グローバルチャレンジ<br>プログラム</a>
             </li>
             <li>
               <a href="<?php echo esc_url(home_url('/guide/access/')); ?>">交通アクセス</a>

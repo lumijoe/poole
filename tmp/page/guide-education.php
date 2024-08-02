@@ -964,7 +964,7 @@
         </div>
         <a href="https://poole.ed.jp/guide/international/" class="c-btn c-btn--more" target="_blank" rel="noopener noreferrer" style="max-width: 250px;">詳しくはこちら</a>
       </div>
-      <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_challenge04.png" alt="" width="552" height="auto" class="sp-mblockend0start40" class="img50">
+      <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_challenge04.png" alt="" width="552" height="auto" class="sp-mblockend0start40 img50">
     </div>
 </section>
 
