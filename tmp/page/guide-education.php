@@ -79,6 +79,14 @@
     font-weight: 300 !important;
   }
 
+  .u-noto {
+    font-family: 'Noto Serif JP', serif;
+  }
+
+  .weight400 {
+    font-weight: 400;
+  }
+
   .u-fontSize2840 {
     font-size: 28px !important;
     line-height: 40px !important;
