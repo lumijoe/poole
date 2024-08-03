@@ -431,7 +431,7 @@ get_header(); ?>
         </a>
         <a href="<?php echo esc_url(home_url('/career/graduation/')); ?>">
           <figure>
-            <img src="<?php echo $imagePath ?>top/img-career01-2024.jpg" alt="" width="345" height="242">
+            <img src="<?php echo $imagePath ?>top/img-career01-2024a@2x.jpg" alt="" width="345" height="242">
           </figure>
           <h3>進路実績</h3>
         </a>
