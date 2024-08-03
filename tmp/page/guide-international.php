@@ -1,9 +1,20 @@
 <style>
+  .sp-ttl {
+    display: none;
+  }
+
   @media screen and (min-width: 1024px) {
     .c-btnList a {
       font-size: 1.2rem;
     }
   }
+
+  @media screen and (max-width: 520px) {
+    .sp-ttl {
+      display: block;
+    }
+  }
+</style>
 </style>
 <div class="c-pagettl">
   <img src="<?php echo $imagePath ?>guide/greetings/mv.jpg" alt="">
@@ -18,7 +29,7 @@
 <section style="padding-top: 70px;">
   <!-- <section class="page__inner"> -->
   <div class="content">
-    <h1 class="c-secttl is-red">グローバルチャレンジプログラム</h1>
+    <h1 class="c-secttl is-red">グローバルチャレンジ<br class="sp-ttl">プログラム</h1>
     <!-- <p class="u-copy mt60">英語教育はもちろんのこと、<br>国際的な視野で社会に<br class="sp">貢献する人を育てる<br>真の「国際教育」を実践します。</p> -->
 
 
