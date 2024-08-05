@@ -382,7 +382,7 @@ get_header(); ?>
     <div class="content">
       <h2 class="mincho top-secttl">
         進路・進学
-        <em>CAREER/AVANCEMENT</em>
+        <em>CAREER/ADVANCEMENT</em>
       </h2><!-- /.micho -->
 
       <div class="top__career__inner">
