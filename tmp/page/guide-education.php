@@ -51,6 +51,11 @@
     padding-top: 35px;
   }
 
+  /* 細Light300、標準Regular400、中Medium500、太字Bold700 */
+  .semiBold {
+    font-weight: 600 !important;
+  }
+
   .c-secSubttl--pink {
     color: #f17192 !important;
     font-weight: 300;
@@ -61,15 +66,31 @@
     line-height: 28px !important;
     font-size: clamp(26px, 2vw, 16px) !important;
   }
-
-  /* 細Light300、標準Regular400、中Medium500、太字Bold700 */
-  .semiBold {
-    font-weight: 600 !important;
-  }
-
+  
   .c-secSubttl--pink::before {
     content: "";
     background-color: #f17192;
+    display: inline-block;
+    width: 5px;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  .c-secSubttl--blue {
+    color: #4574AC; !important;
+    font-weight: 300;
+    position: relative;
+    padding-left: 16px;
+    margin-bottom: 28px;
+    font-family: 'Noto Serif JP', serif;
+    line-height: 28px !important;
+    font-size: clamp(26px, 2vw, 16px) !important;
+  }
+
+  .c-secSubttl--blue::before {
+    content: "";
+    background-color: #4574AC;
     display: inline-block;
     width: 5px;
     height: 100%;
@@ -901,7 +922,7 @@
       <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_challenge01_2c.png" alt="" width="552" height="auto" class="img50">
     </div>
     <!-- content -->
-    <h3 class="c-secttl-box mt30">放課後学習チャレンジ</h3>
+    <h4 class="c-secSubttl-m is-red u-fontSize-m c-secSubttl--blue u-fontSize2628 u-noto mt30">放課後学習<br class="pc-none">チャレンジプログラム</h4>
     <div class="l-imgTxt mt30">
       <div>
         <p class="u-fontSize1632">多種多様な体験プログラムを実施しています。多くの生徒たちが、<br class="pc">これらの体験を通して夢をみつけ、大きく成長しています。</p>
@@ -923,7 +944,7 @@
       <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_challenge02_2c.png" alt="" width="552" height="auto" class="img50">
     </div>
     <!-- content -->
-    <h3 class="c-secttl-box mt30">課外活動体験チャレンジ</h3>
+    <h4 class="c-secSubttl-m is-red u-fontSize-m c-secSubttl--blue u-fontSize2628 u-noto mt30">課外活動体験<br class="pc-none">チャレンジプログラム</h4>
     <div class="l-imgTxt mt30">
       <div>
         <p class="u-fontSize1632">多種多様な体験プログラムを実施しています。多くの生徒たちが、<br class="pc">これらの体験を通して夢をみつけ、大きく成長しています。</p>
@@ -945,7 +966,7 @@
       <img src="https://poole.ed.jp/wp/wp-content/themes/poole/assets/img/tokusyoku/tokusyoku_challenge03.png" alt="" width="552" height="auto" class="img50">
     </div>
     <!-- content -->
-    <h3 class="c-secttl-box mt30">グローバルチャレンジ</h3>
+    <h4 class="c-secSubttl-m is-red u-fontSize-m c-secSubttl--blue u-fontSize2628 u-noto mt30">グローバル<br class="pc-none">チャレンジプログラム</h4>
     <div class="l-imgTxt mt30">
       <div>
         <p class="u-fontSize1632">教育目標の一つである「グローバル教育」。みんなが参加できるよう、<br class="pc">様々な形のプログラムを用意して実施しています。</p>
