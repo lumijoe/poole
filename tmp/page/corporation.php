@@ -56,10 +56,10 @@
               <div style="margin-top:30px; max-width:378px; background-color:#fff1e9; padding: 15px 19px 20px;">
                 <h3 style="color:red; text-align:center; font-weight:bold; font-size:15px; padding-bottom:8px;">＊&nbsp;インターネットによるお申し込みのご注意&nbsp;＊</h3>
                 <ul>
-                  <li style="font-size:13px; letter-spacing:0.06rem; padding-bottom:2px; text-indent: -1em; padding-left: 1em;">
+                  <li style="font-size:13px; letter-spacing:0.06rem; padding-bottom:4px; text-indent: -1em; padding-left: 1em;">
                     ＊クレジットカード決済でお申し込みいただいた寄付金がプール学院に入金されるまでには申込日から約1～2カ月を要します。
                   </li>
-                  <li style="font-size:13px; letter-spacing:0.06rem; padding-bottom:2px; text-indent: -1em; padding-left: 1em;">
+                  <li style="font-size:13px; letter-spacing:0.06rem; padding-bottom:4px; text-indent: -1em; padding-left: 1em;">
                     ＊11月以降にお申し込みいただいた寄付金の受領書は、翌年の日付で発行される場合があります。<br>この場合、寄付金控除も翌年の対象となりますので、あらかじめご了承ください。
                   </li>
                   <li style="font-size:13px; letter-spacing:0.06rem; text-indent: -1em; padding-left: 1em;">
