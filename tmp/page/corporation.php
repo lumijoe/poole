@@ -43,7 +43,7 @@
 
             <div>
               <ul class="mt20 c-listLink is-bold">
-                <li class="mt10"><a href="http://www.poole.jp/oxlad.html" target="_blank" rel="noopener noreferrer">「オクスラド基金」創設にあたり</a></li>
+                <li class="mt10"><a href="<?php echo esc_url(home_url('/corporation/oxlad/')); ?>" target="_blank" rel="noopener">「オクスラド基金」創設にあたり</a></li>
                 <li class="mt10"><a href="/pdf/corporation/Oxlad_Fund_and_how_to_apply.pdf" target="_blank" rel="noopener noreferrer">オクスラド基金の概要・お申込み方法</a></li>
                 <li class="mt10"><a href="/pdf/corporation/oxlad_FundFundraisingApplicationForm.xls" target="_blank" rel="noopener noreferrer" download>オクスラド基金募金申込書（Excelダウンロード）</a></li>
                 <li class="mt10"><a href="/pdf/corporation/145th_anniversary.pdf" target="_blank" rel="noopener noreferrer">145周年記念募金返礼品について</a></li>
@@ -52,6 +52,21 @@
               </ul>
 
               <a href="https://kifu.fm/poole/form.php" class="c-btn mt30" target="_blank" rel="noopener noreferrer">インターネットからの申し込みはこちらへ</a>
+
+              <div style="margin-top:30px; max-width:378px; background-color:#fff1e9; padding: 15px 19px 20px;">
+                <h3 style="color:red; text-align:center; font-weight:bold; font-size:15px; padding-bottom:8px;">＊&nbsp;インターネットによるお申し込みのご注意&nbsp;＊</h3>
+                <ul>
+                  <li style="font-size:13px; letter-spacing:0.06rem; padding-bottom:2px; text-indent: -1em; padding-left: 1em;">
+                    ＊クレジットカード決済でお申し込みいただいた寄付金がプール学院に入金されるまでには申込日から約1～2カ月を要します。
+                  </li>
+                  <li style="font-size:13px; letter-spacing:0.06rem; padding-bottom:2px; text-indent: -1em; padding-left: 1em;">
+                    ＊11月以降にお申し込みいただいた寄付金の受領書は、翌年の日付で発行される場合があります。<br>この場合、寄付金控除も翌年の対象となりますので、あらかじめご了承ください。
+                  </li>
+                  <li style="font-size:13px; letter-spacing:0.06rem; text-indent: -1em; padding-left: 1em;">
+                    ＊寄付金の入金確認後、寄付金控除を受けるために必要となる証明書(写)及び受領書を送付いたします。
+                  </li>
+                </ul>
+              </div>
 
             </div>
 
