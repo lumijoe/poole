@@ -53,7 +53,7 @@
 
               <a href="https://kifu.fm/poole/form.php" class="c-btn mt30" target="_blank" rel="noopener noreferrer">インターネットからの申し込みはこちらへ</a>
 
-              <div style="margin-top:30px; max-width:378px; background-color:#fff1e9; padding: 15px 19px 20px;">
+              <div style="margin-top:30px; max-width:378px; background-color:#fff1e9; padding: 15px 19px 23px;">
                 <h3 style="color:red; text-align:center; font-weight:bold; font-size:15px; padding-bottom:8px;">＊&nbsp;インターネットによるお申し込みのご注意&nbsp;＊</h3>
                 <ul>
                   <li style="font-size:13px; letter-spacing:0.06rem; padding-bottom:4px; text-indent: -1em; padding-left: 1em;">
